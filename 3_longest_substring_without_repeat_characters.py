@@ -1,3 +1,4 @@
+# percentage: 99.2%
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
