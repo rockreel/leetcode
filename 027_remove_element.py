@@ -1,17 +1,17 @@
 class Solution(object):
-    def removeDuplicates(self, nums):
+    def removeElement(self, nums, val):
         """
         :type nums: List[int]
+        :type val: int
         :rtype: int
         """
         if not nums:
             return 0
-            
-        bp, fp = 0, 1
+                
+        bp, fp = 0, 0
         while fp < len(nums):
-            if nums[bp] != nums[fp]:
-                nums[bp+1], nums[fp] = nums[fp], nums[bp+1]
+            if nums[fp] != val:
+                nums[bp], nums[fp] = nums[fp], nums[bp]
                 bp += 1
             fp += 1
-        return bp + 1
-
+        return bp
