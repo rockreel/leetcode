@@ -1,3 +1,4 @@
+# percentage: 84.3%
 class Solution(object):
     def mergeKLists(self, lists):
         """
