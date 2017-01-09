@@ -1,3 +1,4 @@
+# O(n) solution.
 class Solution(object):
     def largestRectangleArea(self, heights):
         """
@@ -22,4 +23,25 @@ class Solution(object):
             max_area = max(max_area, height*(len(heights) -1 - stack[-1][1]))
         
         return max_area
+
+# O(n^2) solution, divide and conquer.
+class Solution(object):
+    def largestRectangleArea(self, heights):
+        """
+        :type heights: List[int]
+        :rtype: int
+        """
+        if not heights:
+            return 0
+        
+        if len(heights) == 1:
+            return heights[0]
+        
+        min_hist = min(heights)
+        min_idx = heights.index(min_hist)
+        
+        left_square = self.largestRectangleArea(heights[:min_idx])
+        right_square = self.largestRectangleArea(heights[min_idx+1:])
+        
+        return max(min_hist*len(heights), left_square, right_square)
 
