@@ -8,6 +8,8 @@ class Solution:
     # @param node, a undirected graph node
     # @return a undirected graph node
     def cloneGraph(self, node):
+        if not node:
+            return None
         new_node = UndirectedGraphNode(node.label)
         visited_nodes = set()
         node_map = {node: new_node}
@@ -28,5 +30,4 @@ class Solution:
                 node_map[neighbor] = new_neighbor
             
         return new_node
-        
 
