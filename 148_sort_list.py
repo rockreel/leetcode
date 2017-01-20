@@ -10,20 +10,7 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        def sort(head, length):
-            if length == 0:
-                return (None, None)
-                
-            if length == 1:
-                next_head = head.next
-                head.next = None
-                return (head, next_head)
-            
-            # Sort 1st and 2nd halfs.
-            head1, head2 = sort(head, length/2)
-            head2, next_head = sort(head2, length/2+length%2)
-            
-            # Merge 2 sorted list.
+        def merge(head1, head2):
             dummy = ListNode(None)
             p, p1, p2 = dummy, head1, head2
             while p1 and p2:
@@ -42,8 +29,25 @@ class Solution(object):
                 p.next = p2
                 p = p.next
                 p2 = p2.next
+            return dummy.next
+            
+        def sort(head, length):
+            if length == 0:
+                return (None, None)
                 
-            return (dummy.next, next_head)
+            if length == 1:
+                next_head = head.next
+                head.next = None
+                return (head, next_head)
+            
+            # Sort 1st and 2nd halfs.
+            head1, head2 = sort(head, length/2)
+            head2, next_head = sort(head2, length/2+length%2)
+            
+            # Merge 2 sorted list.
+            new_head = merge(head1, head2)
+                
+            return new_head, next_head
         
         # Count list length.
         p, length = head, 0
