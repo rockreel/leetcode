@@ -6,7 +6,6 @@ class Solution(object):
         """
         stack = []
         for t in tokens:
-            print(stack)
             if t in '+-*/':
                 op2 = stack.pop()
                 op1 = stack.pop()
@@ -22,4 +21,3 @@ class Solution(object):
             else:
                 stack.append(int(t))
         return stack[0]
-
