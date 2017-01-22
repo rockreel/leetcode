@@ -5,6 +5,7 @@
 #         self.left = None
 #         self.right = None
 
+# Two stack version with one being the output list.
 class Solution(object):
     def postorderTraversal(self, root):
         """
@@ -13,19 +14,16 @@ class Solution(object):
         """
         if not root:
             return []
-        stack = [root]
         nodes = []
+        stack = [root]
         while stack:
-            current = stack[-1]
-            if current.left or current.right:
-                if current.right:
-                    stack.append(current.right)
-                    current.right = None
-                if current.left:
-                    stack.append(current.left)
-                    current.left = None
-            else:
-                nodes.append(current.val)
-                stack.pop()
-        return nodes
+            node = stack.pop()
+            nodes.append(node.val)
+            
+            if node.left:
+                stack.append(node.left)
+            if node.right:
+                stack.append(node.right)
+            
+        return list(reversed(nodes))
 
