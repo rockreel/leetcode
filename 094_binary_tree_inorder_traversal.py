@@ -11,15 +11,18 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        
-        def inorderTraverse(root, nodes):
-            if not root:
-                return
-            inorderTraverse(root.left, nodes)
-            nodes.append(root.val)
-            inorderTraverse(root.right, nodes)
-            
+        if not root:
+            return []
         nodes = []
-        inorderTraverse(root, nodes)
+        stack = []
+        current = root
+        while current or stack:
+            if current:
+                stack.append(current)
+                current = current.left
+            else:
+                node = stack.pop()
+                nodes.append(node.val)
+                if node.right:
+                    current = node.right
         return nodes
-
