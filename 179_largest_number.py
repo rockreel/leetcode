@@ -6,6 +6,8 @@ class Solution:
             if num1 + num2 == num2 + num1:
                 return 0
             elif num1 + num2 < num2 + num1:
+                # If put num1 ahead result smaller number, then
+                # num1 is smaller than num2, and vice versa.
                 return -1
             else:
                 return 1
