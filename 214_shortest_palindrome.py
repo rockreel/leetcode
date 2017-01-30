@@ -6,6 +6,7 @@ class Solution(object):
         """
         p = s + '#' + s[::-1]
         # Max length of equal prefix/suffix for p[:i+1].
+        # E.g. if p[i] = k, then p[:k] == p[i+1-k:i+1].
         # See KMP algorithm for the idea.
         n = [0] * len(p)
 
