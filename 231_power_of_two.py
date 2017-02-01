@@ -12,3 +12,11 @@ class Solution(object):
             n = n >> 1
         return True
 
+class Solution(object):
+    def isPowerOfTwo(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
+        return n > 0 and (n - 1) & n == 0
+
