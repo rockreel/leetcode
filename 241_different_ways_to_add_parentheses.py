@@ -4,11 +4,10 @@ class Solution(object):
         :type input: str
         :rtype: List[int]
         """
-        try:
+	if input.isdigit():
             return [int(input)]
-        except ValueError:
-            pass
-        resulr = []
+
+        result = []
         for i, c in enumerate(input):
             if c in '+-*':
                 for r1 in self.diffWaysToCompute(input[:i]):
