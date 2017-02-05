@@ -6,9 +6,9 @@ class Solution(object):
         """
         try:
             return [int(input)]
-        except:
+        except ValueError:
             pass
-        result = []
+        resulr = []
         for i, c in enumerate(input):
             if c in '+-*':
                 for r1 in self.diffWaysToCompute(input[:i]):
