@@ -15,7 +15,7 @@ class Solution(object):
             else:
                 secret_map[s] += 1
                 guess_map[g] += 1
-        for s, count in secret_map.iteritems():
-            b += min(count, guess_map[s])
+        b = sum([min(secret_map[k], guess_map[k]) for k in secret_map])
+
         return '%sA%sB' % (a, b)
 
