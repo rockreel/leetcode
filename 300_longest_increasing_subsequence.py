@@ -1,3 +1,22 @@
+# O(nlogn) solution.
+class Solution(object):
+    def lengthOfLIS(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        import bisect
+        seq = []
+        for n in nums:
+            idx = bisect.bisect_left(seq, n)
+            if idx == len(seq):
+                if not seq or n > seq[-1]:
+                    seq.append(n)
+            else:
+                seq[idx] = n
+            
+        return len(seq)
+
 # O(n^2) solution.
 class Solution(object):
     def lengthOfLIS(self, nums):
