@@ -13,6 +13,30 @@ class Solution(object):
         """
         if not root:
             return []
+        queue = [root, None]
+        result = [[]]
+        while len(queue) > 1:
+            node = queue.pop(0)
+            if node:
+                result[-1].append(node.val)
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            else:
+                queue.append(None)
+                result.append([])
+
+        return list(reversed(result))
+
+class Solution(object):
+    def levelOrderBottom(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+        if not root:
+            return []
             
         queue = [root, None]
         result = []
