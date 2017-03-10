@@ -14,15 +14,14 @@ class Solution(object):
         def validateBST(root, min_value, max_value):
             if not root:
                 return True
-                
-            if max_value is not None and root.val >= max_value:
+            if root.val >= max_value:
                 return False
-            if min_value is not None and root.val <= min_value:
+            if root.val <= min_value:
                 return False
-            
             return (
                 validateBST(root.left, min_value, root.val) and
                 validateBST(root.right, root.val, max_value))
-        
-        return validateBST(root, None, None)
+                
+        import sys
+        return validateBST(root, -sys.maxint, sys.maxint)
 
