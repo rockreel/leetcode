@@ -12,11 +12,9 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        if not root:
-            return []
+        current = root
         nodes = []
         stack = []
-        current = root
         while current or stack:
             if current:
                 stack.append(current)
