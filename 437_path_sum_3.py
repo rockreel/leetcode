@@ -17,9 +17,18 @@ class Solution(object):
             if not root:
                 return 0
             curr_sum = prev_sum + root.val
-            return (1 if curr_sum == sum else 0) + pathSum_(root.left, sum, curr_sum) + pathSum_(root.right, sum, curr_sum)
+            num_paths = 1 curr_sum == sum else 0
+            return (
+                num_paths +
+                pathSum_(root.left, sum, curr_sum) +
+                pathSum_(root.right, sum, curr_sum)
+                )
         
         if not root:
             return 0
-        return pathSum_(root, sum, 0) + self.pathSum(root.left, sum) + self.pathSum(root.right, sum)
+        return (
+            pathSum_(root, sum, 0) +
+            self.pathSum(root.left, sum) +
+            self.pathSum(root.right, sum)
+            )
 
