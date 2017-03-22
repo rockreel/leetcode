@@ -6,13 +6,6 @@
 #         self.right = None
 
 # Two pass to find path from root to p and q.
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
@@ -47,6 +40,31 @@ class Solution(object):
 
 
 # One pass recursive method.
+class Solution(object):
+    def lowestCommonAncestor(self, root, p, q):
+        """
+        :type root: TreeNode
+        :type p: TreeNode
+        :type q: TreeNode
+        :rtype: TreeNode
+        """
+        if not root:
+            return None
+            
+        if root == p or root == q:
+            return root
+            
+        lca = self.lowestCommonAncestor(root.left, p, q)
+        rca = self.lowestCommonAncestor(root.right, p, q)
+        
+        if lca and rca:
+            return root
+        elif lca:
+            return lca
+        else:
+            return rca
+
+
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
