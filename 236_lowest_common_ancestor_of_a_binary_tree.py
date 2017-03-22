@@ -5,6 +5,48 @@
 #         self.left = None
 #         self.right = None
 
+# Two pass to find path from root to p and q.
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def lowestCommonAncestor(self, root, p, q):
+        """
+        :type root: TreeNode
+        :type p: TreeNode
+        :type q: TreeNode
+        :rtype: TreeNode
+        """
+        def findPath(root, node, path):
+            if not root:
+                return False
+            path.append(root)
+            if root == node:
+                return True
+            if findPath(root.left, node, path) or findPath(root.right, node, path):
+                return True
+            path.pop()
+            return False
+        
+        from itertools import izip_longest
+        path1 = []
+        path2 = []
+        findPath(root, p, path1)
+        findPath(root, q, path2)
+        
+        prev_node = None
+        for n1, n2 in izip_longest(path1, path2):
+            if n1 != n2:
+                return prev_node
+            prev_node = n1
+        return None
+
+
+# One pass recursive method.
 class Solution(object):
     def lowestCommonAncestor(self, root, p, q):
         """
