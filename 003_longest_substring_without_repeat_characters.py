@@ -1,4 +1,3 @@
-# percentage: 99.2%
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -6,19 +5,16 @@ class Solution(object):
         :rtype: int
         """
         char_to_idx = {}
-        max_length = 0
-        curr_length = 0
+        curr_len = 0
+        max_len = 0
         s_idx = -1
         for i, c in enumerate(s):
             if c in char_to_idx and char_to_idx[c] > s_idx:
-                if curr_length > max_length:
-                    max_length = curr_length
-                curr_length = i - char_to_idx[c]
+                curr_len = i - char_to_idx[c]
                 s_idx = char_to_idx[c]
             else:
-                curr_length += 1
+                curr_len += 1
+            max_len = max(curr_len, max_len)
             char_to_idx[c] = i
-        if curr_length > max_length:
-            max_length = curr_length
-            
-        return max_length
+        return max(curr_len, max_len)
+
