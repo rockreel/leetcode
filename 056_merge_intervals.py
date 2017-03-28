@@ -11,17 +11,11 @@ class Solution(object):
         :rtype: List[Interval]
         """
         intervals = sorted([(i.start, i.end) for i in intervals])
-        merged_intervals = []
-        i = 0
-        while i < len(intervals):
-            curr_inter = intervals[i]
-            j = i + 1
-            while j < len(intervals) and curr_inter[1] >= intervals[j][0]:
-                curr_inter = (curr_inter[0], max(curr_inter[1], intervals[j][1]))
-                j += 1
-            merged_intervals.append(curr_inter)
-            i = j
-
+        merged_intervals =[]
+        for i in intervals:
+            if not merged_intervals or merged_intervals[-1][1] < i[0]:
+                merged_intervals.append(i)
+            else:
+                merged_intervals[-1] = (merged_intervals[-1][0], max(merged_intervals[-1][1], i[1]))
         return [Interval(i[0], i[1]) for i in merged_intervals]
-                
 
