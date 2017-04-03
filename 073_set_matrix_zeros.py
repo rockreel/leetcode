@@ -30,11 +30,10 @@ class Solution(object):
                 if matrix[0][j] == 0 or matrix[i][0] == 0:
                     matrix[i][j] = 0
         if first_row_zero:
-           for j in range(len(matrix[0])):
-               matrix[0][j] = 0
+            for j in range(len(matrix[0])):
+                matrix[0][j] = 0
         if first_col_zero:
             for i in range(len(matrix)):
-               matrix[i][0] = 0
-               
+                matrix[i][0] = 0
         return
 
