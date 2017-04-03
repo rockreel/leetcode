@@ -4,14 +4,14 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        low = 0
-        up = x
-        r = (up + low) / 2
-        while not ((r + 1)**2 > x and r**2 <= x):
-            if r**2 > x:
-                up = r
-            elif (r+1)**2 <= x:
+        low, up = 0, x
+        r = (low + up) / 2
+        # Stop if r**2 <= x and (r+1)**2 > x
+        while not ((r+1)**2 > x and r**2 <= x):
+            if (r+1)**2 <= x:
                 low = r + 1
-            r = (up + low) / 2 
+            else:
+                up = r - 1
+            r = (low + up) / 2
         return r
 
