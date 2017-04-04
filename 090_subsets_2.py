@@ -1,3 +1,21 @@
+# Use a set to dedup.
+class Solution(object):
+    def subsetsWithDup(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        def subsets(nums):
+            result = set([])
+            for i, n in enumerate(nums):
+                for s in subsets(nums[i+1:]):
+                    result.add((n, ) + s)
+            result.add(())
+            return result
+            
+        return [list(s) for s in subsets(sorted(nums))]
+
+# Manual dedup.
 class Solution(object):
     def subsetsWithDup(self, nums):
         """
