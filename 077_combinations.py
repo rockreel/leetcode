@@ -5,18 +5,15 @@ class Solution(object):
         :type k: int
         :rtype: List[List[int]]
         """
-        def getCombination(nums, k):
-            # Return combination has k elements using number from nums.
-            if not nums:
+        def combination(nums, k):
+            if k > len(nums):
                 return []
-            if k == 1:
-                return [[n] for n in nums]
+            if k == 0:
+                return [[]]
             result = []
             for i, n in enumerate(nums):
-                for c in getCombination(nums[i+1:], k-1):
-                    result.append([n] + c)
+                for c in combination(nums[i+1:], k-1):
+                    result.append([n]+c)
             return result
-            
         nums = range(1, n+1)
-        return getCombination(nums, k)
-
+        return combination(nums, k)
