@@ -12,18 +12,16 @@ class Solution(object):
         :rtype: ListNode
         """
         dummy1 = ListNode(None)
-        dummy1.next = head
         dummy2 = ListNode(None)
-        p1, p2 = dummy1, dummy2
-        
-        while p1.next:
-            if p1.next.val < x:
-                p2.next = p1.next
-                p1.next = p1.next.next
-                p2 = p2.next
-            else:
+        p1, p2, p = dummy1, dummy2, head
+        while p:
+            if p.val < x:
+                p1.next = p
                 p1 = p1.next
-            
-        p2.next = dummy1.next
-        return dummy2.next
-
+            else:
+                p2.next = p
+                p2 = p2.next
+            p = p.next
+        p2.next = None
+        p1.next = dummy2.next
+        return dummy1.next
