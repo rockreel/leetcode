@@ -10,12 +10,15 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        pf, pb = head, head
-        while pb:
-            while pf.next and pf.next.val == pf.val:
-                pf = pf.next
-            pb.next = pf.next
-            pb = pb.next
-            pf = pb
-        return head
+        dummy = ListNode(None)
+        dummy.next = head
+        p1, p2 = dummy, head
+        while p2:
+            if p2.val != p1.val:
+                p1 = p1.next
+                p2 = p2.next
+            else:
+                p1.next = p2.next
+                p2 = p2.next
+        return dummy.next
 
