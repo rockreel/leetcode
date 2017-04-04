@@ -4,11 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        if not nums:
-            return [[]]
-        result = []
-        for subset in self.subsets(nums[1:]):
-            result.append([nums[0]] + subset)
-            result.append(subset)
+        result = []  
+        for i, n in enumerate(nums):
+            for s in self.subsets(nums[i+1:]):
+                result.append([n]+s)
+        result.append([])
         return result
 
