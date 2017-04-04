@@ -12,20 +12,14 @@ class Solution(object):
         """
         dummy = ListNode(None)
         dummy.next = head
-        pb = dummy
-        pf, pc = head, head
-        while pc:
-            while pf.next and pf.next.val == pf.val:
-                pf = pf.next
-            if pf == pc:
-                # No duplicates.
-                pf = pf.next
-                pc = pc.next
-                pb = pb.next
+        p1, p2 = dummy, head
+        while p2:
+            num_dup = 0
+            while p2 and p2.val == p1.next.val:
+                num_dup += 1
+                p2 = p2.next
+            if num_dup > 1:
+                p1.next = p2
             else:
-                # Duplciates
-                pb.next = pf.next
-                pc = pf.next
-                pf = pf.next
+                p1 = p1.next
         return dummy.next
-
