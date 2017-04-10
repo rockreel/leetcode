@@ -12,35 +12,29 @@ class BSTIterator(object):
         """
         self._stack = []
         p = root
-        while p and p.left:
+        while p:
             self._stack.append(p)
             p = p.left
-        self._current = p
 
     def hasNext(self):
         """
         :rtype: bool
         """
-        return bool(self._current)
+        return len(self._stack) != 0
         
 
     def next(self):
         """
         :rtype: int
         """
-        value = self._current.val
-        if self._current.right:
-            p = self._current.right
-            while p.left:
-                self._stack.append(p)
-                p = p.left
-            self._current = p
-        else:
-            self._current = self._stack.pop() if self._stack else None
-        return value
+        node = self._stack.pop()
+        p = node.right
+        while p:
+            self._stack.append(p)
+            p = p.left
+        return node.val
         
 
 # Your BSTIterator will be called like this:
 # i, v = BSTIterator(root), []
 # while i.hasNext(): v.append(i.next())
-
