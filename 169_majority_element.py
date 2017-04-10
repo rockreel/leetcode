@@ -5,14 +5,14 @@ class Solution(object):
         :rtype: int
         """
         maj_idx = 0
-        count = 1
-        for i, n in enumerate(nums[1:], 1):
+        maj_count = 0
+        for i, n in enumerate(nums):
             if n == nums[maj_idx]:
-                count += 1
+                maj_count += 1
             else:
-                count -= 1
-            if count == 0:
+                maj_count -= 1
+            if maj_count == 0:
                 maj_idx = i
-                count = 1
+                maj_count = 1
         return nums[maj_idx]
 
