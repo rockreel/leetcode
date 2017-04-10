@@ -4,16 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[str]
         """
-        i = 0
         ranges = []
-        while i < len(nums):
-            j = i
-            while j + 1 < len(nums) and nums[j+1] == nums[j]+1:
-                j += 1
-            if i == j:
-                ranges.append(str(nums[j]))
+        for n in nums:
+            if not ranges or n > ranges[-1][1] + 1:
+                ranges.append((n, n))
             else:
-                ranges.append('%s->%s' % (nums[i], nums[j]))
-            i = j + 1
-        return ranges
-
+                ranges[-1] = (ranges[-1][0], n)
+        return [str(r[0]) if r[0] == r[1] else '%s->%s' % r for r in ranges]
