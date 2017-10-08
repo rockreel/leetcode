@@ -1,4 +1,39 @@
-# percentage: 93.07%
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        def add(n1, n2, c):
+            # Return result and carry on.
+            r = n1 + n2 + c
+            return r % 10, r / 10
+            
+        dummy = ListNode(None)
+        p, p1, p2 = dummy, l1, l2
+        c = 0
+        while p1 and p2:
+            r, c = add(p1.val, p2.val, c)
+            p.next = ListNode(r)
+            p, p1, p2 = p.next, p1.next, p2.next
+            
+        p1 = p1 if p1 else p2
+        while p1:
+            r, c = add(p1.val, 0, c)
+            p.next = ListNode(r)
+            p, p1 = p.next, p1.next
+            
+        if c > 0:
+            p.next = ListNode(c)
+        return dummy.next
+        
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
