@@ -1,5 +1,3 @@
-# percentage: 91.69%
-
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -7,9 +5,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        complement_to_idx = {}
+        num_to_idx = {}
         for i, n in enumerate(nums):
-            if n not in complement_to_idx:
-                complement_to_idx[target-n] = i
+            if target - n in num_to_idx:
+                return [num_to_idx[target - n], i]
             else:
-                return [complement_to_idx[n], i]
+                num_to_idx[n] = i
