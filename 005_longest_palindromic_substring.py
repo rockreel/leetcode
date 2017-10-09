@@ -8,11 +8,12 @@ class Solution(object):
         
         # If s[i:j] is palindrome.
         dp = [[False] * (len(s) + 1) for i in range(len(s) + 1)]
+        # Initialize 0 and 1 length substring.
         for i in range(len(s) + 1):
             dp[i][i] = True
             dp[i][min(i+1, len(s))] = True
 
-        # Traverse diagonally.
+        # Traverse diagonally from 2 length substring and above.
         for offset in range(2, len(s) + 1):
             for i in range(len(s) - offset + 1):
                 j = i + offset
