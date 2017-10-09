@@ -1,30 +1,18 @@
-# percentage: 89.66%
 class Solution(object):
     def reverse(self, x):
         """
         :type x: int
         :rtype: int
         """
-        digits = []
-        if x < 0:
-            sign = -1
-            x = -x
-        else:
-            sign = 1
-            
-        while x > 0:
-            digits.append(x%10)
-            x = x / 10
-        
-        result = 0
-        prev_result = 0
-        for d in digits:
-            result = result*10 +d
-            if result > 2**31:  # Fake overflow of 32 bit integer.
+        sign = -1 if x < 0 else 1
+        n = abs(x)
+        r = 0
+        while n > 0:
+            tmp = r
+            r = r * 10 + n % 10
+            if r > 2 ** 31:
                 return 0
-            else:
-                prev_result = result
-   
-        return sign*result
+            n = n / 10
+        return sign * r
         
 
