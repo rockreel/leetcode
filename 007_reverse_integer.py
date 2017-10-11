@@ -8,7 +8,6 @@ class Solution(object):
         n = abs(x)
         r = 0
         while n > 0:
-            tmp = r
             r = r * 10 + n % 10
             if r > 2 ** 31:
                 return 0
