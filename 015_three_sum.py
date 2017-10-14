@@ -1,5 +1,3 @@
-# percentage: 79.99%
-# sort and scan from both ends.
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -12,28 +10,26 @@ class Solution(object):
             while i < j:
                 if nums[i] + nums[j] == target:
                     result.append([nums[i], nums[j]])
-                    while i+1 < len(nums) and nums[i] == nums[i+1]:
+                    while i + 1 < len(nums) and nums[i+1] == nums[i]:
                         i += 1
-                    while j-1 > 0 and nums[j] == nums[j-1]:
+                    while j - 1 >= 0 and nums[j-1] == nums[j]:
                         j -= 1
                     i += 1
                     j -= 1
-                elif nums[i] + nums[j] > target:
-                    j -= 1
-                else:
+                elif nums[i] + nums[j] < target:
                     i += 1
-
-            return result
+                else:
+                    j -= 1
+            return result    
         
         nums = sorted(nums)
         result = []
         i = 0
         while i < len(nums):
-
-            for r in twoSum(nums[i+1:], -nums[i]):
-                result.append([nums[i]] + r)
-            
-            while i+1 < len(nums) and nums[i] == nums[i+1]:
+            result.extend([[nums[i]] + r for r in twoSum(nums[i+1:], -nums[i])])
+            while i + 1 < len(nums) and nums[i] == nums[i+1]:
                 i += 1
             i += 1
+            
         return result
+        
