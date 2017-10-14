@@ -1,4 +1,25 @@
-# precentage: 63.92%
+# Reduce version.
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        def common_pefix(s1, s2):
+            chars = []
+            for c1, c2 in zip(s1, s2):
+                if c1 == c2:
+                    chars.append(c1)
+                else:
+                    break
+            return ''.join(chars)
+        
+        if len(strs) == 0:
+            return ''
+        if len(strs) == 1:
+            return strs[0]
+        return reduce(common_pefix, strs)
+        
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
