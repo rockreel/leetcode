@@ -19,7 +19,7 @@ class Solution(object):
         p2 = dummy  # Second pointer.
         i = 0
         
-        while p1.next and i < n:
+        while i < n:
             p1 = p1.next
             i += 1
         while p1.next:
