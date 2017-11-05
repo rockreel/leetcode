@@ -4,13 +4,12 @@ class Solution(object):
         :type candidates: List[int]
         :type target: int
         :rtype: List[List[int]]
-        """
+        """       
+        if target == 0:
+            return [[]]
         result = []
         for i, c in enumerate(candidates):
-            if c == target:
-                result.append([c])
-            elif c < target:
+            if c <= target:
                 for r in self.combinationSum(candidates[i:], target - c):
                     result.append([c] + r)
-        return result                
-        
+        return result
