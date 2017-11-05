@@ -8,23 +8,10 @@ class Solution(object):
         if n == 0:
             return 1
         
-        positive_pow = True
         if n < 0:
-            positive_pow = False
-            n = -n
+            return 1 / self.myPow(x, -n)
         
-        result = 1
-        while n > 0:
-            power = 1
-            inter_result = x
-            while 2 * power <= n:
-                inter_result = inter_result * inter_result
-                power = 2 * power
-            result = result * inter_result
-            n = n - power
-        
-        if positive_pow:
-            return result
+        if n % 2 == 0:
+            return self.myPow(x*x, n/2) 
         else:
-            return 1 / result
-
+            return self.myPow(x*x, n/2) * x
