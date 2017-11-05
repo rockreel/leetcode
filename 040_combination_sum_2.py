@@ -4,6 +4,27 @@ class Solution(object):
         :type candidates: List[int]
         :type target: int
         :rtype: List[List[int]]
+        """ 
+        if target == 0:
+            return [[]]
+        candidates = sorted(candidates)
+        result = []
+        prev = None
+        for i, c in enumerate(candidates):
+            if c == prev:
+                continue
+            prev = c
+            if c <= target:
+                for r in self.combinationSum2(candidates[i+1:], target - c):
+                    result.append([c] + r)
+        return result
+        
+class Solution(object):
+    def combinationSum2(self, candidates, target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
         """
         candidates = sorted(candidates)
         result = []
