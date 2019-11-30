@@ -10,8 +10,8 @@ public class L0002AddTwoNumbersTest {
 
   @Test
   public void test() {
-    assertEquals(ListNode.createList(new int[] {2, 4, 6}),
-        solution.addTwoNumbers(ListNode.createList(new int[] {1, 2, 3}), ListNode.createList(new int[] {1, 2, 3})));
+    assertEquals(ListNode.createList(new int[] {7, 0, 8}),
+        solution.addTwoNumbers(ListNode.createList(new int[] {2, 4, 3}), ListNode.createList(new int[] {5, 6, 4})));
   }
 
 }

@@ -11,7 +11,7 @@ public class L0001TwoSumTest {
 
   @Test
   public void test() {
-    assertTrue(Arrays.equals(new int[] {0, 2}, solution.twoSum(new int[] {1, 2, 3}, 4)));
+    assertTrue(Arrays.equals(new int[] {0, 1}, solution.twoSum(new int[] {2, 7, 11, 15}, 9)));
   }
 
 }
