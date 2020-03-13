@@ -3,7 +3,7 @@ import unittest
 import common
 from l0002_add_two_numbers import Solution
 
-class TestRestore(unittest.TestCase):
+class Test(unittest.TestCase):
     
     def test_solution(self):
         n1 = common.create_linked_list([2, 4, 3])
