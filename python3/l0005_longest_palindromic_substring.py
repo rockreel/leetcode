@@ -1,6 +1,6 @@
 
 class Solution:
-    def longestPalindrome(self, s: str) -> str:
+    def longestPalindromeSimple(self, s: str) -> str:
         max_sub = ''
         for i in range(len(s)):
             for j in range(i, len(s)):
@@ -9,7 +9,7 @@ class Solution:
                     max_sub = sub
         return max_sub
 
-    def longestPalindrome2(self, s: str) -> str:
+    def longestPalindrome(self, s: str) -> str:
         # dp[i][j]: if s[i:j] is a palindrome.
         dp = [[False for _ in range(len(s)+1)] for _ in range(len(s)+1)]
         max_sub = ''
