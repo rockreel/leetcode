@@ -10,4 +10,3 @@ class Test(unittest.TestCase):
           [1, 2, 3, 5], 
           common.convert_linked_list_to_list(
             Solution().removeNthFromEnd(common.create_linked_list([1, 2, 3, 4, 5]),2)))
-
