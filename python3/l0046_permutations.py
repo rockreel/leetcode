@@ -7,5 +7,5 @@ class Solution:
         result = []
         for i, n in enumerate(nums):
             for r in self.permute(nums[:i] + nums[i+1:]):
-                result.append([nums[i]] + r)
+                result.append([n] + r)
         return result
