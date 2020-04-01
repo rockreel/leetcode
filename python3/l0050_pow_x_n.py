@@ -10,12 +10,12 @@ class Solution:
             
         while n > 0:
             power = 1
-            base = x
+            if negative:
+                base = 1 / x
+            else:
+                base = x
             while power <= n:
-                if negative:
-                    result /= base
-                else:
-                    result *= base
+                result *= base
                 n -= power
                 power *= 2
                 base = base ** 2
