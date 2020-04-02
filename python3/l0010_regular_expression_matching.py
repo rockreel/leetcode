@@ -3,7 +3,7 @@ class Solution:
         def isCharMatch(s, p):
             return p == '.' or s == p
 
-        # dp[i][j]: p[:i] match s[:j].
+        # dp[i][j]: p[:i] matches s[:j].
         dp = [[False for _ in range(len(s)+1)] for _ in range(len(p)+1)]
         dp[0][0] = True
 
