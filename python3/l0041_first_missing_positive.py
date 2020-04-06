@@ -5,8 +5,6 @@ class Solution:
         i = 0
         while i < len(nums):
             # Move all positive n to location n-1.
-            while nums[i] <= 0 and nums[i] == i+1:
-                i += 1
             while nums[i] > 0 and nums[i] - 1 < len(nums) and nums[i] != i+1:
                 if nums[nums[i]-1] == nums[i]:
                     # Prevent infinite loop with duplicate numbers.
