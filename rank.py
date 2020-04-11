@@ -58,7 +58,7 @@ with open('problem.csv', 'w') as f:
                 raise Exception('Error fetching problem.')
             problems.append(problem)
             print(problem)
-            f.write('%s\n' % '|'.join([str(c) for c in problem]))
+            f.write('%s\n' % '|'.join(['%.4f' % problem[0], str(problem[1]), problem[2], problem[3][0], str(problem[4]), str(problem[5])]))
         except Exception as e:
             print('Error during fetching %s: %s' % (url, e))
 
@@ -66,4 +66,4 @@ driver.quit()
 
 problems = sorted(problems, reverse=True)
 with open('rank.csv', 'w') as f:
-    f.write('\n'.join(['|'.join([str(c) for c in r]) for r in problems]))
+    f.write('\n'.join(['|'.join(['%.4f' % p[0], str(p[1]), p[2], p[3][0], str(p[4]), str(p[5])]) for p in problems]))

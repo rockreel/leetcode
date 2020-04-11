@@ -1,1111 +1,1111 @@
-0.9811038147411334|72|Edit Distance|Hard|3192|46
-0.9790885838503547|226|Invert Binary Tree|Easy|2718|43
-0.9789889823669382|42|Trapping Rain Water|Hard|6034|107
-0.9765793446363823|208|Implement Trie (Prefix Tree)|Medium|2517|45
-0.9747247219488111|295|Find Median from Data Stream|Hard|2151|41
-0.9740309282528025|206|Reverse Linked List|Easy|3826|82
-0.9736147984291116|1143|Longest Common Subsequence|Medium|730|11
-0.9727474858647874|300|Longest Increasing Subsequence|Medium|3918|89
-0.9726013990572334|329|Longest Increasing Path in a Matrix|Hard|1609|32
-0.9725333188617665|895|Maximum Frequency Stack|Hard|791|13
-0.9720720860241621|64|Minimum Path Sum|Medium|2301|50
-0.9720320306648325|337|House Robber III|Medium|2258|49
-0.9714669955077951|78|Subsets|Medium|3095|72
-0.9712710608434113|101|Symmetric Tree|Easy|3487|83
-0.9710687830807216|990|Satisfiability of Equality Equations|Medium|347|4
-0.9703723385196875|1293|Shortest Path in a Grid with Obstacles Elimination|Hard|240|2
-0.970004163262281|106|Construct Binary Tree from Inorder and Postorder Traversal|Medium|1352|29
-0.9698521975737704|863|All Nodes Distance K in Binary Tree|Medium|1609|36
-0.9694819512100317|84|Largest Rectangle in Histogram|Hard|3030|76
-0.9682311529595639|992|Subarrays with K Different Integers|Hard|758|15
-0.968041431189232|102|Binary Tree Level Order Traversal|Medium|2483|64
-0.9678334658449854|221|Maximal Square|Medium|2331|60
-0.9677983128992751|983|Minimum Cost For Tickets|Medium|1078|24
-0.967247842726743|1406|Stone Game III|Hard|168|1
-0.9668393805152221|240|Search a 2D Matrix II|Medium|2619|71
-0.9665006334745297|85|Maximal Rectangle|Hard|2268|61
-0.9659039583295052|46|Permutations|Medium|3299|95
-0.9658034405171493|105|Construct Binary Tree from Preorder and Inorder Traversal|Medium|2789|79
-0.9654324985814635|230|Kth Smallest Element in a BST|Medium|1943|53
-0.9653829232580313|312|Burst Balloons|Hard|2035|56
-0.9649030941132617|407|Trapping Rain Water II|Hard|1085|27
-0.964851670454789|958|Check Completeness of a Binary Tree|Medium|614|13
-0.9646511769867473|198|House Robber|Easy|4045|124
-0.9644352126833172|416|Partition Equal Subset Sum|Medium|2071|59
-0.9643696901122277|871|Minimum Number of Refueling Stops|Hard|571|12
-0.9639409745800623|968|Binary Tree Cameras|Hard|564|12
-0.9635861595008879|560|Subarray Sum Equals K|Medium|3605|113
-0.963333253655027|739|Daily Temperatures|Medium|2302|69
-0.9629939855101586|39|Combination Sum|Medium|3203|101
-0.9628632111655335|174|Dungeon Game|Hard|1085|29
-0.9627620047223789|632|Smallest Range Covering Elements from K Lists|Hard|928|24
-0.9626302088435489|1278|Palindrome Partitioning III|Hard|189|2
-0.9624963555310792|100|Same Tree|Easy|1786|53
-0.9624092580731156|583|Delete Operation for Two Strings|Medium|919|24
-0.9623396078230096|70|Climbing Stairs|Easy|3649|119
-0.9619943925688594|104|Maximum Depth of Binary Tree|Easy|2133|66
-0.9619585633103384|1235|Maximum Profit in Job Scheduling|Hard|298|5
-0.9618010104155681|283|Move Zeroes|Easy|3348|110
-0.9616650534356421|1|Two Sum|Easy|14211|519
-0.9614852372958248|1004|Max Consecutive Ones III|Medium|745|19
-0.9610961932338793|714|Best Time to Buy and Sell Stock with Transaction Fee|Medium|1323|39
-0.9610329468861112|1358|Number of Substrings Containing All Three Characters|Medium|181|2
-0.9608558129412927|1319|Number of Operations to Make Network Connected|Medium|218|3
-0.960728498624278|322|Coin Change|Medium|3280|111
-0.9596569837247054|129|Sum Root to Leaf Numbers|Medium|1052|31
-0.9594765878347824|213|House Robber II|Medium|1432|45
-0.9589620113732166|200|Number of Islands|Medium|4503|165
-0.958907339928574|862|Shortest Subarray with Sum at Least K|Hard|866|25
-0.9584064601954787|962|Maximum Width Ramp|Medium|457|11
-0.9577543234987769|136|Single Number|Easy|4002|150
-0.9571077567961425|47|Permutations II|Medium|1655|57
-0.9566794828008031|678|Valid Parenthesis String|Medium|951|30
-0.9566197158256909|1035|Uncrossed Lines|Medium|380|9
-0.9558345033184975|96|Unique Binary Search Trees|Medium|2713|103
-0.9556609576602589|113|Path Sum II|Medium|1452|51
-0.9550010299659937|309|Best Time to Buy and Sell Stock with Cooldown|Medium|2027|76
-0.954950214424969|315|Count of Smaller Numbers After Self|Hard|1930|72
-0.9547948097956114|1325|Delete Leaves With a Given Value|Medium|219|4
-0.9547468035530363|1388|Pizza With 3n Slices|Hard|155|2
-0.9543232509584241|132|Palindrome Partitioning II|Hard|900|30
-0.9539438897615703|787|Cheapest Flights Within K Stops|Medium|1301|47
-0.9539093462028728|1011|Capacity To Ship Packages Within D Days|Medium|818|27
-0.9536042653424969|152|Maximum Product Subarray|Medium|3429|141
-0.9534385179931878|979|Distribute Coins in Binary Tree|Medium|1145|41
-0.9532197333406497|301|Remove Invalid Parentheses|Hard|2218|88
-0.9526895663206242|131|Palindrome Partitioning|Medium|1517|58
-0.9525805624052782|123|Best Time to Buy and Sell Stock III|Hard|1762|69
-0.9521159554589369|40|Combination Sum II|Medium|1453|56
-0.9518047757223884|518|Coin Change 2|Medium|1331|51
-0.95173851631439|32|Longest Valid Parentheses|Hard|2969|126
-0.9517037112640545|815|Bus Routes|Hard|637|21
-0.9516621789057113|146|LRU Cache|Medium|4915|218
-0.9514670178805237|856|Score of Parentheses|Medium|891|32
-0.9512377652731685|53|Maximum Subarray|Easy|6941|318
-0.9511449894389128|435|Non-overlapping Intervals|Medium|839|30
-0.9504363288238064|1008|Construct Binary Search Tree from Preorder Traversal|Medium|620|21
-0.9503789784321313|773|Sliding Puzzle|Hard|549|18
-0.9503672004898152|121|Best Time to Buy and Sell Stock|Easy|4330|196
-0.9502923047067566|946|Validate Stack Sequences|Medium|548|18
-0.9497593074687153|1372|Longest ZigZag Path in a Binary Tree|Medium|139|2
-0.949672800600871|20|Valid Parentheses|Easy|4429|204
-0.9495220620112327|986|Interval List Intersections|Medium|833|31
-0.9494375707280757|34|Find First and Last Position of Element in Sorted Array|Medium|2848|127
-0.9493061987849213|94|Binary Tree Inorder Traversal|Medium|2636|117
-0.9492461344636486|354|Russian Doll Envelopes|Hard|916|35
-0.949243726943645|51|N-Queens|Hard|1557|65
-0.9488669070021076|719|Find K-th Smallest Pair Distance|Hard|778|29
-0.9487281360286788|814|Binary Tree Pruning|Medium|863|33
-0.9486546984063574|926|Flip String to Monotone Increasing|Medium|484|16
-0.9483988796399875|1248|Count Number of Nice Subarrays|Medium|268|7
-0.9477818523507917|494|Target Sum|Medium|2097|94
-0.9477476345633643|1110|Delete Nodes And Return Forest|Medium|782|30
-0.9476581115250298|144|Binary Tree Preorder Traversal|Medium|1262|53
-0.9473764074149048|90|Subsets II|Medium|1418|61
-0.9470679542303845|1249|Minimum Remove to Make Valid Parentheses|Medium|424|14
-0.9466586161417732|951|Flip Equivalent Binary Trees|Medium|509|18
-0.9463341700504276|845|Longest Mountain in Array|Medium|484|17
-0.9461788556826123|695|Max Area of Island|Medium|1602|72
-0.9450433394590266|718|Maximum Length of Repeated Subarray|Medium|1022|44
-0.9447652850149602|647|Palindromic Substrings|Medium|2165|104
-0.9445773339393811|212|Word Search II|Hard|1932|92
-0.9444307740081557|1125|Smallest Sufficient Team|Hard|248|7
-0.9442931921732258|1209|Remove All Adjacent Duplicates in String II|Medium|337|11
-0.9439564266762848|1365|How Many Numbers Are Smaller Than the Current Number|Easy|313|10
-0.9438929274678187|297|Serialize and Deserialize Binary Tree|Hard|2571|128
-0.9438568862842769|572|Subtree of Another Tree|Easy|1943|94
-0.9436169114976688|207|Course Schedule|Medium|3084|157
-0.943506984892431|394|Decode String|Medium|2607|131
-0.9432899680145544|148|Sort List|Medium|2288|114
-0.9432672040318302|79|Word Search|Medium|3028|155
-0.9431370167793862|525|Contiguous Array|Medium|1100|50
-0.942957227388353|1202|Smallest String With Swaps|Medium|392|14
-0.9428184554127723|1277|Count Square Submatrices with All Ones|Medium|391|14
-0.9425042547682284|581|Shortest Unsorted Continuous Subarray|Easy|2255|114
-0.9424389095985937|1306|Jump Game III|Medium|239|7
-0.9422054355252207|827|Making A Large Island|Hard|366|13
-0.9421220218668312|241|Different Ways to Add Parentheses|Medium|1411|68
-0.9419767280302621|1187|Make Array Strictly Increasing|Hard|237|7
-0.9419124721308544|236|Lowest Common Ancestor of a Binary Tree|Medium|3111|164
-0.9418317560709537|1262|Greatest Sum Divisible by Three|Medium|301|10
-0.9418258708870689|864|Shortest Path to Get All Keys|Hard|322|11
-0.9417547217071099|763|Partition Labels|Medium|1726|86
-0.9415225127650837|22|Generate Parentheses|Medium|4417|241
-0.9413850886960234|668|Kth Smallest Number in Multiplication Table|Hard|461|18
-0.9412545603607265|813|Largest Sum of Averages|Medium|748|33
-0.9411232987487633|139|Word Break|Medium|3634|197
-0.9408557304385241|109|Convert Sorted List to Binary Search Tree|Medium|1663|84
-0.940675975871646|713|Subarray Product Less Than K|Medium|1070|51
-0.9406723691927756|567|Permutation in String|Medium|1088|52
-0.9406281272235515|209|Minimum Size Subarray Sum|Medium|1884|97
-0.940205576098065|49|Group Anagrams|Medium|3051|166
-0.9399432408576843|103|Binary Tree Zigzag Level Order Traversal|Medium|1671|86
-0.939688014520301|1368|Minimum Cost to Make at Least One Valid Path in a Grid|Hard|162|4
-0.9395745737139595|1312|Minimum Insertion Steps to Make a String Palindrome|Hard|184|5
-0.9395486860492248|876|Middle of the Linked List|Easy|1102|54
-0.9392378011433675|77|Combinations|Medium|1236|62
-0.9390009306268838|886|Possible Bipartition|Medium|423|17
-0.9389695992211946|844|Backspace String Compare|Easy|1403|72
-0.9385464086347102|450|Delete Node in a BST|Medium|1461|76
-0.9384577113646803|503|Next Greater Element II|Medium|1185|60
-0.9383630153202211|873|Length of Longest Fibonacci Subsequence|Medium|603|27
-0.9383072735016359|145|Binary Tree Postorder Traversal|Hard|1455|76
-0.9382297244726961|410|Split Array Largest Sum|Hard|1470|77
-0.9381022224089269|115|Distinct Subsequences|Hard|1023|51
-0.9379549265413882|99|Recover Binary Search Tree|Hard|1294|67
-0.9378985177199015|211|Add and Search Word - Data structure design|Medium|1428|75
-0.9376310124789784|3|Longest Substring Without Repeating Characters|Medium|8321|506
-0.9371853225782432|960|Delete Columns to Make Sorted III|Hard|218|7
-0.9371412473747585|767|Reorganize String|Medium|1125|58
-0.9371219252032964|239|Sliding Window Maximum|Hard|2796|160
-0.9369129995047079|218|The Skyline Problem|Hard|1783|98
-0.9369108777126646|630|Course Schedule III|Hard|606|28
-0.9367454539055678|235|Lowest Common Ancestor of a Binary Search Tree|Easy|1729|95
-0.9366749273013275|128|Longest Consecutive Sequence|Hard|2791|161
-0.9363924837984213|1371|Find the Longest Substring Containing Vowels in Even Counts|Medium|235|8
-0.9361939039351418|1092|Shortest Common Supersequence|Hard|311|12
-0.9361380093753463|1028|Recover a Tree From Preorder Traversal|Hard|348|14
-0.9358994083246588|768|Max Chunks To Make Sorted II|Hard|365|15
-0.9358753977195937|368|Largest Divisible Subset|Medium|784|39
-0.935799736427874|1079|Letter Tile Possibilities|Medium|490|22
-0.9353879192105361|45|Jump Game II|Hard|2056|118
-0.935372599623854|44|Wildcard Matching|Hard|1690|95
-0.93518725663769|199|Binary Tree Right Side View|Medium|1812|103
-0.9351016064369545|310|Minimum Height Trees|Medium|1571|88
-0.9350586106342386|1186|Maximum Subarray Sum with One Deletion|Medium|360|15
-0.9349726753860311|402|Remove K Digits|Medium|1456|81
-0.9348319233931511|1335|Minimum Difficulty of a Job Schedule|Hard|128|3
-0.9343513874403572|216|Combination Sum III|Medium|896|47
-0.9339486672654674|378|Kth Smallest Element in a Sorted Matrix|Medium|1931|113
-0.9338796411531488|834|Sum of Distances in Tree|Hard|660|33
-0.9337742733224045|918|Maximum Sum Circular Subarray|Medium|542|26
-0.9335296235490816|752|Open the Lock|Medium|722|37
-0.9331203720721073|1094|Car Pooling|Medium|401|18
-0.9330485501321868|698|Partition to K Equal Sum Subsets|Medium|1427|82
-0.9327012796324979|543|Diameter of Binary Tree|Easy|2466|151
-0.932490939990943|1349|Maximum Students Taking Exam|Hard|202|7
-0.9324488212501697|23|Merge k Sorted Lists|Hard|4068|260
-0.9324144591488575|37|Sudoku Solver|Hard|1474|86
-0.9321263546535927|617|Merge Two Binary Trees|Easy|2607|162
-0.9315605931628695|203|Remove Linked List Elements|Easy|1303|76
-0.9314321558617437|872|Leaf-Similar Trees|Easy|603|31
-0.9312987672835975|1105|Filling Bookcase Shelves|Medium|456|22
-0.9309973306840598|449|Serialize and Deserialize BST|Medium|1095|63
-0.9306972470909527|712|Minimum ASCII Delete Sum for Two Strings|Medium|753|41
-0.9304859236543038|956|Tallest Billboard|Hard|284|12
-0.9299039404863401|264|Ugly Number II|Medium|1403|85
-0.929795333553892|452|Minimum Number of Arrows to Burst Balloons|Medium|758|42
-0.9290911042466038|1049|Last Stone Weight II|Medium|409|20
-0.9289320629382194|188|Best Time to Buy and Sell Stock IV|Hard|1237|75
-0.9288014394905998|97|Interleaving String|Hard|1220|74
-0.928606986239483|486|Predict the Winner|Medium|1289|79
-0.9285895148037586|1074|Number of Submatrices That Sum to Target|Hard|374|18
-0.9285316690424955|1320|Minimum Distance to Type a Word Using Two Fingers|Hard|225|9
-0.9282318958481912|1305|All Elements in Two Binary Search Trees|Medium|224|9
-0.9281750712472819|538|Convert BST to Greater Tree|Easy|1709|109
-0.928065942564657|92|Reverse Linked List II|Medium|1932|125
-0.9280480550392266|338|Counting Bits|Medium|2128|139
-0.9279201919560958|463|Island Perimeter|Easy|1561|99
-0.9278783816944454|1046|Last Stone Weight|Easy|433|22
-0.9278462874370224|554|Brick Wall|Medium|751|43
-0.9273576234704695|729|My Calendar I|Medium|567|31
-0.9270748167656886|689|Maximum Sum of 3 Non-Overlapping Subarrays|Hard|801|47
-0.9269720349259735|76|Minimum Window Substring|Hard|3796|264
-0.926626993333068|945|Minimum Increment to Make Array Unique|Medium|332|16
-0.9264310408193402|257|Binary Tree Paths|Easy|1402|90
-0.9263791753999648|673|Number of Longest Increasing Subsequence|Medium|1163|73
-0.9260289693636514|438|Find All Anagrams in a String|Medium|2364|161
-0.9258173502353072|387|First Unique Character in a String|Easy|1596|105
-0.9256866816781809|559|Maximum Depth of N-ary Tree|Easy|670|39
-0.9254812641104282|215|Kth Largest Element in an Array|Medium|3172|223
-0.9253919883522677|143|Reorder List|Medium|1518|100
-0.9253123228424295|1337|The K Weakest Rows in a Matrix|Easy|147|5
-0.9251677498543057|1024|Video Stitching|Medium|371|19
-0.9249948156392167|1315|Sum of Nodes with Even-Valued Grandparent|Medium|246|11
-0.924919005214456|940|Distinct Subsequences II|Hard|293|14
-0.924818448907885|1027|Longest Arithmetic Sequence|Medium|532|30
-0.924212449360423|1026|Maximum Difference Between Node and Ancestor|Medium|366|19
-0.9239564306968625|62|Unique Paths|Medium|2622|186
-0.92386907589871|380|Insert Delete GetRandom O(1)|Medium|1884|130
-0.9238559003984663|347|Top K Frequent Elements|Medium|2540|180
-0.9238350803283094|1367|Linked List in Binary Tree|Medium|242|11
-0.9237833820518178|210|Course Schedule II|Medium|1723|118
-0.9237753485472918|1031|Maximum Sum of Two Non-Overlapping Subarrays|Medium|452|25
-0.9237407163185298|19|Remove Nth Node From End of List|Medium|2809|201
-0.9237313471625269|424|Longest Repeating Character Replacement|Medium|1011|65
-0.9233778264856487|1190|Reverse Substrings Between Each Pair of Parentheses|Medium|256|12
-0.9233567266264439|1340|Jump Game V|Hard|143|5
-0.9232402355198722|56|Merge Intervals|Medium|3521|258
-0.9231935808400863|1219|Path with Maximum Gold|Medium|346|18
-0.9230904514663769|1014|Best Sightseeing Pair|Medium|375|20
-0.9227222665509154|307|Range Sum Query - Mutable|Medium|1104|73
-0.9223727770609635|456|132 Pattern|Medium|1165|78
-0.9219963966645816|16|3Sum Closest|Medium|1758|124
-0.9217885266993364|540|Single Element in a Sorted Array|Medium|1103|74
-0.9216660223049967|75|Sort Colors|Medium|2691|198
-0.9212709411853732|930|Binary Subarrays With Sum|Medium|380|21
-0.9210922712270646|1129|Shortest Path with Alternating Colors|Medium|263|13
-0.9210616868903888|889|Construct Binary Tree from Preorder and Postorder Traversal|Medium|682|43
-0.9205313032360065|907|Sum of Subarray Minimums|Medium|915|61
-0.9202982134451688|993|Cousins in Binary Tree|Easy|486|29
-0.9199007058575286|514|Freedom Trail|Hard|359|20
-0.9194881450774162|437|Path Sum III|Easy|2918|223
-0.9192449956504589|279|Perfect Squares|Medium|2298|173
-0.9190656207887675|331|Verify Preorder Serialization of a Binary Tree|Medium|677|44
-0.9190232562774755|680|Valid Palindrome II|Easy|1277|91
-0.9177390740582038|399|Evaluate Division|Medium|1939|147
-0.9177205477453269|82|Remove Duplicates from Sorted List II|Medium|1366|100
-0.9175204789461726|5|Longest Palindromic Substring|Medium|5930|486
-0.9173690268413793|169|Majority Element|Easy|2647|207
-0.9170795900158379|454|4Sum II|Medium|986|70
-0.9168130523002316|1155|Number of Dice Rolls With Target Sum|Medium|451|28
-0.9156065674735933|376|Wiggle Subsequence|Medium|796|56
-0.9155930219926713|182|Duplicate Emails|Easy|392|24
-0.9154616802513529|1019|Next Greater Node In Linked List|Medium|558|37
-0.9153009959277032|477|Total Hamming Distance|Medium|719|50
-0.9150602952721065|896|Monotonic Array|Easy|492|32
-0.9150165430041428|48|Rotate Image|Medium|2556|206
-0.9147399814251957|110|Balanced Binary Tree|Easy|1900|150
-0.9142935241191741|547|Friend Circles|Medium|1576|123
-0.9140980062475539|442|Find All Duplicates in an Array|Medium|1746|138
-0.9140366905169554|363|Max Sum of Rectangle No Larger Than K|Hard|671|47
-0.9139098704694838|260|Single Number III|Medium|1242|95
-0.9138852352355432|95|Unique Binary Search Trees II|Medium|1845|147
-0.9137149681318834|799|Champagne Tower|Medium|370|23
-0.9136015387207885|670|Maximum Swap|Medium|800|58
-0.9130761360320853|238|Product of Array Except Self|Medium|3934|335
-0.9129964835836031|870|Advantage Shuffle|Medium|392|25
-0.9129181791487574|650|2 Keys Keyboard|Medium|982|74
-0.9128812984745193|1269|Number of Ways to Stay in the Same Place After Some Steps|Hard|168|8
-0.9125868951133678|1161|Maximum Level Sum of a Binary Tree|Medium|262|15
-0.9125480380598411|792|Number of Matching Subsequences|Medium|754|55
-0.912352572199867|786|K-th Smallest Prime Fraction|Hard|313|19
-0.9122896262903586|801|Minimum Swaps To Make Sequences Increasing|Medium|881|66
-0.9121628890024658|142|Linked List Cycle II|Medium|2254|187
-0.911969294897232|1162|As Far from Land as Possible|Medium|273|16
-0.9115688389737658|1048|Longest String Chain|Medium|627|45
-0.9115338334928176|124|Binary Tree Maximum Path Sum|Hard|2810|239
-0.9110477847762787|24|Swap Nodes in Pairs|Medium|1903|158
-0.9107799586817094|83|Remove Duplicates from Sorted List|Easy|1251|100
-0.9101729500628454|116|Populating Next Right Pointers in Each Node|Medium|1630|135
-0.9099388301328177|451|Sort Characters By Frequency|Medium|1149|92
-0.9095046241497701|973|K Closest Points to Origin|Medium|1265|103
-0.9094973478846242|1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold|Medium|214|12
-0.9093947157816931|373|Find K Pairs with Smallest Sums|Medium|1097|88
-0.9093734501905902|1122|Relative Sort Array|Easy|494|35
-0.9090943779265356|1352|Product of the Last K Numbers|Medium|187|10
-0.9090463016721557|821|Shortest Distance to a Character|Easy|903|71
-0.908894838951978|917|Reverse Only Letters|Easy|456|32
-0.9088608748819449|741|Cherry Pickup|Hard|800|62
-0.9086214842457959|921|Minimum Add to Make Parentheses Valid|Medium|536|39
-0.9083384213294001|118|Pascal's Triangle|Easy|1160|95
-0.9083276336725289|55|Jump Game|Medium|3240|290
-0.9079707970028883|692|Top K Frequent Words|Medium|1426|120
-0.9054645483568963|1000|Minimum Cost to Merge Stones|Hard|483|36
-0.9053974895958296|515|Find Largest Value in Each Tree Row|Medium|703|56
-0.9051397833572566|1130|Minimum Cost Tree From Leaf Values|Medium|755|61
-0.9050702281826205|530|Minimum Absolute Difference in BST|Easy|722|58
-0.9050244988664244|796|Rotate String|Easy|602|47
-0.9049946613795193|448|Find All Numbers Disappeared in an Array|Easy|2426|222
-0.9045354440867899|1054|Distant Barcodes|Medium|250|16
-0.9043521719777529|1207|Unique Number of Occurrences|Easy|273|18
-0.9039378095786871|395|Longest Substring with At Least K Repeating Characters|Medium|1185|103
-0.9038573396234977|334|Increasing Triplet Subsequence|Medium|1349|119
-0.903251054550872|1254|Number of Closed Islands|Medium|211|13
-0.9025608446637796|542|01 Matrix|Medium|1136|100
-0.902516145989067|316|Remove Duplicate Letters|Hard|1115|98
-0.9024497237019617|1192|Critical Connections in a Network|Hard|774|65
-0.902398014505711|977|Squares of a Sorted Array|Easy|867|74
-0.901802108268333|881|Boats to Save People|Medium|431|33
-0.9017263219054903|704|Binary Search|Easy|527|42
-0.9014627159998141|1302|Deepest Leaves Sum|Medium|298|21
-0.9013763780553282|797|All Paths From Source to Target|Medium|630|52
-0.9013618482365592|740|Delete and Earn|Medium|857|74
-0.9007613517266072|1263|Minimum Moves to Move a Box to Their Target Location|Hard|158|9
-0.9007387528136749|155|Min Stack|Easy|2959|289
-0.9003377584976052|841|Keys and Rooms|Medium|756|65
-0.9002690904714274|546|Remove Boxes|Hard|529|43
-0.8999311844133389|108|Convert Sorted Array to Binary Search Tree|Easy|1973|189
-0.8998588569160142|934|Shortest Bridge|Medium|537|44
-0.8998258727338978|1171|Remove Zero Sum Consecutive Nodes from Linked List|Medium|347|26
-0.8996390644191276|915|Partition Array into Disjoint Intervals|Medium|303|22
-0.8995419540503834|974|Subarray Sums Divisible by K|Medium|648|55
-0.8991086234680553|905|Sort Array By Parity|Easy|796|70
-0.8988052431512675|766|Toeplitz Matrix|Easy|863|77
-0.8987878211122353|1047|Remove All Adjacent Duplicates In String|Easy|541|45
-0.8986951718825121|461|Hamming Distance|Easy|1573|150
-0.898475876713871|11|Container With Most Water|Medium|5240|542
-0.8984469470899509|33|Search in Rotated Sorted Array|Medium|4043|413
-0.8977981302848971|1310|XOR Queries of a Subarray|Medium|153|9
-0.8969640450319607|460|LFU Cache|Hard|1164|110
-0.8969008338582377|224|Basic Calculator|Hard|1230|117
-0.8965627172808032|1331|Rank Transform of an Array|Easy|151|9
-0.8964460780534161|646|Maximum Length of Pair Chain|Medium|754|68
-0.896159302426326|795|Number of Subarrays with Bounded Maximum|Medium|476|40
-0.8956307449138152|922|Sort Array By Parity II|Easy|523|45
-0.8953975249115933|715|Range Module|Hard|392|32
-0.8953616232467864|996|Number of Squareful Arrays|Hard|258|19
-0.8949794210895197|778|Swim in Rising Water|Hard|480|41
-0.8945097310020841|669|Trim a Binary Search Tree|Easy|1550|155
-0.8943559410697496|480|Sliding Window Median|Hard|728|67
-0.894229132643358|784|Letter Case Permutation|Easy|1019|98
-0.8941417290345224|429|N-ary Tree Level Order Traversal|Medium|466|40
-0.8925946117460923|409|Longest Palindrome|Easy|808|77
-0.892466128418195|798|Smallest Rotation with Highest Score|Hard|209|15
-0.8921066559357502|74|Search a 2D Matrix|Medium|1431|146
-0.8920523088956459|557|Reverse Words in a String III|Easy|868|84
-0.8918271859104873|1156|Swap For Longest Repeated Character Substring|Medium|218|16
-0.8910828259184512|894|All Possible Full Binary Trees|Medium|713|68
-0.8905422354788564|1288|Remove Covered Intervals|Medium|131|8
-0.8905296803886812|857|Minimum Cost to Hire K Workers|Hard|782|76
-0.8900573836777741|1383|Maximum Performance of a Team|Hard|173|12
-0.8895555858649855|242|Valid Anagram|Easy|1254|130
-0.8893042659293906|1301|Number of Paths with Max Score|Hard|96|5
-0.8888435566522597|381|Insert Delete GetRandom O(1) - Duplicates allowed|Hard|661|64
-0.8887265292998697|17|Letter Combinations of a Phone Number|Medium|3366|379
-0.8886974312737581|222|Count Complete Tree Nodes|Medium|1693|182
-0.8886193896866931|160|Intersection of Two Linked Lists|Easy|3110|349
-0.8884001169044928|462|Minimum Moves to Equal Array Elements II|Medium|458|42
-0.8883833332718795|653|Two Sum IV - Input is a BST|Easy|1248|131
-0.8882985323943643|516|Longest Palindromic Subsequence|Medium|1549|166
-0.8880507136315979|1345|Jump Game IV|Hard|117|7
-0.8879943324708035|318|Maximum Product of Word Lengths|Medium|709|70
-0.8873770522944875|931|Minimum Falling Path Sum|Medium|526|50
-0.8872865905902333|611|Valid Triangle Number|Medium|871|89
-0.8864947469715098|701|Insert into a Binary Search Tree|Medium|681|68
-0.8857023157172406|730|Count Different Palindromic Subsequences|Hard|437|41
-0.8844368428914631|1208|Get Equal Substrings Within Budget|Medium|193|15
-0.8841145428602761|1351|Count Negative Numbers in a Sorted Matrix|Easy|202|16
-0.883979793291725|1334|Find the City With the Smallest Number of Neighbors at a Threshold Distance|Medium|163|12
-0.8839706208379189|57|Insert Interval|Hard|1369|152
-0.8838175791313653|459|Repeated Substring Pattern|Easy|1243|137
-0.8837609741455585|214|Shortest Palindrome|Hard|976|105
-0.883721364626233|15|3Sum|Medium|5991|730
-0.8833799000103416|1010|Pairs of Songs With Total Durations Divisible by 60|Easy|392|37
-0.8822834950554757|1052|Grumpy Bookstore Owner|Medium|335|31
-0.8819072369616413|890|Find and Replace Pattern|Medium|584|60
-0.8808881780268674|403|Frog Jump|Hard|827|90
-0.8807379949693558|1200|Minimum Absolute Difference|Easy|177|14
-0.8806299215822067|875|Koko Eating Bananas|Medium|577|60
-0.8804759830341687|406|Queue Reconstruction by Height|Medium|2225|266
-0.8804684735494134|229|Majority Element II|Medium|1324|152
-0.8804491188181991|35|Search Insert Position|Easy|1926|228
-0.8802202448246152|287|Find the Duplicate Number|Medium|3778|467
-0.8801420628536829|887|Super Egg Drop|Hard|649|69
-0.87911701370675|404|Sum of Left Leaves|Easy|958|108
-0.8788945836727722|765|Couples Holding Hands|Hard|543|57
-0.8785537136466552|114|Flatten Binary Tree to Linked List|Medium|2316|283
-0.878379858165415|179|Largest Number|Medium|1587|189
-0.8781906598867231|1218|Longest Arithmetic Subsequence of Given Difference|Medium|218|19
-0.8781906598867231|1115|Print FooBar Alternately|Medium|218|19
-0.8781559366038769|1147|Longest Chunked Palindrome Decomposition|Hard|145|11
-0.8780001914067623|473|Matchsticks to Square|Medium|481|50
-0.8778858174638889|854|K-Similar Strings|Hard|313|30
-0.877252947033714|691|Stickers to Spell Word|Hard|345|34
-0.8769474860160447|120|Triangle|Medium|1681|204
-0.8766180753778459|476|Number Complement|Easy|684|76
-0.8764043776139727|1106|Parsing A Boolean Expression|Hard|188|16
-0.8760309797241408|173|Binary Search Tree Iterator|Medium|2135|266
-0.8759590194804201|153|Find Minimum in Rotated Sorted Array|Medium|1734|213
-0.87562920941419|234|Palindrome Linked List|Easy|2620|332
-0.875576074611161|965|Univalued Binary Tree|Easy|381|39
-0.8754740284384961|735|Asteroid Collision|Medium|810|93
-0.8753290002647097|445|Add Two Numbers II|Medium|1171|140
-0.8745767092380917|590|N-ary Tree Postorder Traversal|Easy|522|57
-0.8745160037591085|757|Set Intersection Size At Least Two|Hard|228|21
-0.873964479641177|785|Is Graph Bipartite?|Medium|1134|137
-0.8738875941093023|377|Combination Sum IV|Medium|1186|144
-0.8734905849508776|1392|Longest Happy Prefix|Hard|148|12
-0.8733525501430202|850|Rectangle Area II|Hard|284|28
-0.8732758815443434|336|Palindrome Pairs|Hard|1187|145
-0.87326987830363|1072|Flip Columns For Maximum Number of Equal Rows|Medium|200|18
-0.8726896173168828|847|Shortest Path Visiting All Nodes|Hard|482|53
-0.8724245521342497|1394|Find Lucky Integer in an Array|Easy|82|5
-0.8720837779405549|838|Push Dominoes|Medium|456|50
-0.8708438476429984|117|Populating Next Right Pointers in Each Node II|Medium|1337|169
-0.8699912391268798|1020|Number of Enclaves|Medium|186|17
-0.869669288708018|997|Find the Town Judge|Easy|477|54
-0.8692443425823585|1290|Convert Binary Number in a Linked List to Integer|Easy|250|25
-0.8684246411634879|565|Array Nesting|Medium|739|90
-0.868339169016853|589|N-ary Tree Preorder Traversal|Easy|464|53
-0.867928490290176|981|Time Based Key-Value Store|Medium|589|70
-0.8677874651123519|828|Count Unique Characters of All Substrings of a Given String|Hard|325|35
-0.8674855928993407|59|Spiral Matrix II|Medium|820|102
-0.8662290602377658|818|Race Car|Hard|426|49
-0.8661081450504771|1296|Divide Array in Sets of K Consecutive Numbers|Medium|196|19
-0.8650702237634376|1002|Find Common Characters|Easy|661|82
-0.8645812837339546|98|Validate Binary Search Tree|Medium|3305|470
-0.864211176620331|1287|Element Appearing More Than 25% In Sorted Array|Easy|153|14
-0.863854361551315|327|Count of Range Sum|Hard|633|79
-0.8636492706227326|1267|Count Servers that Communicate|Medium|192|19
-0.8635894316089088|1255|Maximum Score Words Formed by Letters|Hard|111|9
-0.8628880299427232|976|Largest Perimeter Triangle|Easy|297|33
-0.8625534552154559|980|Unique Paths III|Hard|449|54
-0.8620306760540225|181|Employees Earning More Than Their Managers|Easy|511|63
-0.8617132471415406|654|Maximum Binary Tree|Medium|1545|215
-0.8614975568106846|637|Average of Levels in Binary Tree|Easy|1086|147
-0.8604977698918503|920|Number of Music Playlists|Hard|313|36
-0.8599688541103245|1178|Number of Valid Words for Each Puzzle|Hard|171|17
-0.859907769691959|4|Median of Two Sorted Arrays|Hard|6351|967
-0.8597445299758653|21|Merge Two Sorted Lists|Easy|3604|537
-0.8594954360305249|1191|K-Concatenation Maximum Sum|Medium|223|24
-0.8590402984360874|433|Minimum Genetic Mutation|Medium|352|42
-0.8586791059023825|706|Design HashMap|Easy|681|90
-0.858325871146031|664|Strange Printer|Hard|357|43
-0.8580239616967839|446|Arithmetic Slices II - Subsequence|Hard|398|49
-0.8579071526534731|1091|Shortest Path in Binary Matrix|Medium|278|32
-0.8567792624418266|903|Valid Permutations for DI Sequence|Hard|247|28
-0.8565677143998437|290|Word Pattern|Easy|939|131
-0.8560385250341127|126|Word Ladder II|Hard|1545|226
-0.8556930580331471|1039|Minimum Score Triangulation of Polygon|Medium|315|38
-0.8556731329950343|1380|Lucky Numbers in a Matrix|Easy|112|10
-0.8555465201456891|566|Reshape the Matrix|Easy|710|97
-0.8554243477910584|1342|Number of Steps to Reduce a Number to Zero|Easy|223|25
-0.8548779088892217|201|Bitwise AND of Numbers Range|Medium|608|82
-0.854671302823351|386|Lexicographical Numbers|Medium|508|67
-0.8543043115346564|1029|Two City Scheduling|Easy|664|91
-0.8539406615109284|731|My Calendar II|Medium|538|72
-0.8539197197201603|141|Linked List Cycle|Easy|2456|377
-0.8528319965209038|183|Customers Who Never Order|Easy|335|42
-0.852527895520574|994|Rotting Oranges|Medium|1148|169
-0.8524170486398877|594|Longest Harmonious Subsequence|Easy|564|77
-0.8521664487745172|925|Long Pressed Name|Easy|472|63
-0.8521002501471651|1286|Iterator for Combination|Medium|124|12
-0.8505004486178999|430|Flatten a Multilevel Doubly Linked List|Medium|895|131
-0.8503827284346626|823|Binary Trees With Factors|Medium|262|32
-0.8499865894312807|232|Implement Queue using Stacks|Easy|910|134
-0.8497635102416572|432|All O`one Data Structure|Hard|508|70
-0.8497426802595519|1005|Maximize Sum Of Array After K Negations|Easy|254|31
-0.8493660279218478|1043|Partition Array for Maximum Sum|Medium|481|66
-0.8490818291986916|846|Hand of Straights|Medium|499|69
-0.8481824231762094|502|IPO|Hard|284|36
-0.8481306332303171|493|Reverse Pairs|Hard|744|109
-0.8479739930919434|849|Maximize Distance to Closest Person|Easy|663|96
-0.8477664009154054|63|Unique Paths II|Medium|1412|220
-0.8475323886069334|1038|Binary Search Tree to Greater Sum Tree|Medium|599|86
-0.844595669364946|1095|Find in Mountain Array|Hard|192|23
-0.844128903431564|175|Combine Two Tables|Easy|811|124
-0.8436368972722996|73|Set Matrix Zeroes|Medium|1714|280
-0.843496976284067|995|Minimum Number of K Consecutive Bit Flips|Hard|223|28
-0.8432806096763834|1339|Maximum Product of Splitted Binary Tree|Medium|157|18
-0.8426963889117234|1114|Print in Order|Easy|427|61
-0.8420900622240792|1381|Design a Stack With Increment Operation|Medium|115|12
-0.8418364999904043|1224|Maximum Equal Frequency|Hard|142|16
-0.8416023228041829|10|Regular Expression Matching|Hard|3770|653
-0.8412101392448079|282|Expression Add Operators|Hard|1053|169
-0.8409599975635228|289|Game of Life|Medium|1528|253
-0.8405799129330823|1157|Online Majority Element In Subarray|Hard|167|20
-0.8393131069442975|1356|Sort Integers by The Number of 1 Bits|Easy|99|10
-0.8390454620328053|879|Profitable Schemes|Hard|197|25
-0.8386686833503376|769|Max Chunks To Make Sorted|Medium|676|106
-0.8381681378776638|67|Add Binary|Easy|1508|255
-0.837193216307583|1289|Minimum Falling Path Sum II|Hard|111|12
-0.8366561494621514|1309|Decrypt String from Alphabet to Integer Mapping|Easy|156|19
-0.8366204041883261|513|Find Bottom Left Tree Value|Medium|773|125
-0.8365047827947943|860|Lemonade Change|Easy|466|71
-0.835771330235932|1291|Sequential Digits|Medium|123|14
-0.8353333814586891|467|Unique Substrings in Wraparound String|Medium|502|78
-0.835202307119764|1347|Minimum Number of Steps to Make Two Strings Anagram|Medium|116|13
-0.8347786144747203|178|Rank Scores|Medium|674|109
-0.834156287580853|1184|Distance Between Bus Stops|Easy|147|18
-0.8339566633893002|652|Find Duplicate Subtrees|Medium|1102|188
-0.8339030404632981|643|Maximum Average Subarray I|Easy|631|102
-0.8335468554200797|1353|Maximum Number of Events That Can Be Attended|Medium|261|37
-0.8327038631698009|743|Network Delay Time|Medium|1194|207
-0.8322785355990489|771|Jewels and Stones|Easy|1862|334
-0.8320329740888315|421|Maximum XOR of Two Numbers in an Array|Medium|980|168
-0.8314150813979185|1295|Find Numbers with Even Number of Digits|Easy|228|32
-0.830984875141605|696|Count Binary Substrings|Easy|850|145
-0.830811248677068|472|Concatenated Words|Hard|552|90
-0.830015639218197|392|Is Subsequence|Easy|1019|178
-0.8299953746514366|330|Patching Array|Hard|434|69
-0.829839885216748|622|Design Circular Queue|Medium|461|74
-0.8297634281701124|1346|Check If N and Its Double Exist|Easy|99|11
-0.8292675174224167|738|Monotone Increasing Digits|Medium|349|54
-0.8291801494693465|1232|Check If It Is a Straight Line|Easy|166|22
-0.8289404578241446|227|Basic Calculator II|Medium|1168|208
-0.8279570919390106|1253|Reconstruct a 2-Row Binary Matrix|Medium|85|9
-0.8277350895071263|171|Excel Sheet Column Number|Easy|810|141
-0.8263911751011955|901|Online Stock Span|Medium|391|63
-0.8259335308144351|674|Longest Continuous Increasing Subsequence|Easy|644|111
-0.8252468189944908|107|Binary Tree Level Order Traversal II|Easy|1103|201
-0.824928308471604|18|4Sum|Medium|1614|303
-0.8247988419901405|1376|Time Needed to Inform All Employees|Medium|126|16
-0.824763801948031|464|Can I Win|Medium|850|152
-0.824709545541373|25|Reverse Nodes in k-Group|Hard|1826|346
-0.8236193724993099|491|Increasing Subsequences|Medium|603|105
-0.8218709721189175|1387|Sort Integers by The Power Value|Medium|69|7
-0.8208278158741409|455|Assign Cookies|Easy|490|85
-0.8198333570020427|413|Arithmetic Slices|Medium|837|155
-0.819687348501445|677|Map Sum Pairs|Medium|420|72
-0.8196025315905283|440|K-th Smallest in Lexicographical Order|Hard|285|46
-0.8193846443476477|1338|Reduce Array Size to The Half|Medium|110|14
-0.8193534166073905|802|Find Eventual Safe States|Medium|601|108
-0.8191206950056616|938|Range Sum of BST|Easy|892|167
-0.8169936119266019|1172|Dinner Plate Stacks|Hard|114|15
-0.8162912282473518|1189|Maximum Number of Balloons|Easy|190|29
-0.8160979387339349|733|Flood Fill|Easy|831|158
-0.815502586919761|658|Find K Closest Elements|Medium|1076|210
-0.8150183214306154|1013|Partition Array Into Three Parts With Equal Sum|Easy|302|51
-0.8134645161057417|417|Pacific Atlantic Water Flow|Medium|1043|206
-0.8131691701833867|621|Task Scheduler|Medium|2606|546
-0.812893404862114|135|Candy|Hard|776|150
-0.8128877400807513|328|Odd Even Linked List|Medium|1346|272
-0.8128769273075166|700|Search in a Binary Search Tree|Easy|576|108
-0.8127825725919617|1022|Sum of Root To Leaf Binary Numbers|Easy|372|66
-0.812468610717503|826|Most Profit Assigning Work|Medium|312|54
-0.8119388980970114|832|Flipping an Image|Easy|743|144
-0.8119092356335661|1404|Number of Steps to Reduce a Number in Binary Representation to One|Medium|88|11
-0.8109212987216305|1124|Longest Well-Performing Interval|Medium|304|53
-0.8093853885282556|1239|Maximum Length of a Concatenated String with Unique Characters|Medium|247|42
-0.8083858757372531|508|Most Frequent Subtree Sum|Medium|541|104
-0.8083680911537067|959|Regions Cut By Slashes|Medium|620|121
-0.808247966275603|1206|Design Skiplist|Hard|97|13
-0.8081190838139469|552|Student Attendance Record II|Hard|484|92
-0.8079541797581441|1109|Corporate Flight Bookings|Medium|375|69
-0.8076435999586522|202|Happy Number|Easy|1831|391
-0.8075719068442915|1330|Reverse Subarray To Maximize Array Value|Hard|102|14
-0.8075602426637798|836|Rectangle Overlap|Easy|566|110
-0.8073271559006894|1359|Count All Valid Pickup and Delivery Options|Hard|91|12
-0.8070784030427428|950|Reveal Cards In Increasing Order|Medium|670|133
-0.8070459455563466|1323|Maximum 69 Number|Easy|164|26
-0.8064420970029774|725|Split Linked List in Parts|Medium|539|105
-0.8062645597520252|939|Minimum Area Rectangle|Medium|543|106
-0.8056800708945285|1375|Bulb Switcher III|Medium|127|19
-0.8053880872134395|1318|Minimum Flips to Make a OR b Equal to c|Medium|79|10
-0.8047642753759197|684|Redundant Connection|Medium|1053|221
-0.804658169158878|304|Range Sum Query 2D - Immutable|Medium|799|164
-0.8046248965921986|138|Copy List with Random Pointer|Medium|2721|605
-0.8045177114415774|140|Word Break II|Hard|1595|345
-0.8032349397155274|1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix|Hard|120|18
-0.8029432176888085|1009|Complement of Base 10 Integer|Easy|140|22
-0.8028560124227898|168|Excel Sheet Column Title|Easy|1023|217
-0.8022473576093149|679|24 Game|Hard|610|124
-0.8013970712876164|185|Department Top Three Salaries|Hard|491|98
-0.8010318780398052|1081|Smallest Subsequence of Distinct Characters|Medium|295|55
-0.7995777868309939|898|Bitwise ORs of Subarrays|Medium|374|73
-0.7995164791907186|1354|Construct Target Array With Multiple Sums|Hard|142|23
-0.7993749284289281|693|Binary Number with Alternating Bits|Easy|387|76
-0.7991960193201021|648|Replace Words|Medium|603|125
-0.7976145974317328|1300|Sum of Mutated Array Closest to Target|Medium|150|25
-0.7974092212040512|746|Min Cost Climbing Stairs|Easy|1676|381
-0.797104213549949|367|Valid Perfect Square|Easy|647|137
-0.7962351865054981|1032|Stream of Characters|Hard|291|56
-0.7960649043048901|1382|Balance a Binary Search Tree|Medium|110|17
-0.7959618575525519|1373|Maximum Sum BST in Binary Tree|Hard|105|16
-0.7954710126340742|600|Non-negative Integers without Consecutive Ones|Hard|334|66
-0.7934796126855436|989|Add to Array-Form of Integer|Easy|273|53
-0.7934230208200677|880|Decoded String at Index|Medium|369|75
-0.7920837735195484|662|Maximum Width of Binary Tree|Medium|966|219
-0.7897787695596086|60|Permutation Sequence|Medium|1246|292
-0.7897451349121342|1145|Binary Tree Coloring Game|Medium|310|63
-0.7896544989260285|724|Find Pivot Index|Easy|940|216
-0.7894560127840918|391|Perfect Rectangle|Hard|318|65
-0.7888028034668829|919|Complete Binary Tree Inserter|Medium|231|45
-0.788802707948923|665|Non-decreasing Array|Easy|1607|385
-0.7883197193765337|780|Reaching Points|Hard|404|86
-0.7874038632508434|991|Broken Calculator|Medium|331|69
-0.7874015748031495|1400|Construct K Palindrome Strings|Medium|66|9
-0.7873609258263099|1234|Replace the Substring for Balanced String|Medium|190|36
-0.7868107289594584|721|Accounts Merge|Medium|1122|266
-0.7863904429292902|1146|Snapshot Array|Medium|354|75
-0.7861431146646908|2|Add Two Numbers|Medium|7489|1938
-0.7858589776215633|164|Maximum Gap|Hard|725|167
-0.7852418902536799|1160|Find Words That Can Be Formed by Characters|Easy|239|48
-0.7844227611790141|137|Single Number II|Medium|1304|317
-0.7842016215606926|941|Valid Mountain Array|Easy|296|62
-0.7841229526212413|1366|Rank Teams by Votes|Medium|143|26
-0.7837225936696984|805|Split Array With Same Average|Hard|324|69
-0.783368750054427|884|Uncommon Words from Two Sentences|Easy|356|77
-0.7832681039060472|1137|N-th Tribonacci Number|Easy|177|34
-0.7825906871316473|688|Knight Probability in Chessboard|Medium|633|147
-0.7824318028183892|923|3Sum With Multiplicity|Medium|293|62
-0.7821609724343|41|First Missing Positive|Hard|2873|738
-0.781713433762173|474|Ones and Zeroes|Medium|824|197
-0.7815930954666217|343|Integer Break|Medium|862|207
-0.7815646012380096|710|Random Pick with Blacklist|Hard|267|56
-0.7815320004202316|1314|Matrix Block Sum|Medium|171|33
-0.7806282609936995|641|Design Circular Deque|Medium|187|37
-0.780101231045065|929|Unique Email Addresses|Easy|732|175
-0.7800540426187529|699|Falling Squares|Hard|232|48
-0.7789119879193005|1140|Stone Game II|Medium|263|56
-0.7777124389136616|848|Shifting Letters|Medium|233|49
-0.7773891869540311|355|Design Twitter|Medium|751|183
-0.7773220917653801|86|Partition List|Medium|1062|266
-0.7772578114771773|676|Implement Magic Dictionary|Medium|503|118
-0.7763462457575925|954|Array of Doubled Pairs|Medium|207|43
-0.7744723081916614|764|Largest Plus Sign|Medium|377|87
-0.7735971776245015|526|Beautiful Arrangement|Medium|579|141
-0.7732218049018469|184|Department Highest Salary|Medium|420|99
-0.7712652530645621|134|Gas Station|Medium|1349|356
-0.7710627713801297|988|Smallest String Starting From Leaf|Medium|294|67
-0.7707354918689615|943|Find the Shortest Superstring|Hard|282|64
-0.7706080630196909|54|Spiral Matrix|Medium|1928|521
-0.7700691504059274|955|Delete Columns to Make Sorted II|Medium|196|42
-0.7691469612119225|231|Power of Two|Easy|652|165
-0.7681581590326212|1007|Minimum Domino Rotations For Equal Row|Medium|616|156
-0.7680030765171828|313|Super Ugly Number|Medium|525|131
-0.7677532633530981|180|Consecutive Numbers|Medium|378|91
-0.7664867059059556|914|X of a Kind in a Deck of Cards|Easy|401|98
-0.7661263776058788|1203|Sort Items by Groups Respecting Dependencies|Hard|157|33
-0.7658489361045157|888|Fair Candy Swap|Easy|454|113
-0.7655126583407942|1268|Search Suggestions System|Medium|300|71
-0.7654209782847977|687|Longest Univalue Path|Easy|1444|396
-0.7647993001438386|952|Largest Component Size by Common Factor|Hard|179|39
-0.7634363838382516|913|Cat and Mouse|Hard|282|67
-0.7631750889384528|205|Isomorphic Strings|Easy|1184|325
-0.7629908426904914|916|Word Subsets|Medium|274|65
-0.7612278542635674|154|Find Minimum in Rotated Sorted Array II|Hard|728|195
-0.7577924588620004|112|Path Sum|Easy|1547|445
-0.7563243040992488|861|Score After Flipping Matrix|Medium|390|101
-0.7551409098426073|1233|Remove Sub-Folders from the Filesystem|Medium|137|30
-0.7519171075142328|902|Numbers At Most N Given Digit Set|Hard|142|32
-0.7518782531938714|119|Pascal's Triangle II|Easy|686|193
-0.7513041740747302|1261|Find Elements in a Contaminated Binary Tree|Medium|127|28
-0.751205301391293|807|Max Increase to Keep City Skyline|Medium|752|214
-0.7511965022254223|791|Custom Sort String|Medium|605|169
-0.7505262364433236|1071|Greatest Common Divisor of Strings|Easy|338|89
-0.7483382636651846|705|Design HashSet|Easy|257|66
-0.7478519254542024|820|Short Encoding of Words|Medium|219|55
-0.7466413083513934|405|Convert a Number to Hexadecimal|Easy|374|102
-0.7463472344423336|928|Minimize Malware Spread II|Hard|159|38
-0.7461370366953956|685|Redundant Connection II|Hard|653|189
-0.7454951758105107|352|Data Stream as Disjoint Intervals|Hard|303|81
-0.7451646984997957|1299|Replace Elements with Greatest Element on Right Side|Easy|216|55
-0.7437941671396697|629|K Inverse Pairs Array|Hard|284|76
-0.743587934734166|36|Valid Sudoku|Medium|1371|424
-0.7435107216326|975|Odd Even Jump|Hard|575|167
-0.7423826354250036|415|Add Strings|Easy|771|231
-0.7408540250695989|783|Minimum Distance Between BST Nodes|Easy|561|165
-0.7402160723998921|576|Out of Boundary Paths|Medium|425|122
-0.739748805362267|204|Count Primes|Easy|1691|540
-0.7394676499262364|1343|Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold|Medium|70|14
-0.7393077600604603|382|Linked List Random Node|Medium|504|148
-0.7392273860222066|189|Rotate Array|Easy|2344|762
-0.7367595349079167|830|Positions of Large Groups|Easy|293|82
-0.736520096845345|1012|Numbers With Repeated Digits|Hard|148|37
-0.7361432353913714|1103|Distribute Candies to People|Easy|187|49
-0.7355790993231142|1266|Minimum Time Visiting All Points|Easy|209|56
-0.7355440518022016|556|Next Greater Element III|Medium|537|162
-0.7351553936415974|1326|Minimum Number of Taps to Open to Water a Garden|Hard|147|37
-0.7344760033226784|350|Intersection of Two Arrays II|Easy|1133|364
-0.7330812012121691|865|Smallest Subtree with all the Deepest Nodes|Medium|605|187
-0.7311326276860025|803|Bricks Falling When Hit|Hard|388|116
-0.7286323706579042|978|Longest Turbulent Subarray|Medium|248|71
-0.7277517781698879|1283|Find the Smallest Divisor Given a Threshold|Medium|129|33
-0.7260373551009348|31|Next Permutation|Medium|2892|1016
-0.7253997773679756|1139|Largest 1-Bordered Square|Medium|137|36
-0.7250048831642227|936|Stamping The Sequence|Hard|143|38
-0.7233590330958399|1344|Angle Between Hands of a Clock|Medium|88|21
-0.7210386540209152|1396|Design Underground System|Medium|74|17
-0.7209037963834624|623|Add One Row to Tree|Medium|369|116
-0.7185224148189108|732|My Calendar III|Hard|308|96
-0.717557422168229|947|Most Stones Removed with Same Row or Column|Medium|812|279
-0.7143805682304142|628|Maximum Product of Three Numbers|Easy|933|329
-0.7132428104361662|52|N-Queens II|Hard|416|138
-0.7125319090071895|1222|Queens That Can Attack the King|Medium|161|47
-0.7116088202061353|726|Number of Atoms|Hard|331|108
-0.7107162272026168|1117|Building H2O|Medium|151|44
-0.7096192351397229|470|Implement Rand10() Using Rand7()|Medium|355|118
-0.7092629836846698|396|Rotate Function|Medium|349|116
-0.7091805153102093|539|Minimum Time Difference|Medium|400|135
-0.7068714950216903|321|Create Maximum Number|Hard|577|204
-0.705789182065232|1361|Validate Binary Tree Nodes|Medium|122|35
-0.705269478025309|878|Nth Magical Number|Hard|164|50
-0.7039551239005724|599|Minimum Index Sum of Two Lists|Easy|515|183
-0.702618387868619|927|Three Equal Parts|Hard|162|50
-0.7019321616715499|383|Ransom Note|Easy|464|165
-0.7017324571463031|1363|Largest Multiple of Three|Hard|97|27
-0.7012448907887906|190|Reverse Bits|Easy|854|320
-0.7011763893602275|127|Word Ladder|Medium|2622|1040
-0.7008050385232252|779|K-th Symbol in Grammar|Medium|351|122
-0.6999966119167443|1220|Count Vowels Permutation|Hard|116|34
-0.6993430307548241|659|Split Array into Consecutive Subsequences|Medium|891|338
-0.697691265019288|167|Two Sum II - Input array is sorted|Easy|1396|548
-0.6962768932203007|839|Similar String Groups|Hard|262|90
-0.6958954195534783|509|Fibonacci Number|Easy|501|185
-0.695869721757366|1395|Count Number of Teams|Medium|141|44
-0.6935530651182092|501|Find Mode in Binary Search Tree|Easy|766|296
-0.6930489040638432|842|Split Array into Fibonacci Sequence|Medium|381|139
-0.691550889160407|942|DI String Match|Easy|711|276
-0.6904806788917479|389|Find the Difference|Easy|686|267
-0.6902379964345403|187|Repeated DNA Sequences|Medium|635|246
-0.6896827655307493|341|Flatten Nested List Iterator|Medium|1464|599
-0.6888661362288071|964|Least Operators to Express Number|Hard|147|48
-0.6882246529114913|967|Numbers With Same Consecutive Differences|Medium|162|54
-0.6862264405300051|81|Search in Rotated Sorted Array II|Medium|1052|430
-0.6840448566748574|519|Random Flip Matrix|Medium|159|54
-0.6837848433069447|953|Verifying an Alien Dictionary|Easy|591|235
-0.681145590821063|1001|Grid Illumination|Hard|152|52
-0.676863711668979|1405|Longest Happy String|Medium|132|45
-0.6761252113992221|761|Special Binary String|Hard|251|95
-0.6759498574102688|436|Find Right Interval|Medium|302|117
-0.675091286087069|793|Preimage Size of Factorial Zeroes Function|Hard|148|52
-0.6743087340139071|855|Exam Room|Medium|506|208
-0.6737653167128419|935|Knight Dialer|Medium|433|176
-0.670618917901196|1402|Reducing Dishes|Hard|82|26
-0.6695388958797917|1210|Minimum Moves to Reach Target with Rotations|Hard|94|31
-0.6692484606269105|1223|Dice Roll Simulation|Medium|207|79
-0.6684186511705844|130|Surrounded Regions|Medium|1262|567
-0.6675702388119337|93|Restore IP Addresses|Medium|1031|460
-0.6651543576831167|43|Multiply Strings|Medium|1529|704
-0.6566969418647784|342|Power of Four|Easy|431|190
-0.6558551736010606|524|Longest Word in Dictionary through Deleting|Medium|477|213
-0.6538993406794487|1281|Subtract the Product and Sum of Digits of an Integer|Easy|183|74
-0.6507678088135029|1329|Sort the Matrix Diagonally|Medium|142|56
-0.6507381974761808|1307|Verbal Arithmetic Puzzle|Hard|118|45
-0.6482861450689841|900|RLE Iterator|Medium|185|77
-0.6454066384302787|1089|Duplicate Zeros|Easy|349|159
-0.6447821447252492|985|Sum of Even Numbers After Queries|Easy|274|122
-0.6427860403279206|498|Diagonal Traverse|Medium|608|294
-0.6425204675804278|605|Can Place Flowers|Easy|688|336
-0.6394224116812156|197|Rising Temperature|Easy|350|164
-0.6390681107189423|1275|Find Winner on a Tic Tac Toe Game|Easy|104|41
-0.6387009101710471|150|Evaluate Reverse Polish Notation|Medium|861|434
-0.6377255524931054|1018|Binary Prefix Divisible By 5|Easy|185|81
-0.6332417448952725|728|Self Dividing Numbers|Easy|558|280
-0.6322245161481976|645|Set Mismatch|Easy|563|284
-0.6315563968368921|853|Car Fleet|Medium|378|185
-0.6285123030029999|869|Reordered Power of 2|Medium|180|82
-0.6282006612449266|517|Super Washing Machines|Hard|280|135
-0.6280265962506298|703|Kth Largest Element in a Stream|Easy|593|306
-0.6256856887257|111|Minimum Depth of Binary Tree|Easy|1141|619
-0.6245581311827642|344|Reverse String|Easy|1181|645
-0.6239788180606362|324|Wiggle Sort II|Medium|904|488
-0.6234832255820809|971|Flip Binary Tree To Match Preorder Traversal|Medium|210|100
-0.6219186525285625|278|First Bad Version|Easy|1054|579
-0.616208505855576|1030|Matrix Cells in Distance Order|Easy|173|83
-0.6159195781383389|176|Second Highest Salary|Easy|694|382
-0.6100397548627835|891|Sum of Subsequence Widths|Hard|190|95
-0.6079565344384481|1104|Path In Zigzag Labelled Binary Tree|Medium|256|134
-0.6053938110176726|837|New 21 Game|Medium|489|275
-0.6053659021379416|1041|Robot Bounded In Circle|Medium|202|104
-0.6053272806785809|790|Domino and Tromino Tiling|Medium|341|186
-0.6051710174290509|775|Global and Local Inversions|Medium|287|154
-0.5992692825859918|910|Smallest Range II|Medium|272|149
-0.5988289943246926|675|Cut Off Trees for Golf Event|Hard|452|260
-0.5985889431738345|332|Reconstruct Itinerary|Medium|1351|831
-0.5978170799698236|520|Detect Capital|Easy|410|235
-0.5973578228431397|961|N-Repeated Element in Size 2N Array|Easy|369|210
-0.5914292960997286|1036|Escape a Large Maze|Hard|178|96
-0.588682034860208|1377|Frog Position After T Seconds|Hard|85|41
-0.587187259054239|1138|Alphabet Board Path|Medium|123|64
-0.5787831519447527|1044|Longest Duplicate Substring|Hard|211|123
-0.5779077994021578|1260|Shift 2D Grid|Easy|136|75
-0.5741899683784109|633|Sum of Square Numbers|Easy|456|292
-0.5730213220975752|1324|Print Words Vertically|Medium|80|41
-0.5708477683754728|859|Buddy Strings|Easy|460|299
-0.5699542612223415|485|Max Consecutive Ones|Easy|528|348
-0.5694771847141707|1195|Fizz Buzz Multithreaded|Medium|104|57
-0.5675554349024369|80|Remove Duplicates from Sorted Array II|Medium|962|664
-0.5653730685674964|1282|Group the People Given the Group Size They Belong To|Medium|190|116
-0.5651999200134196|1401|Circle and Rectangle Overlapping|Medium|57|28
-0.5633221001020815|9|Palindrome Number|Easy|2068|1500
-0.5629401032344822|745|Prefix and Suffix Search|Hard|288|186
-0.562715519728698|627|Swap Salary|Easy|408|272
-0.5614141777109117|191|Number of 1 Bits|Easy|693|482
-0.5595402940197522|284|Peeking Iterator|Medium|418|283
-0.5591631401994932|1128|Number of Equivalent Domino Pairs|Easy|141|85
-0.5584895313851485|657|Robot Return to Origin|Easy|876|625
-0.5517245346369416|912|Sort an Array|Medium|316|216
-0.5514493233686936|262|Trips and Users|Hard|317|217
-0.5513417068659918|419|Battleships in a Board|Medium|602|433
-0.5490833505270402|192|Word Frequency|Medium|192|126
-0.5486297345371622|1304|Find N Unique Integers Sum up to Zero|Easy|163|105
-0.544480322358712|14|Longest Common Prefix|Easy|2201|1729
-0.5412299525500327|504|Base 7|Easy|206|141
-0.5384291353355454|1179|Reformat Department Table|Easy|106|67
-0.5328829804383026|1073|Adding Two Negabinary Numbers|Medium|81|50
-0.5310526978353914|122|Best Time to Buy and Sell Stock II|Easy|2019|1671
-0.528779932505095|1221|Split a String in Balanced Strings|Easy|333|252
-0.5278879822606956|649|Dota2 Senate|Medium|255|189
-0.5272134747429194|1096|Brace Expansion II|Hard|169|120
-0.5258652538232145|1116|Print Zero Even Odd|Medium|133|92
-0.5243138769633074|1247|Minimum Swaps to Make Strings Equal|Medium|146|103
-0.5190872181887445|736|Parse Lisp Expression|Hard|237|181
-0.514690055867895|390|Elimination Game|Medium|375|304
-0.5142502310711817|133|Clone Graph|Medium|1420|1243
-0.5138498511815971|897|Increasing Order Search Tree|Easy|521|434
-0.5116713007120148|1023|Camelcase Matching|Medium|151|113
-0.5107890007087555|754|Reach a Number|Medium|393|325
-0.5100541406234128|529|Minesweeper|Medium|530|449
-0.5083613391873887|638|Shopping Offers|Medium|478|405
-0.5069146170074109|867|Transpose Matrix|Easy|335|278
-0.5064035356921373|626|Exchange Seats|Medium|273|223
-0.5041535665913801|228|Summary Ranges|Medium|558|486
-0.5026797296926643|924|Minimize Malware Spread|Hard|237|194
-0.501599898187617|177|Nth Highest Salary|Medium|363|310
-0.5009038730244644|466|Count The Repetitions|Hard|154|121
-0.4997986600456972|697|Degree of an Array|Easy|761|687
-0.4997653763319599|911|Online Election|Medium|289|244
-0.49846065340845086|1397|Find All Good Strings|Hard|90|66
-0.49628213095847634|777|Swap Adjacent in LR String|Medium|329|285
-0.4960527758726388|1362|Closest Divisors|Medium|49|32
-0.4897557971619141|1391|Check if There is a Valid Path in a Grid|Medium|116|92
-0.48267216199706114|217|Contains Duplicate|Easy|699|674
-0.48138937379236607|61|Rotate List|Medium|979|965
-0.479460020376469|686|Repeated String Match|Easy|700|684
-0.47583091553775503|1370|Increasing Decreasing String|Easy|88|71
-0.4750746060833173|397|Integer Replacement|Medium|311|293
-0.4745021478363112|804|Unique Morse Code Words|Easy|573|565
-0.4684391404318101|1177|Can Make Palindrome from Substring|Medium|153|138
-0.4681761061254282|882|Reachable Nodes In Subdivided Graph|Hard|136|121
-0.46706716248513247|225|Implement Stack using Queues|Easy|525|531
-0.4669266991466406|220|Contains Duplicate III|Medium|936|977
-0.4664996517840511|587|Erect the Fence|Hard|186|173
-0.46054518106141024|91|Decode Ways|Medium|2261|2502
-0.4603412983676211|948|Bag of Tokens|Medium|156|146
-0.4602842477721484|1389|Create Target Array in the Given Order|Easy|87|75
-0.45698491212464754|147|Insertion Sort List|Medium|511|538
-0.4555418894356901|690|Employee Importance|Easy|533|566
-0.4547760173314136|843|Guess the Word|Hard|472|499
-0.4459182515888826|475|Heaters|Easy|641|716
-0.44458053229782984|497|Random Point in Non-overlapping Rectangles|Medium|171|173
-0.44363660821045897|488|Zuma Game|Hard|181|185
-0.4412015042102698|1328|Break a Palindrome|Medium|67|60
-0.4365817092674157|1298|Maximum Candies You Can Get from Boxes|Hard|64|58
-0.4353020195230544|1226|The Dining Philosophers|Medium|60|54
-0.42892782225339193|620|Not Boring Movies|Easy|233|260
-0.4279796301196496|219|Contains Duplicate II|Easy|735|891
-0.42797735616813565|299|Bulls and Cows|Easy|537|640
-0.426210989384687|268|Missing Number|Easy|1470|1848
-0.42552880210203375|1017|Convert to Base -2|Medium|134|143
-0.4254437711037345|195|Tenth Line|Easy|158|172
-0.42354116143017156|782|Transform to Chessboard|Hard|108|113
-0.42315266817159247|781|Rabbits in Forest|Medium|227|259
-0.4200897842562041|28|Implement strStr()|Easy|1360|1749
-0.41956996185920936|851|Loud and Rich|Medium|227|263
-0.41847702120274755|1201|Ugly Number III|Medium|161|181
-0.4175897715875974|500|Keyboard Row|Easy|494|612
-0.4169289299741026|720|Longest Word in Dictionary|Easy|520|648
-0.416237040487651|162|Find Peak Element|Medium|1407|1841
-0.4155928034168892|306|Additive Number|Medium|313|379
-0.4128495276004681|303|Range Sum Query - Immutable|Easy|748|967
-0.4104969927030775|969|Pancake Sorting|Medium|312|386
-0.4097341276681247|756|Pyramid Transition Matrix|Medium|260|318
-0.40795585832519055|753|Cracking the Safe|Hard|388|493
-0.40638201632919635|1131|Maximum of Absolute Value Expression|Medium|119|136
-0.40630306802691096|899|Orderly Queue|Hard|152|179
-0.4035344075227879|707|Design Linked List|Medium|467|612
-0.39904754775821377|523|Continuous Subarray Sum|Medium|1093|1523
-0.39887594936894555|1042|Flower Planting With No Adjacent|Easy|223|282
-0.39864150674504883|172|Factorial Trailing Zeroes|Easy|707|968
-0.398262572408246|412|Fizz Buzz|Easy|767|1056
-0.3968254042856525|606|Construct String from Binary Tree|Easy|679|935
-0.39670986187314516|639|Decode Ways II|Hard|354|469
-0.3944379162044553|1297|Maximum Number of Occurrences of a Substring|Medium|86|99
-0.3921509810140819|1144|Decrease Elements To Make Array Zigzag|Medium|80|92
-0.3914008242803488|496|Next Greater Element I|Easy|1295|1876
-0.3911008355648313|892|Surface Area of 3D Shapes|Easy|219|286
-0.38960478227250417|932|Beautiful Array|Medium|287|386
-0.3893175653689959|833|Find And Replace in String|Medium|257|343
-0.3883299184914055|1021|Remove Outermost Parentheses|Easy|364|501
-0.38828182180025556|1123|Lowest Common Ancestor of Deepest Leaves|Medium|238|317
-0.38791917827254035|835|Image Overlap|Medium|296|402
-0.3865621985571421|744|Find Smallest Letter Greater Than Target|Easy|331|456
-0.3861518890413258|595|Big Countries|Easy|446|628
-0.38504031456784893|811|Subdomain Visit Count|Easy|414|583
-0.38465706523797777|196|Delete Duplicate Emails|Easy|376|527
-0.3831983862733474|1333|Filter Restaurants by Vegan-Friendly, Price and Distance|Medium|50|55
-0.3825737362397287|1238|Circular Permutation in Binary Representation|Medium|72|85
-0.38160973324809006|609|Find Duplicate File in System|Medium|374|531
-0.38152935022161105|671|Second Minimum Node In a Binary Tree|Easy|524|760
-0.379647677102066|984|String Without AAA or BBB|Medium|162|216
-0.3774076179707867|7|Reverse Integer|Easy|3043|4797
-0.3772607619242179|375|Guess Number Higher or Lower II|Medium|705|1058
-0.3770378781490364|904|Fruit Into Baskets|Medium|698|1048
-0.37573881149223454|453|Minimum Moves to Equal Array Elements|Easy|490|726
-0.3754273660360274|30|Substring with Concatenation of All Words|Hard|757|1149
-0.3752659280184907|69|Sqrt(x)|Easy|1134|1752
-0.37208592805700386|1386|Cinema Seat Allocation|Medium|60|72
-0.3700321517725604|263|Ugly Number|Easy|378|565
-0.36909606920088406|982|Triples with Bitwise AND Equal To Zero|Hard|88|114
-0.3677343110002554|762|Prime Number of Set Bits in Binary Representation|Easy|205|295
-0.36663632452989964|829|Consecutive Numbers Sum|Hard|257|379
-0.36636782862073725|87|Scramble String|Hard|421|644
-0.36622867350188265|492|Construct the Rectangle|Easy|172|245
-0.36414752663862027|258|Add Digits|Easy|626|989
-0.36169854580256916|66|Plus One|Easy|1298|2138
-0.3604800479449154|1317|Convert Integer to the Sum of Two No-Zero Integers|Easy|60|76
-0.35968758127067046|1390|Four Divisors|Medium|47|57
-0.3589740040438204|877|Stone Game|Medium|537|861
-0.3585525170429002|885|Spiral Matrix III|Medium|171|252
-0.35769197151520876|1276|Number of Burgers with No Waste of Ingredients|Medium|60|77
-0.3570720733493221|349|Intersection of Two Arrays|Easy|673|1101
-0.35532213417762043|1357|Apply Discount Every n Orders|Medium|36|42
-0.3544107857738007|482|License Key Formatting|Easy|425|686
-0.35429382760433503|13|Roman to Integer|Easy|1924|3315
-0.35063912735839836|1252|Cells with Odd Values in a Matrix|Easy|178|273
-0.3497340576059444|398|Random Pick Index|Medium|372|608
-0.34842091878869164|274|H-Index|Medium|535|899
-0.3476122257939907|275|H-Index II|Medium|287|465
-0.347444102962838|447|Number of Boomerangs|Easy|365|602
-0.34347054924292764|636|Exclusive Time of Functions|Medium|651|1130
-0.3429096272433726|401|Binary Watch|Easy|506|869
-0.3427302924725302|1040|Moving Stones Until Consecutive II|Medium|130|200
-0.3417835234294365|1240|Tiling a Rectangle with the Fewest Squares|Hard|102|153
-0.34152633831543977|957|Prison Cells After N Days|Medium|367|622
-0.3404148162507732|858|Mirror Reflection|Medium|166|265
-0.33679371774341943|345|Reverse Vowels of a String|Easy|570|1013
-0.33608082427242336|371|Sum of Two Integers|Easy|1081|1983
-0.33587508437376173|478|Generate Random Point in a Circle|Medium|141|226
-0.33128319119824046|1003|Check If Word Is Valid After Substitutions|Medium|146|240
-0.33032888118428544|1078|Occurrences After Bigram|Easy|95|149
-0.32727174372249024|963|Minimum Area Rectangle II|Medium|118|193
-0.3268422899058671|414|Third Maximum Number|Easy|556|1033
-0.3251556529064185|223|Rectangle Area|Medium|362|661
-0.32402983240262545|1227|Airplane Seat Assignment Probability|Medium|118|196
-0.3227272472238268|427|Construct Quad Tree|Medium|227|405
-0.32102380808307607|528|Random Pick with Weight|Medium|495|939
-0.31968442905979516|592|Fraction Addition and Subtraction|Medium|153|267
-0.31875856694108035|1379|Find a Corresponding Node of a Binary Tree in a Clone of That Tree|Medium|59|91
-0.31778454621321206|88|Merge Sorted Array|Easy|1844|3744
-0.31743371403670073|27|Remove Element|Easy|1230|2470
-0.31724597050155706|1006|Clumsy Factorial|Medium|76|123
-0.31394209098505044|593|Valid Square|Medium|197|362
-0.3134514434260545|1399|Count Largest Group|Easy|39|57
-0.3131941085702774|26|Remove Duplicates from Sorted Array|Easy|2234|4658
-0.3108532530524515|1311|Get Watched Videos by Your Friends|Medium|75|125
-0.3085662470126606|852|Peak Index in a Mountain Array|Easy|512|1032
-0.30472407338352175|1163|Last Substring in Lexicographical Order|Hard|112|203
-0.30446577373761813|575|Distribute Candies|Easy|402|815
-0.3013618905094717|966|Vowel Spellchecker|Medium|121|225
-0.3002764379359261|747|Largest Number At Least Twice of Others|Easy|265|533
-0.29989681571356747|1154|Day of the Year|Easy|75|132
-0.2986402956280047|789|Escape The Ghosts|Medium|163|317
-0.2983266011055531|384|Shuffle an Array|Medium|436|915
-0.2973557440768737|667|Beautiful Arrangement II|Medium|287|589
-0.2958552046186951|50|Pow(x, n)|Medium|1240|2760
-0.2948274714894808|441|Arranging Coins|Easy|281|583
-0.2946284133824432|495|Teemo Attacking|Medium|313|655
-0.2938585362732651|166|Fraction to Recurring Decimal|Medium|729|1605
-0.2928970941442426|816|Ambiguous Coordinates|Medium|103|196
-0.2924811165290872|535|Encode and Decode TinyURL|Medium|597|1311
-0.2911044650946936|319|Bulb Switcher|Medium|416|902
-0.28945814193114544|970|Powerful Integers|Easy|117|230
-0.28828749902488493|999|Available Captures for Rook|Easy|168|345
-0.28805780686880755|506|Relative Ranks|Easy|230|486
-0.2867288137675606|458|Poor Pigs|Hard|352|772
-0.28603400708233734|388|Longest Absolute File Path|Medium|564|1275
-0.2849574563143102|825|Friends Of Appropriate Ages|Medium|259|561
-0.2831063691094612|357|Count Numbers with Unique Digits|Medium|349|779
-0.2823538068452751|598|Range Addition II|Easy|241|526
-0.2809145996965205|1053|Previous Permutation With One Swap|Medium|98|197
-0.27999866255717804|532|K-diff Pairs in an Array|Easy|496|1148
-0.2785590904598902|1175|Prime Arrangements|Easy|82|163
-0.2774051313642731|949|Largest Time for Given Digits|Easy|150|322
-0.27674689499776545|71|Simplify Path|Medium|678|1620
-0.27449739179322014|682|Baseball Game|Easy|405|953
-0.27420417429766464|149|Max Points on a Line|Hard|738|1793
-0.2738363980443871|601|Human Traffic of Stadium|Hard|140|304
-0.27352611149874234|233|Number of Digit One|Hard|247|565
-0.2711505965059516|998|Maximum Binary Tree II|Medium|144|318
-0.2706489237866918|987|Vertical Order Traversal of a Binary Tree|Medium|379|906
-0.27029845918342876|824|Goat Latin|Easy|246|572
-0.27012879785459193|655|Print Binary Tree|Medium|309|731
-0.2693821359663321|68|Text Justification|Hard|581|1431
-0.2684931463856841|1316|Distinct Echo Substrings|Hard|50|97
-0.2683020608903096|563|Binary Tree Tilt|Easy|440|1074
-0.2667815390253743|640|Solve the Equation|Medium|206|481
-0.26652996995711564|1108|Defanging an IP Address|Easy|283|678
-0.2661927139812615|483|Smallest Good Base|Hard|133|299
-0.26130657212620734|89|Gray Code|Medium|566|1452
-0.26102647317881256|868|Binary Gap|Easy|188|449
-0.2600848608737329|819|Most Common Word|Easy|523|1345
-0.25826465756688505|717|1-bit and 2-bit Characters|Easy|361|918
-0.25747411528630554|125|Valid Palindrome|Easy|986|2643
-0.25689119732692267|1080|Insufficient Nodes in Root to Leaf Paths|Medium|126|296
-0.2567413439433399|909|Snakes and Ladders|Medium|273|687
-0.25653531818332953|1403|Minimum Subsequence in Non-Increasing Order|Easy|30|56
-0.25441463263038966|12|Integer to Roman|Medium|914|2483
-0.25345663743896174|507|Perfect Number|Easy|225|568
-0.25055969764865865|906|Super Palindromes|Hard|68|153
-0.24915991367597515|193|Valid Phone Numbers|Easy|143|355
-0.24814796108534742|273|Integer to English Words|Hard|855|2396
-0.24809337169428425|1034|Coloring A Border|Medium|88|208
-0.24767820352996356|6|ZigZag Conversion|Medium|1484|4249
-0.24678611527219876|292|Nim Game|Easy|537|1485
-0.24566750393130166|817|Linked List Components|Medium|307|827
-0.24542045133581336|365|Water and Jug Problem|Medium|255|679
-0.2414983049308248|1332|Remove Palindromic Subsequences|Easy|116|294
-0.2400735274428303|1385|Find the Distance Value Between Two Arrays|Easy|52|119
-0.23806339140788169|335|Self Crossing|Hard|122|317
-0.23382270001720018|151|Reverse Words in a String|Medium|886|2691
-0.2337449890717879|1025|Divisor Game|Easy|293|841
-0.23362485532847063|1037|Valid Boomerang|Easy|78|197
-0.23202625603993057|541|Reverse String II|Easy|366|1076
-0.231000031009449|1250|Check If It Is a Good Array|Hard|61|151
-0.2308995158952419|809|Expressive Words|Medium|225|644
-0.22929916840311246|561|Array Partition I|Easy|738|2283
-0.22926546851437465|443|String Compression|Easy|654|2013
-0.2271505137779947|596|Classes More Than 5 Students|Easy|196|567
-0.22708429742120587|400|Nth Digit|Medium|321|963
-0.22563448138497028|866|Prime Palindrome|Medium|169|487
-0.22483795250216956|722|Remove Comments|Medium|250|747
-0.22360368392308652|326|Power of Three|Easy|439|1369
-0.22168271606992251|937|Reorder Data in Log Files|Easy|465|1471
-0.2202207955773334|1015|Smallest Integer Divisible by K|Medium|85|235
-0.21795718928654417|165|Compare Version Numbers|Medium|413|1327
-0.21699257321910811|749|Contain Virus|Hard|75|208
-0.21464426764948263|709|To Lower Case|Easy|427|1402
-0.21288655408314333|1170|Compare Strings by Frequency of the Smallest Character|Easy|165|512
-0.2127364311860712|788|Rotated Digits|Easy|301|979
-0.21161976591315515|537|Complex Number Multiplication|Medium|212|677
-0.21071062221666184|794|Valid Tic-Tac-Toe State|Medium|170|536
-0.20931707839349759|194|Transpose File|Medium|60|169
-0.20700955931449647|551|Student Attendance Record I|Easy|233|771
-0.203855325825035|883|Projection Area of 3D Shapes|Easy|218|732
-0.2033893687609163|1090|Largest Values From Labels|Medium|81|247
-0.2033705742901178|385|Mini Parser|Medium|224|756
-0.20162904237535445|564|Find the Closest Palindrome|Hard|222|757
-0.2006421437071817|1313|Decompress Run-Length Encoded List|Easy|117|379
-0.20061794099224667|1016|Binary String With Substrings Representing 1 To N|Medium|88|276
-0.19739920859010607|423|Reconstruct Original Digits from English|Medium|155|527
-0.1938012964956188|808|Soup Servings|Medium|134|460
-0.19066949561620775|434|Number of Segments in a String|Easy|189|683
-0.18914329160159268|748|Shortest Completing Word|Easy|158|568
-0.18755853462099234|58|Length of Last Word|Easy|560|2211
-0.18714665293185043|810|Chalkboard XOR Game|Hard|54|173
-0.1857619451275589|522|Longest Uncommon Subsequence II|Medium|149|545
-0.18459364045566068|372|Super Pow|Medium|185|695
-0.18304520214956818|972|Equal Rational Numbers|Hard|41|129
-0.1825300587771383|806|Number of Lines To Write String|Easy|209|804
-0.18221983882936013|420|Strong Password Checker|Hard|133|493
-0.17195914521371516|558|Logical OR of Two Binary Grids Represented as Quad-Trees|Medium|87|331
-0.16988641261832127|893|Groups of Special-Equivalent Strings|Easy|229|969
-0.1692444995727886|457|Circular Array Loop|Medium|275|1184
-0.16598470200284005|237|Delete Node in a Linked List|Easy|1235|5836
-0.16492275627926772|1237|Find Positive Integer Solution for a Given Equation|Easy|86|344
-0.16430076007290134|29|Divide Two Integers|Medium|1002|4761
-0.16383671359944335|661|Image Smoother|Easy|224|989
-0.16067776717268883|374|Guess Number Higher or Lower|Easy|337|1565
-0.15374120431746752|393|UTF-8 Validation|Medium|197|930
-0.14891312447212435|831|Masking Personal Information|Medium|64|279
-0.14588409866773794|591|Tag Validator|Hard|80|368
-0.14214332480876818|908|Smallest Range I|Easy|185|954
-0.1414339751982609|874|Walking Robot Simulation|Easy|134|676
-0.13837323374292562|468|Validate IP Address|Medium|200|1071
-0.13533808121137877|8|String to Integer (atoi)|Medium|1387|8372
-0.13479458311767248|1111|Maximum Nesting Depth of Two Valid Parentheses Strings|Medium|87|444
-0.13473938689554643|1217|Play with Chips|Easy|116|611
-0.13453185001657494|933|Number of Recent Calls|Easy|237|1328
-0.1339651795649425|1374|Generate a String With Characters That Have Odd Counts|Easy|40|184
-0.1290311758709188|812|Largest Triangle Area|Easy|159|907
-0.12083770140648975|1093|Statistics from a Large Sample|Medium|42|220
-0.11911790764971088|65|Valid Number|Hard|650|4427
-0.11747206946048461|481|Magical String|Medium|105|642
-0.1166811504301312|1051|Height Checker|Easy|175|1130
-0.11187654976780963|553|Optimal Division|Medium|160|1076
-0.10956207740102664|38|Count and Say|Easy|1144|8742
-0.10863973331228893|822|Card Flipping Game|Medium|66|418
-0.10730843767399081|672|Bulb Switcher II|Medium|119|817
-0.1038499417878577|1033|Moving Stones Until Consecutive|Easy|58|380
-0.09857942628820861|1360|Number of Days Between Two Dates|Easy|34|217
-0.08740411249775781|840|Magic Squares In Grid|Easy|119|1028
-0.08161263564295022|770|Basic Calculator IV|Hard|61|527
-0.0736966791200495|1169|Invalid Transactions|Medium|50|470
-0.06747112803092713|1348|Tweet Counts Per Frequency|Medium|40|400
-0.06577594197793168|1185|Day of the Week|Easy|72|804
-0.06447985413866639|944|Delete Columns to Make Sorted|Easy|116|1393
-0.055130692557556656|521|Longest Uncommon Subsequence I|Easy|263|3979
-0.04975878042274928|479|Largest Palindrome Product|Hard|84|1287
+0.9811|72|Edit Distance|H|3192|46
+0.9791|226|Invert Binary Tree|E|2718|43
+0.9790|42|Trapping Rain Water|H|6034|107
+0.9766|208|Implement Trie (Prefix Tree)|M|2517|45
+0.9747|295|Find Median from Data Stream|H|2151|41
+0.9740|206|Reverse Linked List|E|3826|82
+0.9736|1143|Longest Common Subsequence|M|730|11
+0.9727|300|Longest Increasing Subsequence|M|3918|89
+0.9726|329|Longest Increasing Path in a Matrix|H|1609|32
+0.9725|895|Maximum Frequency Stack|H|791|13
+0.9721|64|Minimum Path Sum|M|2301|50
+0.9720|337|House Robber III|M|2258|49
+0.9715|78|Subsets|M|3095|72
+0.9713|101|Symmetric Tree|E|3487|83
+0.9711|990|Satisfiability of Equality Equations|M|347|4
+0.9704|1293|Shortest Path in a Grid with Obstacles Elimination|H|240|2
+0.9700|106|Construct Binary Tree from Inorder and Postorder Traversal|M|1352|29
+0.9699|863|All Nodes Distance K in Binary Tree|M|1609|36
+0.9695|84|Largest Rectangle in Histogram|H|3030|76
+0.9682|992|Subarrays with K Different Integers|H|758|15
+0.9680|102|Binary Tree Level Order Traversal|M|2483|64
+0.9678|221|Maximal Square|M|2331|60
+0.9678|983|Minimum Cost For Tickets|M|1078|24
+0.9672|1406|Stone Game III|H|168|1
+0.9668|240|Search a 2D Matrix II|M|2619|71
+0.9665|85|Maximal Rectangle|H|2268|61
+0.9659|46|Permutations|M|3299|95
+0.9658|105|Construct Binary Tree from Preorder and Inorder Traversal|M|2789|79
+0.9654|230|Kth Smallest Element in a BST|M|1943|53
+0.9654|312|Burst Balloons|H|2035|56
+0.9649|407|Trapping Rain Water II|H|1085|27
+0.9649|958|Check Completeness of a Binary Tree|M|614|13
+0.9647|198|House Robber|E|4045|124
+0.9644|416|Partition Equal Subset Sum|M|2071|59
+0.9644|871|Minimum Number of Refueling Stops|H|571|12
+0.9639|968|Binary Tree Cameras|H|564|12
+0.9636|560|Subarray Sum Equals K|M|3605|113
+0.9633|739|Daily Temperatures|M|2302|69
+0.9630|39|Combination Sum|M|3203|101
+0.9629|174|Dungeon Game|H|1085|29
+0.9628|632|Smallest Range Covering Elements from K Lists|H|928|24
+0.9626|1278|Palindrome Partitioning III|H|189|2
+0.9625|100|Same Tree|E|1786|53
+0.9624|583|Delete Operation for Two Strings|M|919|24
+0.9623|70|Climbing Stairs|E|3649|119
+0.9620|104|Maximum Depth of Binary Tree|E|2133|66
+0.9620|1235|Maximum Profit in Job Scheduling|H|298|5
+0.9618|283|Move Zeroes|E|3348|110
+0.9617|1|Two Sum|E|14211|519
+0.9615|1004|Max Consecutive Ones III|M|745|19
+0.9611|714|Best Time to Buy and Sell Stock with Transaction Fee|M|1323|39
+0.9610|1358|Number of Substrings Containing All Three Characters|M|181|2
+0.9609|1319|Number of Operations to Make Network Connected|M|218|3
+0.9607|322|Coin Change|M|3280|111
+0.9597|129|Sum Root to Leaf Numbers|M|1052|31
+0.9595|213|House Robber II|M|1432|45
+0.9590|200|Number of Islands|M|4503|165
+0.9589|862|Shortest Subarray with Sum at Least K|H|866|25
+0.9584|962|Maximum Width Ramp|M|457|11
+0.9578|136|Single Number|E|4002|150
+0.9571|47|Permutations II|M|1655|57
+0.9567|678|Valid Parenthesis String|M|951|30
+0.9566|1035|Uncrossed Lines|M|380|9
+0.9558|96|Unique Binary Search Trees|M|2713|103
+0.9557|113|Path Sum II|M|1452|51
+0.9550|309|Best Time to Buy and Sell Stock with Cooldown|M|2027|76
+0.9550|315|Count of Smaller Numbers After Self|H|1930|72
+0.9548|1325|Delete Leaves With a Given Value|M|219|4
+0.9547|1388|Pizza With 3n Slices|H|155|2
+0.9543|132|Palindrome Partitioning II|H|900|30
+0.9539|787|Cheapest Flights Within K Stops|M|1301|47
+0.9539|1011|Capacity To Ship Packages Within D Days|M|818|27
+0.9536|152|Maximum Product Subarray|M|3429|141
+0.9534|979|Distribute Coins in Binary Tree|M|1145|41
+0.9532|301|Remove Invalid Parentheses|H|2218|88
+0.9527|131|Palindrome Partitioning|M|1517|58
+0.9526|123|Best Time to Buy and Sell Stock III|H|1762|69
+0.9521|40|Combination Sum II|M|1453|56
+0.9518|518|Coin Change 2|M|1331|51
+0.9517|32|Longest Valid Parentheses|H|2969|126
+0.9517|815|Bus Routes|H|637|21
+0.9517|146|LRU Cache|M|4915|218
+0.9515|856|Score of Parentheses|M|891|32
+0.9512|53|Maximum Subarray|E|6941|318
+0.9511|435|Non-overlapping Intervals|M|839|30
+0.9504|1008|Construct Binary Search Tree from Preorder Traversal|M|620|21
+0.9504|773|Sliding Puzzle|H|549|18
+0.9504|121|Best Time to Buy and Sell Stock|E|4330|196
+0.9503|946|Validate Stack Sequences|M|548|18
+0.9498|1372|Longest ZigZag Path in a Binary Tree|M|139|2
+0.9497|20|Valid Parentheses|E|4429|204
+0.9495|986|Interval List Intersections|M|833|31
+0.9494|34|Find First and Last Position of Element in Sorted Array|M|2848|127
+0.9493|94|Binary Tree Inorder Traversal|M|2636|117
+0.9492|354|Russian Doll Envelopes|H|916|35
+0.9492|51|N-Queens|H|1557|65
+0.9489|719|Find K-th Smallest Pair Distance|H|778|29
+0.9487|814|Binary Tree Pruning|M|863|33
+0.9487|926|Flip String to Monotone Increasing|M|484|16
+0.9484|1248|Count Number of Nice Subarrays|M|268|7
+0.9478|494|Target Sum|M|2097|94
+0.9477|1110|Delete Nodes And Return Forest|M|782|30
+0.9477|144|Binary Tree Preorder Traversal|M|1262|53
+0.9474|90|Subsets II|M|1418|61
+0.9471|1249|Minimum Remove to Make Valid Parentheses|M|424|14
+0.9467|951|Flip Equivalent Binary Trees|M|509|18
+0.9463|845|Longest Mountain in Array|M|484|17
+0.9462|695|Max Area of Island|M|1602|72
+0.9450|718|Maximum Length of Repeated Subarray|M|1022|44
+0.9448|647|Palindromic Substrings|M|2165|104
+0.9446|212|Word Search II|H|1932|92
+0.9444|1125|Smallest Sufficient Team|H|248|7
+0.9443|1209|Remove All Adjacent Duplicates in String II|M|337|11
+0.9440|1365|How Many Numbers Are Smaller Than the Current Number|E|313|10
+0.9439|297|Serialize and Deserialize Binary Tree|H|2571|128
+0.9439|572|Subtree of Another Tree|E|1943|94
+0.9436|207|Course Schedule|M|3084|157
+0.9435|394|Decode String|M|2607|131
+0.9433|148|Sort List|M|2288|114
+0.9433|79|Word Search|M|3028|155
+0.9431|525|Contiguous Array|M|1100|50
+0.9430|1202|Smallest String With Swaps|M|392|14
+0.9428|1277|Count Square Submatrices with All Ones|M|391|14
+0.9425|581|Shortest Unsorted Continuous Subarray|E|2255|114
+0.9424|1306|Jump Game III|M|239|7
+0.9422|827|Making A Large Island|H|366|13
+0.9421|241|Different Ways to Add Parentheses|M|1411|68
+0.9420|1187|Make Array Strictly Increasing|H|237|7
+0.9419|236|Lowest Common Ancestor of a Binary Tree|M|3111|164
+0.9418|1262|Greatest Sum Divisible by Three|M|301|10
+0.9418|864|Shortest Path to Get All Keys|H|322|11
+0.9418|763|Partition Labels|M|1726|86
+0.9415|22|Generate Parentheses|M|4417|241
+0.9414|668|Kth Smallest Number in Multiplication Table|H|461|18
+0.9413|813|Largest Sum of Averages|M|748|33
+0.9411|139|Word Break|M|3634|197
+0.9409|109|Convert Sorted List to Binary Search Tree|M|1663|84
+0.9407|713|Subarray Product Less Than K|M|1070|51
+0.9407|567|Permutation in String|M|1088|52
+0.9406|209|Minimum Size Subarray Sum|M|1884|97
+0.9402|49|Group Anagrams|M|3051|166
+0.9399|103|Binary Tree Zigzag Level Order Traversal|M|1671|86
+0.9397|1368|Minimum Cost to Make at Least One Valid Path in a Grid|H|162|4
+0.9396|1312|Minimum Insertion Steps to Make a String Palindrome|H|184|5
+0.9395|876|Middle of the Linked List|E|1102|54
+0.9392|77|Combinations|M|1236|62
+0.9390|886|Possible Bipartition|M|423|17
+0.9390|844|Backspace String Compare|E|1403|72
+0.9385|450|Delete Node in a BST|M|1461|76
+0.9385|503|Next Greater Element II|M|1185|60
+0.9384|873|Length of Longest Fibonacci Subsequence|M|603|27
+0.9383|145|Binary Tree Postorder Traversal|H|1455|76
+0.9382|410|Split Array Largest Sum|H|1470|77
+0.9381|115|Distinct Subsequences|H|1023|51
+0.9380|99|Recover Binary Search Tree|H|1294|67
+0.9379|211|Add and Search Word - Data structure design|M|1428|75
+0.9376|3|Longest Substring Without Repeating Characters|M|8321|506
+0.9372|960|Delete Columns to Make Sorted III|H|218|7
+0.9371|767|Reorganize String|M|1125|58
+0.9371|239|Sliding Window Maximum|H|2796|160
+0.9369|218|The Skyline Problem|H|1783|98
+0.9369|630|Course Schedule III|H|606|28
+0.9367|235|Lowest Common Ancestor of a Binary Search Tree|E|1729|95
+0.9367|128|Longest Consecutive Sequence|H|2791|161
+0.9364|1371|Find the Longest Substring Containing Vowels in Even Counts|M|235|8
+0.9362|1092|Shortest Common Supersequence|H|311|12
+0.9361|1028|Recover a Tree From Preorder Traversal|H|348|14
+0.9359|768|Max Chunks To Make Sorted II|H|365|15
+0.9359|368|Largest Divisible Subset|M|784|39
+0.9358|1079|Letter Tile Possibilities|M|490|22
+0.9354|45|Jump Game II|H|2056|118
+0.9354|44|Wildcard Matching|H|1690|95
+0.9352|199|Binary Tree Right Side View|M|1812|103
+0.9351|310|Minimum Height Trees|M|1571|88
+0.9351|1186|Maximum Subarray Sum with One Deletion|M|360|15
+0.9350|402|Remove K Digits|M|1456|81
+0.9348|1335|Minimum Difficulty of a Job Schedule|H|128|3
+0.9344|216|Combination Sum III|M|896|47
+0.9339|378|Kth Smallest Element in a Sorted Matrix|M|1931|113
+0.9339|834|Sum of Distances in Tree|H|660|33
+0.9338|918|Maximum Sum Circular Subarray|M|542|26
+0.9335|752|Open the Lock|M|722|37
+0.9331|1094|Car Pooling|M|401|18
+0.9330|698|Partition to K Equal Sum Subsets|M|1427|82
+0.9327|543|Diameter of Binary Tree|E|2466|151
+0.9325|1349|Maximum Students Taking Exam|H|202|7
+0.9324|23|Merge k Sorted Lists|H|4068|260
+0.9324|37|Sudoku Solver|H|1474|86
+0.9321|617|Merge Two Binary Trees|E|2607|162
+0.9316|203|Remove Linked List Elements|E|1303|76
+0.9314|872|Leaf-Similar Trees|E|603|31
+0.9313|1105|Filling Bookcase Shelves|M|456|22
+0.9310|449|Serialize and Deserialize BST|M|1095|63
+0.9307|712|Minimum ASCII Delete Sum for Two Strings|M|753|41
+0.9305|956|Tallest Billboard|H|284|12
+0.9299|264|Ugly Number II|M|1403|85
+0.9298|452|Minimum Number of Arrows to Burst Balloons|M|758|42
+0.9291|1049|Last Stone Weight II|M|409|20
+0.9289|188|Best Time to Buy and Sell Stock IV|H|1237|75
+0.9288|97|Interleaving String|H|1220|74
+0.9286|486|Predict the Winner|M|1289|79
+0.9286|1074|Number of Submatrices That Sum to Target|H|374|18
+0.9285|1320|Minimum Distance to Type a Word Using Two Fingers|H|225|9
+0.9282|1305|All Elements in Two Binary Search Trees|M|224|9
+0.9282|538|Convert BST to Greater Tree|E|1709|109
+0.9281|92|Reverse Linked List II|M|1932|125
+0.9280|338|Counting Bits|M|2128|139
+0.9279|463|Island Perimeter|E|1561|99
+0.9279|1046|Last Stone Weight|E|433|22
+0.9278|554|Brick Wall|M|751|43
+0.9274|729|My Calendar I|M|567|31
+0.9271|689|Maximum Sum of 3 Non-Overlapping Subarrays|H|801|47
+0.9270|76|Minimum Window Substring|H|3796|264
+0.9266|945|Minimum Increment to Make Array Unique|M|332|16
+0.9264|257|Binary Tree Paths|E|1402|90
+0.9264|673|Number of Longest Increasing Subsequence|M|1163|73
+0.9260|438|Find All Anagrams in a String|M|2364|161
+0.9258|387|First Unique Character in a String|E|1596|105
+0.9257|559|Maximum Depth of N-ary Tree|E|670|39
+0.9255|215|Kth Largest Element in an Array|M|3172|223
+0.9254|143|Reorder List|M|1518|100
+0.9253|1337|The K Weakest Rows in a Matrix|E|147|5
+0.9252|1024|Video Stitching|M|371|19
+0.9250|1315|Sum of Nodes with Even-Valued Grandparent|M|246|11
+0.9249|940|Distinct Subsequences II|H|293|14
+0.9248|1027|Longest Arithmetic Sequence|M|532|30
+0.9242|1026|Maximum Difference Between Node and Ancestor|M|366|19
+0.9240|62|Unique Paths|M|2622|186
+0.9239|380|Insert Delete GetRandom O(1)|M|1884|130
+0.9239|347|Top K Frequent Elements|M|2540|180
+0.9238|1367|Linked List in Binary Tree|M|242|11
+0.9238|210|Course Schedule II|M|1723|118
+0.9238|1031|Maximum Sum of Two Non-Overlapping Subarrays|M|452|25
+0.9237|19|Remove Nth Node From End of List|M|2809|201
+0.9237|424|Longest Repeating Character Replacement|M|1011|65
+0.9234|1190|Reverse Substrings Between Each Pair of Parentheses|M|256|12
+0.9234|1340|Jump Game V|H|143|5
+0.9232|56|Merge Intervals|M|3521|258
+0.9232|1219|Path with Maximum Gold|M|346|18
+0.9231|1014|Best Sightseeing Pair|M|375|20
+0.9227|307|Range Sum Query - Mutable|M|1104|73
+0.9224|456|132 Pattern|M|1165|78
+0.9220|16|3Sum Closest|M|1758|124
+0.9218|540|Single Element in a Sorted Array|M|1103|74
+0.9217|75|Sort Colors|M|2691|198
+0.9213|930|Binary Subarrays With Sum|M|380|21
+0.9211|1129|Shortest Path with Alternating Colors|M|263|13
+0.9211|889|Construct Binary Tree from Preorder and Postorder Traversal|M|682|43
+0.9205|907|Sum of Subarray Minimums|M|915|61
+0.9203|993|Cousins in Binary Tree|E|486|29
+0.9199|514|Freedom Trail|H|359|20
+0.9195|437|Path Sum III|E|2918|223
+0.9192|279|Perfect Squares|M|2298|173
+0.9191|331|Verify Preorder Serialization of a Binary Tree|M|677|44
+0.9190|680|Valid Palindrome II|E|1277|91
+0.9177|399|Evaluate Division|M|1939|147
+0.9177|82|Remove Duplicates from Sorted List II|M|1366|100
+0.9175|5|Longest Palindromic Substring|M|5930|486
+0.9174|169|Majority Element|E|2647|207
+0.9171|454|4Sum II|M|986|70
+0.9168|1155|Number of Dice Rolls With Target Sum|M|451|28
+0.9156|376|Wiggle Subsequence|M|796|56
+0.9156|182|Duplicate Emails|E|392|24
+0.9155|1019|Next Greater Node In Linked List|M|558|37
+0.9153|477|Total Hamming Distance|M|719|50
+0.9151|896|Monotonic Array|E|492|32
+0.9150|48|Rotate Image|M|2556|206
+0.9147|110|Balanced Binary Tree|E|1900|150
+0.9143|547|Friend Circles|M|1576|123
+0.9141|442|Find All Duplicates in an Array|M|1746|138
+0.9140|363|Max Sum of Rectangle No Larger Than K|H|671|47
+0.9139|260|Single Number III|M|1242|95
+0.9139|95|Unique Binary Search Trees II|M|1845|147
+0.9137|799|Champagne Tower|M|370|23
+0.9136|670|Maximum Swap|M|800|58
+0.9131|238|Product of Array Except Self|M|3934|335
+0.9130|870|Advantage Shuffle|M|392|25
+0.9129|650|2 Keys Keyboard|M|982|74
+0.9129|1269|Number of Ways to Stay in the Same Place After Some Steps|H|168|8
+0.9126|1161|Maximum Level Sum of a Binary Tree|M|262|15
+0.9125|792|Number of Matching Subsequences|M|754|55
+0.9124|786|K-th Smallest Prime Fraction|H|313|19
+0.9123|801|Minimum Swaps To Make Sequences Increasing|M|881|66
+0.9122|142|Linked List Cycle II|M|2254|187
+0.9120|1162|As Far from Land as Possible|M|273|16
+0.9116|1048|Longest String Chain|M|627|45
+0.9115|124|Binary Tree Maximum Path Sum|H|2810|239
+0.9110|24|Swap Nodes in Pairs|M|1903|158
+0.9108|83|Remove Duplicates from Sorted List|E|1251|100
+0.9102|116|Populating Next Right Pointers in Each Node|M|1630|135
+0.9099|451|Sort Characters By Frequency|M|1149|92
+0.9095|973|K Closest Points to Origin|M|1265|103
+0.9095|1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold|M|214|12
+0.9094|373|Find K Pairs with Smallest Sums|M|1097|88
+0.9094|1122|Relative Sort Array|E|494|35
+0.9091|1352|Product of the Last K Numbers|M|187|10
+0.9090|821|Shortest Distance to a Character|E|903|71
+0.9089|917|Reverse Only Letters|E|456|32
+0.9089|741|Cherry Pickup|H|800|62
+0.9086|921|Minimum Add to Make Parentheses Valid|M|536|39
+0.9083|118|Pascal's Triangle|E|1160|95
+0.9083|55|Jump Game|M|3240|290
+0.9080|692|Top K Frequent Words|M|1426|120
+0.9055|1000|Minimum Cost to Merge Stones|H|483|36
+0.9054|515|Find Largest Value in Each Tree Row|M|703|56
+0.9051|1130|Minimum Cost Tree From Leaf Values|M|755|61
+0.9051|530|Minimum Absolute Difference in BST|E|722|58
+0.9050|796|Rotate String|E|602|47
+0.9050|448|Find All Numbers Disappeared in an Array|E|2426|222
+0.9045|1054|Distant Barcodes|M|250|16
+0.9044|1207|Unique Number of Occurrences|E|273|18
+0.9039|395|Longest Substring with At Least K Repeating Characters|M|1185|103
+0.9039|334|Increasing Triplet Subsequence|M|1349|119
+0.9033|1254|Number of Closed Islands|M|211|13
+0.9026|542|01 Matrix|M|1136|100
+0.9025|316|Remove Duplicate Letters|H|1115|98
+0.9024|1192|Critical Connections in a Network|H|774|65
+0.9024|977|Squares of a Sorted Array|E|867|74
+0.9018|881|Boats to Save People|M|431|33
+0.9017|704|Binary Search|E|527|42
+0.9015|1302|Deepest Leaves Sum|M|298|21
+0.9014|797|All Paths From Source to Target|M|630|52
+0.9014|740|Delete and Earn|M|857|74
+0.9008|1263|Minimum Moves to Move a Box to Their Target Location|H|158|9
+0.9007|155|Min Stack|E|2959|289
+0.9003|841|Keys and Rooms|M|756|65
+0.9003|546|Remove Boxes|H|529|43
+0.8999|108|Convert Sorted Array to Binary Search Tree|E|1973|189
+0.8999|934|Shortest Bridge|M|537|44
+0.8998|1171|Remove Zero Sum Consecutive Nodes from Linked List|M|347|26
+0.8996|915|Partition Array into Disjoint Intervals|M|303|22
+0.8995|974|Subarray Sums Divisible by K|M|648|55
+0.8991|905|Sort Array By Parity|E|796|70
+0.8988|766|Toeplitz Matrix|E|863|77
+0.8988|1047|Remove All Adjacent Duplicates In String|E|541|45
+0.8987|461|Hamming Distance|E|1573|150
+0.8985|11|Container With Most Water|M|5240|542
+0.8984|33|Search in Rotated Sorted Array|M|4043|413
+0.8978|1310|XOR Queries of a Subarray|M|153|9
+0.8970|460|LFU Cache|H|1164|110
+0.8969|224|Basic Calculator|H|1230|117
+0.8966|1331|Rank Transform of an Array|E|151|9
+0.8964|646|Maximum Length of Pair Chain|M|754|68
+0.8962|795|Number of Subarrays with Bounded Maximum|M|476|40
+0.8956|922|Sort Array By Parity II|E|523|45
+0.8954|715|Range Module|H|392|32
+0.8954|996|Number of Squareful Arrays|H|258|19
+0.8950|778|Swim in Rising Water|H|480|41
+0.8945|669|Trim a Binary Search Tree|E|1550|155
+0.8944|480|Sliding Window Median|H|728|67
+0.8942|784|Letter Case Permutation|E|1019|98
+0.8941|429|N-ary Tree Level Order Traversal|M|466|40
+0.8926|409|Longest Palindrome|E|808|77
+0.8925|798|Smallest Rotation with Highest Score|H|209|15
+0.8921|74|Search a 2D Matrix|M|1431|146
+0.8921|557|Reverse Words in a String III|E|868|84
+0.8918|1156|Swap For Longest Repeated Character Substring|M|218|16
+0.8911|894|All Possible Full Binary Trees|M|713|68
+0.8905|1288|Remove Covered Intervals|M|131|8
+0.8905|857|Minimum Cost to Hire K Workers|H|782|76
+0.8901|1383|Maximum Performance of a Team|H|173|12
+0.8896|242|Valid Anagram|E|1254|130
+0.8893|1301|Number of Paths with Max Score|H|96|5
+0.8888|381|Insert Delete GetRandom O(1) - Duplicates allowed|H|661|64
+0.8887|17|Letter Combinations of a Phone Number|M|3366|379
+0.8887|222|Count Complete Tree Nodes|M|1693|182
+0.8886|160|Intersection of Two Linked Lists|E|3110|349
+0.8884|462|Minimum Moves to Equal Array Elements II|M|458|42
+0.8884|653|Two Sum IV - Input is a BST|E|1248|131
+0.8883|516|Longest Palindromic Subsequence|M|1549|166
+0.8881|1345|Jump Game IV|H|117|7
+0.8880|318|Maximum Product of Word Lengths|M|709|70
+0.8874|931|Minimum Falling Path Sum|M|526|50
+0.8873|611|Valid Triangle Number|M|871|89
+0.8865|701|Insert into a Binary Search Tree|M|681|68
+0.8857|730|Count Different Palindromic Subsequences|H|437|41
+0.8844|1208|Get Equal Substrings Within Budget|M|193|15
+0.8841|1351|Count Negative Numbers in a Sorted Matrix|E|202|16
+0.8840|1334|Find the City With the Smallest Number of Neighbors at a Threshold Distance|M|163|12
+0.8840|57|Insert Interval|H|1369|152
+0.8838|459|Repeated Substring Pattern|E|1243|137
+0.8838|214|Shortest Palindrome|H|976|105
+0.8837|15|3Sum|M|5991|730
+0.8834|1010|Pairs of Songs With Total Durations Divisible by 60|E|392|37
+0.8823|1052|Grumpy Bookstore Owner|M|335|31
+0.8819|890|Find and Replace Pattern|M|584|60
+0.8809|403|Frog Jump|H|827|90
+0.8807|1200|Minimum Absolute Difference|E|177|14
+0.8806|875|Koko Eating Bananas|M|577|60
+0.8805|406|Queue Reconstruction by Height|M|2225|266
+0.8805|229|Majority Element II|M|1324|152
+0.8804|35|Search Insert Position|E|1926|228
+0.8802|287|Find the Duplicate Number|M|3778|467
+0.8801|887|Super Egg Drop|H|649|69
+0.8791|404|Sum of Left Leaves|E|958|108
+0.8789|765|Couples Holding Hands|H|543|57
+0.8786|114|Flatten Binary Tree to Linked List|M|2316|283
+0.8784|179|Largest Number|M|1587|189
+0.8782|1218|Longest Arithmetic Subsequence of Given Difference|M|218|19
+0.8782|1115|Print FooBar Alternately|M|218|19
+0.8782|1147|Longest Chunked Palindrome Decomposition|H|145|11
+0.8780|473|Matchsticks to Square|M|481|50
+0.8779|854|K-Similar Strings|H|313|30
+0.8773|691|Stickers to Spell Word|H|345|34
+0.8769|120|Triangle|M|1681|204
+0.8766|476|Number Complement|E|684|76
+0.8764|1106|Parsing A Boolean Expression|H|188|16
+0.8760|173|Binary Search Tree Iterator|M|2135|266
+0.8760|153|Find Minimum in Rotated Sorted Array|M|1734|213
+0.8756|234|Palindrome Linked List|E|2620|332
+0.8756|965|Univalued Binary Tree|E|381|39
+0.8755|735|Asteroid Collision|M|810|93
+0.8753|445|Add Two Numbers II|M|1171|140
+0.8746|590|N-ary Tree Postorder Traversal|E|522|57
+0.8745|757|Set Intersection Size At Least Two|H|228|21
+0.8740|785|Is Graph Bipartite?|M|1134|137
+0.8739|377|Combination Sum IV|M|1186|144
+0.8735|1392|Longest Happy Prefix|H|148|12
+0.8734|850|Rectangle Area II|H|284|28
+0.8733|336|Palindrome Pairs|H|1187|145
+0.8733|1072|Flip Columns For Maximum Number of Equal Rows|M|200|18
+0.8727|847|Shortest Path Visiting All Nodes|H|482|53
+0.8724|1394|Find Lucky Integer in an Array|E|82|5
+0.8721|838|Push Dominoes|M|456|50
+0.8708|117|Populating Next Right Pointers in Each Node II|M|1337|169
+0.8700|1020|Number of Enclaves|M|186|17
+0.8697|997|Find the Town Judge|E|477|54
+0.8692|1290|Convert Binary Number in a Linked List to Integer|E|250|25
+0.8684|565|Array Nesting|M|739|90
+0.8683|589|N-ary Tree Preorder Traversal|E|464|53
+0.8679|981|Time Based Key-Value Store|M|589|70
+0.8678|828|Count Unique Characters of All Substrings of a Given String|H|325|35
+0.8675|59|Spiral Matrix II|M|820|102
+0.8662|818|Race Car|H|426|49
+0.8661|1296|Divide Array in Sets of K Consecutive Numbers|M|196|19
+0.8651|1002|Find Common Characters|E|661|82
+0.8646|98|Validate Binary Search Tree|M|3305|470
+0.8642|1287|Element Appearing More Than 25% In Sorted Array|E|153|14
+0.8639|327|Count of Range Sum|H|633|79
+0.8636|1267|Count Servers that Communicate|M|192|19
+0.8636|1255|Maximum Score Words Formed by Letters|H|111|9
+0.8629|976|Largest Perimeter Triangle|E|297|33
+0.8626|980|Unique Paths III|H|449|54
+0.8620|181|Employees Earning More Than Their Managers|E|511|63
+0.8617|654|Maximum Binary Tree|M|1545|215
+0.8615|637|Average of Levels in Binary Tree|E|1086|147
+0.8605|920|Number of Music Playlists|H|313|36
+0.8600|1178|Number of Valid Words for Each Puzzle|H|171|17
+0.8599|4|Median of Two Sorted Arrays|H|6351|967
+0.8597|21|Merge Two Sorted Lists|E|3604|537
+0.8595|1191|K-Concatenation Maximum Sum|M|223|24
+0.8590|433|Minimum Genetic Mutation|M|352|42
+0.8587|706|Design HashMap|E|681|90
+0.8583|664|Strange Printer|H|357|43
+0.8580|446|Arithmetic Slices II - Subsequence|H|398|49
+0.8579|1091|Shortest Path in Binary Matrix|M|278|32
+0.8568|903|Valid Permutations for DI Sequence|H|247|28
+0.8566|290|Word Pattern|E|939|131
+0.8560|126|Word Ladder II|H|1545|226
+0.8557|1039|Minimum Score Triangulation of Polygon|M|315|38
+0.8557|1380|Lucky Numbers in a Matrix|E|112|10
+0.8555|566|Reshape the Matrix|E|710|97
+0.8554|1342|Number of Steps to Reduce a Number to Zero|E|223|25
+0.8549|201|Bitwise AND of Numbers Range|M|608|82
+0.8547|386|Lexicographical Numbers|M|508|67
+0.8543|1029|Two City Scheduling|E|664|91
+0.8539|731|My Calendar II|M|538|72
+0.8539|141|Linked List Cycle|E|2456|377
+0.8528|183|Customers Who Never Order|E|335|42
+0.8525|994|Rotting Oranges|M|1148|169
+0.8524|594|Longest Harmonious Subsequence|E|564|77
+0.8522|925|Long Pressed Name|E|472|63
+0.8521|1286|Iterator for Combination|M|124|12
+0.8505|430|Flatten a Multilevel Doubly Linked List|M|895|131
+0.8504|823|Binary Trees With Factors|M|262|32
+0.8500|232|Implement Queue using Stacks|E|910|134
+0.8498|432|All O`one Data Structure|H|508|70
+0.8497|1005|Maximize Sum Of Array After K Negations|E|254|31
+0.8494|1043|Partition Array for Maximum Sum|M|481|66
+0.8491|846|Hand of Straights|M|499|69
+0.8482|502|IPO|H|284|36
+0.8481|493|Reverse Pairs|H|744|109
+0.8480|849|Maximize Distance to Closest Person|E|663|96
+0.8478|63|Unique Paths II|M|1412|220
+0.8475|1038|Binary Search Tree to Greater Sum Tree|M|599|86
+0.8446|1095|Find in Mountain Array|H|192|23
+0.8441|175|Combine Two Tables|E|811|124
+0.8436|73|Set Matrix Zeroes|M|1714|280
+0.8435|995|Minimum Number of K Consecutive Bit Flips|H|223|28
+0.8433|1339|Maximum Product of Splitted Binary Tree|M|157|18
+0.8427|1114|Print in Order|E|427|61
+0.8421|1381|Design a Stack With Increment Operation|M|115|12
+0.8418|1224|Maximum Equal Frequency|H|142|16
+0.8416|10|Regular Expression Matching|H|3770|653
+0.8412|282|Expression Add Operators|H|1053|169
+0.8410|289|Game of Life|M|1528|253
+0.8406|1157|Online Majority Element In Subarray|H|167|20
+0.8393|1356|Sort Integers by The Number of 1 Bits|E|99|10
+0.8390|879|Profitable Schemes|H|197|25
+0.8387|769|Max Chunks To Make Sorted|M|676|106
+0.8382|67|Add Binary|E|1508|255
+0.8372|1289|Minimum Falling Path Sum II|H|111|12
+0.8367|1309|Decrypt String from Alphabet to Integer Mapping|E|156|19
+0.8366|513|Find Bottom Left Tree Value|M|773|125
+0.8365|860|Lemonade Change|E|466|71
+0.8358|1291|Sequential Digits|M|123|14
+0.8353|467|Unique Substrings in Wraparound String|M|502|78
+0.8352|1347|Minimum Number of Steps to Make Two Strings Anagram|M|116|13
+0.8348|178|Rank Scores|M|674|109
+0.8342|1184|Distance Between Bus Stops|E|147|18
+0.8340|652|Find Duplicate Subtrees|M|1102|188
+0.8339|643|Maximum Average Subarray I|E|631|102
+0.8335|1353|Maximum Number of Events That Can Be Attended|M|261|37
+0.8327|743|Network Delay Time|M|1194|207
+0.8323|771|Jewels and Stones|E|1862|334
+0.8320|421|Maximum XOR of Two Numbers in an Array|M|980|168
+0.8314|1295|Find Numbers with Even Number of Digits|E|228|32
+0.8310|696|Count Binary Substrings|E|850|145
+0.8308|472|Concatenated Words|H|552|90
+0.8300|392|Is Subsequence|E|1019|178
+0.8300|330|Patching Array|H|434|69
+0.8298|622|Design Circular Queue|M|461|74
+0.8298|1346|Check If N and Its Double Exist|E|99|11
+0.8293|738|Monotone Increasing Digits|M|349|54
+0.8292|1232|Check If It Is a Straight Line|E|166|22
+0.8289|227|Basic Calculator II|M|1168|208
+0.8280|1253|Reconstruct a 2-Row Binary Matrix|M|85|9
+0.8277|171|Excel Sheet Column Number|E|810|141
+0.8264|901|Online Stock Span|M|391|63
+0.8259|674|Longest Continuous Increasing Subsequence|E|644|111
+0.8252|107|Binary Tree Level Order Traversal II|E|1103|201
+0.8249|18|4Sum|M|1614|303
+0.8248|1376|Time Needed to Inform All Employees|M|126|16
+0.8248|464|Can I Win|M|850|152
+0.8247|25|Reverse Nodes in k-Group|H|1826|346
+0.8236|491|Increasing Subsequences|M|603|105
+0.8219|1387|Sort Integers by The Power Value|M|69|7
+0.8208|455|Assign Cookies|E|490|85
+0.8198|413|Arithmetic Slices|M|837|155
+0.8197|677|Map Sum Pairs|M|420|72
+0.8196|440|K-th Smallest in Lexicographical Order|H|285|46
+0.8194|1338|Reduce Array Size to The Half|M|110|14
+0.8194|802|Find Eventual Safe States|M|601|108
+0.8191|938|Range Sum of BST|E|892|167
+0.8170|1172|Dinner Plate Stacks|H|114|15
+0.8163|1189|Maximum Number of Balloons|E|190|29
+0.8161|733|Flood Fill|E|831|158
+0.8155|658|Find K Closest Elements|M|1076|210
+0.8150|1013|Partition Array Into Three Parts With Equal Sum|E|302|51
+0.8135|417|Pacific Atlantic Water Flow|M|1043|206
+0.8132|621|Task Scheduler|M|2606|546
+0.8129|135|Candy|H|776|150
+0.8129|328|Odd Even Linked List|M|1346|272
+0.8129|700|Search in a Binary Search Tree|E|576|108
+0.8128|1022|Sum of Root To Leaf Binary Numbers|E|372|66
+0.8125|826|Most Profit Assigning Work|M|312|54
+0.8119|832|Flipping an Image|E|743|144
+0.8119|1404|Number of Steps to Reduce a Number in Binary Representation to One|M|88|11
+0.8109|1124|Longest Well-Performing Interval|M|304|53
+0.8094|1239|Maximum Length of a Concatenated String with Unique Characters|M|247|42
+0.8084|508|Most Frequent Subtree Sum|M|541|104
+0.8084|959|Regions Cut By Slashes|M|620|121
+0.8082|1206|Design Skiplist|H|97|13
+0.8081|552|Student Attendance Record II|H|484|92
+0.8080|1109|Corporate Flight Bookings|M|375|69
+0.8076|202|Happy Number|E|1831|391
+0.8076|1330|Reverse Subarray To Maximize Array Value|H|102|14
+0.8076|836|Rectangle Overlap|E|566|110
+0.8073|1359|Count All Valid Pickup and Delivery Options|H|91|12
+0.8071|950|Reveal Cards In Increasing Order|M|670|133
+0.8070|1323|Maximum 69 Number|E|164|26
+0.8064|725|Split Linked List in Parts|M|539|105
+0.8063|939|Minimum Area Rectangle|M|543|106
+0.8057|1375|Bulb Switcher III|M|127|19
+0.8054|1318|Minimum Flips to Make a OR b Equal to c|M|79|10
+0.8048|684|Redundant Connection|M|1053|221
+0.8047|304|Range Sum Query 2D - Immutable|M|799|164
+0.8046|138|Copy List with Random Pointer|M|2721|605
+0.8045|140|Word Break II|H|1595|345
+0.8032|1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix|H|120|18
+0.8029|1009|Complement of Base 10 Integer|E|140|22
+0.8029|168|Excel Sheet Column Title|E|1023|217
+0.8022|679|24 Game|H|610|124
+0.8014|185|Department Top Three Salaries|H|491|98
+0.8010|1081|Smallest Subsequence of Distinct Characters|M|295|55
+0.7996|898|Bitwise ORs of Subarrays|M|374|73
+0.7995|1354|Construct Target Array With Multiple Sums|H|142|23
+0.7994|693|Binary Number with Alternating Bits|E|387|76
+0.7992|648|Replace Words|M|603|125
+0.7976|1300|Sum of Mutated Array Closest to Target|M|150|25
+0.7974|746|Min Cost Climbing Stairs|E|1676|381
+0.7971|367|Valid Perfect Square|E|647|137
+0.7962|1032|Stream of Characters|H|291|56
+0.7961|1382|Balance a Binary Search Tree|M|110|17
+0.7960|1373|Maximum Sum BST in Binary Tree|H|105|16
+0.7955|600|Non-negative Integers without Consecutive Ones|H|334|66
+0.7935|989|Add to Array-Form of Integer|E|273|53
+0.7934|880|Decoded String at Index|M|369|75
+0.7921|662|Maximum Width of Binary Tree|M|966|219
+0.7898|60|Permutation Sequence|M|1246|292
+0.7897|1145|Binary Tree Coloring Game|M|310|63
+0.7897|724|Find Pivot Index|E|940|216
+0.7895|391|Perfect Rectangle|H|318|65
+0.7888|919|Complete Binary Tree Inserter|M|231|45
+0.7888|665|Non-decreasing Array|E|1607|385
+0.7883|780|Reaching Points|H|404|86
+0.7874|991|Broken Calculator|M|331|69
+0.7874|1400|Construct K Palindrome Strings|M|66|9
+0.7874|1234|Replace the Substring for Balanced String|M|190|36
+0.7868|721|Accounts Merge|M|1122|266
+0.7864|1146|Snapshot Array|M|354|75
+0.7861|2|Add Two Numbers|M|7489|1938
+0.7859|164|Maximum Gap|H|725|167
+0.7852|1160|Find Words That Can Be Formed by Characters|E|239|48
+0.7844|137|Single Number II|M|1304|317
+0.7842|941|Valid Mountain Array|E|296|62
+0.7841|1366|Rank Teams by Votes|M|143|26
+0.7837|805|Split Array With Same Average|H|324|69
+0.7834|884|Uncommon Words from Two Sentences|E|356|77
+0.7833|1137|N-th Tribonacci Number|E|177|34
+0.7826|688|Knight Probability in Chessboard|M|633|147
+0.7824|923|3Sum With Multiplicity|M|293|62
+0.7822|41|First Missing Positive|H|2873|738
+0.7817|474|Ones and Zeroes|M|824|197
+0.7816|343|Integer Break|M|862|207
+0.7816|710|Random Pick with Blacklist|H|267|56
+0.7815|1314|Matrix Block Sum|M|171|33
+0.7806|641|Design Circular Deque|M|187|37
+0.7801|929|Unique Email Addresses|E|732|175
+0.7801|699|Falling Squares|H|232|48
+0.7789|1140|Stone Game II|M|263|56
+0.7777|848|Shifting Letters|M|233|49
+0.7774|355|Design Twitter|M|751|183
+0.7773|86|Partition List|M|1062|266
+0.7773|676|Implement Magic Dictionary|M|503|118
+0.7763|954|Array of Doubled Pairs|M|207|43
+0.7745|764|Largest Plus Sign|M|377|87
+0.7736|526|Beautiful Arrangement|M|579|141
+0.7732|184|Department Highest Salary|M|420|99
+0.7713|134|Gas Station|M|1349|356
+0.7711|988|Smallest String Starting From Leaf|M|294|67
+0.7707|943|Find the Shortest Superstring|H|282|64
+0.7706|54|Spiral Matrix|M|1928|521
+0.7701|955|Delete Columns to Make Sorted II|M|196|42
+0.7691|231|Power of Two|E|652|165
+0.7682|1007|Minimum Domino Rotations For Equal Row|M|616|156
+0.7680|313|Super Ugly Number|M|525|131
+0.7678|180|Consecutive Numbers|M|378|91
+0.7665|914|X of a Kind in a Deck of Cards|E|401|98
+0.7661|1203|Sort Items by Groups Respecting Dependencies|H|157|33
+0.7658|888|Fair Candy Swap|E|454|113
+0.7655|1268|Search Suggestions System|M|300|71
+0.7654|687|Longest Univalue Path|E|1444|396
+0.7648|952|Largest Component Size by Common Factor|H|179|39
+0.7634|913|Cat and Mouse|H|282|67
+0.7632|205|Isomorphic Strings|E|1184|325
+0.7630|916|Word Subsets|M|274|65
+0.7612|154|Find Minimum in Rotated Sorted Array II|H|728|195
+0.7578|112|Path Sum|E|1547|445
+0.7563|861|Score After Flipping Matrix|M|390|101
+0.7551|1233|Remove Sub-Folders from the Filesystem|M|137|30
+0.7519|902|Numbers At Most N Given Digit Set|H|142|32
+0.7519|119|Pascal's Triangle II|E|686|193
+0.7513|1261|Find Elements in a Contaminated Binary Tree|M|127|28
+0.7512|807|Max Increase to Keep City Skyline|M|752|214
+0.7512|791|Custom Sort String|M|605|169
+0.7505|1071|Greatest Common Divisor of Strings|E|338|89
+0.7483|705|Design HashSet|E|257|66
+0.7479|820|Short Encoding of Words|M|219|55
+0.7466|405|Convert a Number to Hexadecimal|E|374|102
+0.7463|928|Minimize Malware Spread II|H|159|38
+0.7461|685|Redundant Connection II|H|653|189
+0.7455|352|Data Stream as Disjoint Intervals|H|303|81
+0.7452|1299|Replace Elements with Greatest Element on Right Side|E|216|55
+0.7438|629|K Inverse Pairs Array|H|284|76
+0.7436|36|Valid Sudoku|M|1371|424
+0.7435|975|Odd Even Jump|H|575|167
+0.7424|415|Add Strings|E|771|231
+0.7409|783|Minimum Distance Between BST Nodes|E|561|165
+0.7402|576|Out of Boundary Paths|M|425|122
+0.7397|204|Count Primes|E|1691|540
+0.7395|1343|Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold|M|70|14
+0.7393|382|Linked List Random Node|M|504|148
+0.7392|189|Rotate Array|E|2344|762
+0.7368|830|Positions of Large Groups|E|293|82
+0.7365|1012|Numbers With Repeated Digits|H|148|37
+0.7361|1103|Distribute Candies to People|E|187|49
+0.7356|1266|Minimum Time Visiting All Points|E|209|56
+0.7355|556|Next Greater Element III|M|537|162
+0.7352|1326|Minimum Number of Taps to Open to Water a Garden|H|147|37
+0.7345|350|Intersection of Two Arrays II|E|1133|364
+0.7331|865|Smallest Subtree with all the Deepest Nodes|M|605|187
+0.7311|803|Bricks Falling When Hit|H|388|116
+0.7286|978|Longest Turbulent Subarray|M|248|71
+0.7278|1283|Find the Smallest Divisor Given a Threshold|M|129|33
+0.7260|31|Next Permutation|M|2892|1016
+0.7254|1139|Largest 1-Bordered Square|M|137|36
+0.7250|936|Stamping The Sequence|H|143|38
+0.7234|1344|Angle Between Hands of a Clock|M|88|21
+0.7210|1396|Design Underground System|M|74|17
+0.7209|623|Add One Row to Tree|M|369|116
+0.7185|732|My Calendar III|H|308|96
+0.7176|947|Most Stones Removed with Same Row or Column|M|812|279
+0.7144|628|Maximum Product of Three Numbers|E|933|329
+0.7132|52|N-Queens II|H|416|138
+0.7125|1222|Queens That Can Attack the King|M|161|47
+0.7116|726|Number of Atoms|H|331|108
+0.7107|1117|Building H2O|M|151|44
+0.7096|470|Implement Rand10() Using Rand7()|M|355|118
+0.7093|396|Rotate Function|M|349|116
+0.7092|539|Minimum Time Difference|M|400|135
+0.7069|321|Create Maximum Number|H|577|204
+0.7058|1361|Validate Binary Tree Nodes|M|122|35
+0.7053|878|Nth Magical Number|H|164|50
+0.7040|599|Minimum Index Sum of Two Lists|E|515|183
+0.7026|927|Three Equal Parts|H|162|50
+0.7019|383|Ransom Note|E|464|165
+0.7017|1363|Largest Multiple of Three|H|97|27
+0.7012|190|Reverse Bits|E|854|320
+0.7012|127|Word Ladder|M|2622|1040
+0.7008|779|K-th Symbol in Grammar|M|351|122
+0.7000|1220|Count Vowels Permutation|H|116|34
+0.6993|659|Split Array into Consecutive Subsequences|M|891|338
+0.6977|167|Two Sum II - Input array is sorted|E|1396|548
+0.6963|839|Similar String Groups|H|262|90
+0.6959|509|Fibonacci Number|E|501|185
+0.6959|1395|Count Number of Teams|M|141|44
+0.6936|501|Find Mode in Binary Search Tree|E|766|296
+0.6930|842|Split Array into Fibonacci Sequence|M|381|139
+0.6916|942|DI String Match|E|711|276
+0.6905|389|Find the Difference|E|686|267
+0.6902|187|Repeated DNA Sequences|M|635|246
+0.6897|341|Flatten Nested List Iterator|M|1464|599
+0.6889|964|Least Operators to Express Number|H|147|48
+0.6882|967|Numbers With Same Consecutive Differences|M|162|54
+0.6862|81|Search in Rotated Sorted Array II|M|1052|430
+0.6840|519|Random Flip Matrix|M|159|54
+0.6838|953|Verifying an Alien Dictionary|E|591|235
+0.6811|1001|Grid Illumination|H|152|52
+0.6769|1405|Longest Happy String|M|132|45
+0.6761|761|Special Binary String|H|251|95
+0.6759|436|Find Right Interval|M|302|117
+0.6751|793|Preimage Size of Factorial Zeroes Function|H|148|52
+0.6743|855|Exam Room|M|506|208
+0.6738|935|Knight Dialer|M|433|176
+0.6706|1402|Reducing Dishes|H|82|26
+0.6695|1210|Minimum Moves to Reach Target with Rotations|H|94|31
+0.6692|1223|Dice Roll Simulation|M|207|79
+0.6684|130|Surrounded Regions|M|1262|567
+0.6676|93|Restore IP Addresses|M|1031|460
+0.6652|43|Multiply Strings|M|1529|704
+0.6567|342|Power of Four|E|431|190
+0.6559|524|Longest Word in Dictionary through Deleting|M|477|213
+0.6539|1281|Subtract the Product and Sum of Digits of an Integer|E|183|74
+0.6508|1329|Sort the Matrix Diagonally|M|142|56
+0.6507|1307|Verbal Arithmetic Puzzle|H|118|45
+0.6483|900|RLE Iterator|M|185|77
+0.6454|1089|Duplicate Zeros|E|349|159
+0.6448|985|Sum of Even Numbers After Queries|E|274|122
+0.6428|498|Diagonal Traverse|M|608|294
+0.6425|605|Can Place Flowers|E|688|336
+0.6394|197|Rising Temperature|E|350|164
+0.6391|1275|Find Winner on a Tic Tac Toe Game|E|104|41
+0.6387|150|Evaluate Reverse Polish Notation|M|861|434
+0.6377|1018|Binary Prefix Divisible By 5|E|185|81
+0.6332|728|Self Dividing Numbers|E|558|280
+0.6322|645|Set Mismatch|E|563|284
+0.6316|853|Car Fleet|M|378|185
+0.6285|869|Reordered Power of 2|M|180|82
+0.6282|517|Super Washing Machines|H|280|135
+0.6280|703|Kth Largest Element in a Stream|E|593|306
+0.6257|111|Minimum Depth of Binary Tree|E|1141|619
+0.6246|344|Reverse String|E|1181|645
+0.6240|324|Wiggle Sort II|M|904|488
+0.6235|971|Flip Binary Tree To Match Preorder Traversal|M|210|100
+0.6219|278|First Bad Version|E|1054|579
+0.6162|1030|Matrix Cells in Distance Order|E|173|83
+0.6159|176|Second Highest Salary|E|694|382
+0.6100|891|Sum of Subsequence Widths|H|190|95
+0.6080|1104|Path In Zigzag Labelled Binary Tree|M|256|134
+0.6054|837|New 21 Game|M|489|275
+0.6054|1041|Robot Bounded In Circle|M|202|104
+0.6053|790|Domino and Tromino Tiling|M|341|186
+0.6052|775|Global and Local Inversions|M|287|154
+0.5993|910|Smallest Range II|M|272|149
+0.5988|675|Cut Off Trees for Golf Event|H|452|260
+0.5986|332|Reconstruct Itinerary|M|1351|831
+0.5978|520|Detect Capital|E|410|235
+0.5974|961|N-Repeated Element in Size 2N Array|E|369|210
+0.5914|1036|Escape a Large Maze|H|178|96
+0.5887|1377|Frog Position After T Seconds|H|85|41
+0.5872|1138|Alphabet Board Path|M|123|64
+0.5788|1044|Longest Duplicate Substring|H|211|123
+0.5779|1260|Shift 2D Grid|E|136|75
+0.5742|633|Sum of Square Numbers|E|456|292
+0.5730|1324|Print Words Vertically|M|80|41
+0.5708|859|Buddy Strings|E|460|299
+0.5700|485|Max Consecutive Ones|E|528|348
+0.5695|1195|Fizz Buzz Multithreaded|M|104|57
+0.5676|80|Remove Duplicates from Sorted Array II|M|962|664
+0.5654|1282|Group the People Given the Group Size They Belong To|M|190|116
+0.5652|1401|Circle and Rectangle Overlapping|M|57|28
+0.5633|9|Palindrome Number|E|2068|1500
+0.5629|745|Prefix and Suffix Search|H|288|186
+0.5627|627|Swap Salary|E|408|272
+0.5614|191|Number of 1 Bits|E|693|482
+0.5595|284|Peeking Iterator|M|418|283
+0.5592|1128|Number of Equivalent Domino Pairs|E|141|85
+0.5585|657|Robot Return to Origin|E|876|625
+0.5517|912|Sort an Array|M|316|216
+0.5514|262|Trips and Users|H|317|217
+0.5513|419|Battleships in a Board|M|602|433
+0.5491|192|Word Frequency|M|192|126
+0.5486|1304|Find N Unique Integers Sum up to Zero|E|163|105
+0.5445|14|Longest Common Prefix|E|2201|1729
+0.5412|504|Base 7|E|206|141
+0.5384|1179|Reformat Department Table|E|106|67
+0.5329|1073|Adding Two Negabinary Numbers|M|81|50
+0.5311|122|Best Time to Buy and Sell Stock II|E|2019|1671
+0.5288|1221|Split a String in Balanced Strings|E|333|252
+0.5279|649|Dota2 Senate|M|255|189
+0.5272|1096|Brace Expansion II|H|169|120
+0.5259|1116|Print Zero Even Odd|M|133|92
+0.5243|1247|Minimum Swaps to Make Strings Equal|M|146|103
+0.5191|736|Parse Lisp Expression|H|237|181
+0.5147|390|Elimination Game|M|375|304
+0.5143|133|Clone Graph|M|1420|1243
+0.5138|897|Increasing Order Search Tree|E|521|434
+0.5117|1023|Camelcase Matching|M|151|113
+0.5108|754|Reach a Number|M|393|325
+0.5101|529|Minesweeper|M|530|449
+0.5084|638|Shopping Offers|M|478|405
+0.5069|867|Transpose Matrix|E|335|278
+0.5064|626|Exchange Seats|M|273|223
+0.5042|228|Summary Ranges|M|558|486
+0.5027|924|Minimize Malware Spread|H|237|194
+0.5016|177|Nth Highest Salary|M|363|310
+0.5009|466|Count The Repetitions|H|154|121
+0.4998|697|Degree of an Array|E|761|687
+0.4998|911|Online Election|M|289|244
+0.4985|1397|Find All Good Strings|H|90|66
+0.4963|777|Swap Adjacent in LR String|M|329|285
+0.4961|1362|Closest Divisors|M|49|32
+0.4898|1391|Check if There is a Valid Path in a Grid|M|116|92
+0.4827|217|Contains Duplicate|E|699|674
+0.4814|61|Rotate List|M|979|965
+0.4795|686|Repeated String Match|E|700|684
+0.4758|1370|Increasing Decreasing String|E|88|71
+0.4751|397|Integer Replacement|M|311|293
+0.4745|804|Unique Morse Code Words|E|573|565
+0.4684|1177|Can Make Palindrome from Substring|M|153|138
+0.4682|882|Reachable Nodes In Subdivided Graph|H|136|121
+0.4671|225|Implement Stack using Queues|E|525|531
+0.4669|220|Contains Duplicate III|M|936|977
+0.4665|587|Erect the Fence|H|186|173
+0.4605|91|Decode Ways|M|2261|2502
+0.4603|948|Bag of Tokens|M|156|146
+0.4603|1389|Create Target Array in the Given Order|E|87|75
+0.4570|147|Insertion Sort List|M|511|538
+0.4555|690|Employee Importance|E|533|566
+0.4548|843|Guess the Word|H|472|499
+0.4459|475|Heaters|E|641|716
+0.4446|497|Random Point in Non-overlapping Rectangles|M|171|173
+0.4436|488|Zuma Game|H|181|185
+0.4412|1328|Break a Palindrome|M|67|60
+0.4366|1298|Maximum Candies You Can Get from Boxes|H|64|58
+0.4353|1226|The Dining Philosophers|M|60|54
+0.4289|620|Not Boring Movies|E|233|260
+0.4280|219|Contains Duplicate II|E|735|891
+0.4280|299|Bulls and Cows|E|537|640
+0.4262|268|Missing Number|E|1470|1848
+0.4255|1017|Convert to Base -2|M|134|143
+0.4254|195|Tenth Line|E|158|172
+0.4235|782|Transform to Chessboard|H|108|113
+0.4232|781|Rabbits in Forest|M|227|259
+0.4201|28|Implement strStr()|E|1360|1749
+0.4196|851|Loud and Rich|M|227|263
+0.4185|1201|Ugly Number III|M|161|181
+0.4176|500|Keyboard Row|E|494|612
+0.4169|720|Longest Word in Dictionary|E|520|648
+0.4162|162|Find Peak Element|M|1407|1841
+0.4156|306|Additive Number|M|313|379
+0.4128|303|Range Sum Query - Immutable|E|748|967
+0.4105|969|Pancake Sorting|M|312|386
+0.4097|756|Pyramid Transition Matrix|M|260|318
+0.4080|753|Cracking the Safe|H|388|493
+0.4064|1131|Maximum of Absolute Value Expression|M|119|136
+0.4063|899|Orderly Queue|H|152|179
+0.4035|707|Design Linked List|M|467|612
+0.3990|523|Continuous Subarray Sum|M|1093|1523
+0.3989|1042|Flower Planting With No Adjacent|E|223|282
+0.3986|172|Factorial Trailing Zeroes|E|707|968
+0.3983|412|Fizz Buzz|E|767|1056
+0.3968|606|Construct String from Binary Tree|E|679|935
+0.3967|639|Decode Ways II|H|354|469
+0.3944|1297|Maximum Number of Occurrences of a Substring|M|86|99
+0.3922|1144|Decrease Elements To Make Array Zigzag|M|80|92
+0.3914|496|Next Greater Element I|E|1295|1876
+0.3911|892|Surface Area of 3D Shapes|E|219|286
+0.3896|932|Beautiful Array|M|287|386
+0.3893|833|Find And Replace in String|M|257|343
+0.3883|1021|Remove Outermost Parentheses|E|364|501
+0.3883|1123|Lowest Common Ancestor of Deepest Leaves|M|238|317
+0.3879|835|Image Overlap|M|296|402
+0.3866|744|Find Smallest Letter Greater Than Target|E|331|456
+0.3862|595|Big Countries|E|446|628
+0.3850|811|Subdomain Visit Count|E|414|583
+0.3847|196|Delete Duplicate Emails|E|376|527
+0.3832|1333|Filter Restaurants by Vegan-Friendly, Price and Distance|M|50|55
+0.3826|1238|Circular Permutation in Binary Representation|M|72|85
+0.3816|609|Find Duplicate File in System|M|374|531
+0.3815|671|Second Minimum Node In a Binary Tree|E|524|760
+0.3796|984|String Without AAA or BBB|M|162|216
+0.3774|7|Reverse Integer|E|3043|4797
+0.3773|375|Guess Number Higher or Lower II|M|705|1058
+0.3770|904|Fruit Into Baskets|M|698|1048
+0.3757|453|Minimum Moves to Equal Array Elements|E|490|726
+0.3754|30|Substring with Concatenation of All Words|H|757|1149
+0.3753|69|Sqrt(x)|E|1134|1752
+0.3721|1386|Cinema Seat Allocation|M|60|72
+0.3700|263|Ugly Number|E|378|565
+0.3691|982|Triples with Bitwise AND Equal To Zero|H|88|114
+0.3677|762|Prime Number of Set Bits in Binary Representation|E|205|295
+0.3666|829|Consecutive Numbers Sum|H|257|379
+0.3664|87|Scramble String|H|421|644
+0.3662|492|Construct the Rectangle|E|172|245
+0.3641|258|Add Digits|E|626|989
+0.3617|66|Plus One|E|1298|2138
+0.3605|1317|Convert Integer to the Sum of Two No-Zero Integers|E|60|76
+0.3597|1390|Four Divisors|M|47|57
+0.3590|877|Stone Game|M|537|861
+0.3586|885|Spiral Matrix III|M|171|252
+0.3577|1276|Number of Burgers with No Waste of Ingredients|M|60|77
+0.3571|349|Intersection of Two Arrays|E|673|1101
+0.3553|1357|Apply Discount Every n Orders|M|36|42
+0.3544|482|License Key Formatting|E|425|686
+0.3543|13|Roman to Integer|E|1924|3315
+0.3506|1252|Cells with Odd Values in a Matrix|E|178|273
+0.3497|398|Random Pick Index|M|372|608
+0.3484|274|H-Index|M|535|899
+0.3476|275|H-Index II|M|287|465
+0.3474|447|Number of Boomerangs|E|365|602
+0.3435|636|Exclusive Time of Functions|M|651|1130
+0.3429|401|Binary Watch|E|506|869
+0.3427|1040|Moving Stones Until Consecutive II|M|130|200
+0.3418|1240|Tiling a Rectangle with the Fewest Squares|H|102|153
+0.3415|957|Prison Cells After N Days|M|367|622
+0.3404|858|Mirror Reflection|M|166|265
+0.3368|345|Reverse Vowels of a String|E|570|1013
+0.3361|371|Sum of Two Integers|E|1081|1983
+0.3359|478|Generate Random Point in a Circle|M|141|226
+0.3313|1003|Check If Word Is Valid After Substitutions|M|146|240
+0.3303|1078|Occurrences After Bigram|E|95|149
+0.3273|963|Minimum Area Rectangle II|M|118|193
+0.3268|414|Third Maximum Number|E|556|1033
+0.3252|223|Rectangle Area|M|362|661
+0.3240|1227|Airplane Seat Assignment Probability|M|118|196
+0.3227|427|Construct Quad Tree|M|227|405
+0.3210|528|Random Pick with Weight|M|495|939
+0.3197|592|Fraction Addition and Subtraction|M|153|267
+0.3188|1379|Find a Corresponding Node of a Binary Tree in a Clone of That Tree|M|59|91
+0.3178|88|Merge Sorted Array|E|1844|3744
+0.3174|27|Remove Element|E|1230|2470
+0.3172|1006|Clumsy Factorial|M|76|123
+0.3139|593|Valid Square|M|197|362
+0.3135|1399|Count Largest Group|E|39|57
+0.3132|26|Remove Duplicates from Sorted Array|E|2234|4658
+0.3109|1311|Get Watched Videos by Your Friends|M|75|125
+0.3086|852|Peak Index in a Mountain Array|E|512|1032
+0.3047|1163|Last Substring in Lexicographical Order|H|112|203
+0.3045|575|Distribute Candies|E|402|815
+0.3014|966|Vowel Spellchecker|M|121|225
+0.3003|747|Largest Number At Least Twice of Others|E|265|533
+0.2999|1154|Day of the Year|E|75|132
+0.2986|789|Escape The Ghosts|M|163|317
+0.2983|384|Shuffle an Array|M|436|915
+0.2974|667|Beautiful Arrangement II|M|287|589
+0.2959|50|Pow(x, n)|M|1240|2760
+0.2948|441|Arranging Coins|E|281|583
+0.2946|495|Teemo Attacking|M|313|655
+0.2939|166|Fraction to Recurring Decimal|M|729|1605
+0.2929|816|Ambiguous Coordinates|M|103|196
+0.2925|535|Encode and Decode TinyURL|M|597|1311
+0.2911|319|Bulb Switcher|M|416|902
+0.2895|970|Powerful Integers|E|117|230
+0.2883|999|Available Captures for Rook|E|168|345
+0.2881|506|Relative Ranks|E|230|486
+0.2867|458|Poor Pigs|H|352|772
+0.2860|388|Longest Absolute File Path|M|564|1275
+0.2850|825|Friends Of Appropriate Ages|M|259|561
+0.2831|357|Count Numbers with Unique Digits|M|349|779
+0.2824|598|Range Addition II|E|241|526
+0.2809|1053|Previous Permutation With One Swap|M|98|197
+0.2800|532|K-diff Pairs in an Array|E|496|1148
+0.2786|1175|Prime Arrangements|E|82|163
+0.2774|949|Largest Time for Given Digits|E|150|322
+0.2767|71|Simplify Path|M|678|1620
+0.2745|682|Baseball Game|E|405|953
+0.2742|149|Max Points on a Line|H|738|1793
+0.2738|601|Human Traffic of Stadium|H|140|304
+0.2735|233|Number of Digit One|H|247|565
+0.2712|998|Maximum Binary Tree II|M|144|318
+0.2706|987|Vertical Order Traversal of a Binary Tree|M|379|906
+0.2703|824|Goat Latin|E|246|572
+0.2701|655|Print Binary Tree|M|309|731
+0.2694|68|Text Justification|H|581|1431
+0.2685|1316|Distinct Echo Substrings|H|50|97
+0.2683|563|Binary Tree Tilt|E|440|1074
+0.2668|640|Solve the Equation|M|206|481
+0.2665|1108|Defanging an IP Address|E|283|678
+0.2662|483|Smallest Good Base|H|133|299
+0.2613|89|Gray Code|M|566|1452
+0.2610|868|Binary Gap|E|188|449
+0.2601|819|Most Common Word|E|523|1345
+0.2583|717|1-bit and 2-bit Characters|E|361|918
+0.2575|125|Valid Palindrome|E|986|2643
+0.2569|1080|Insufficient Nodes in Root to Leaf Paths|M|126|296
+0.2567|909|Snakes and Ladders|M|273|687
+0.2565|1403|Minimum Subsequence in Non-Increasing Order|E|30|56
+0.2544|12|Integer to Roman|M|914|2483
+0.2535|507|Perfect Number|E|225|568
+0.2506|906|Super Palindromes|H|68|153
+0.2492|193|Valid Phone Numbers|E|143|355
+0.2481|273|Integer to English Words|H|855|2396
+0.2481|1034|Coloring A Border|M|88|208
+0.2477|6|ZigZag Conversion|M|1484|4249
+0.2468|292|Nim Game|E|537|1485
+0.2457|817|Linked List Components|M|307|827
+0.2454|365|Water and Jug Problem|M|255|679
+0.2415|1332|Remove Palindromic Subsequences|E|116|294
+0.2401|1385|Find the Distance Value Between Two Arrays|E|52|119
+0.2381|335|Self Crossing|H|122|317
+0.2338|151|Reverse Words in a String|M|886|2691
+0.2337|1025|Divisor Game|E|293|841
+0.2336|1037|Valid Boomerang|E|78|197
+0.2320|541|Reverse String II|E|366|1076
+0.2310|1250|Check If It Is a Good Array|H|61|151
+0.2309|809|Expressive Words|M|225|644
+0.2293|561|Array Partition I|E|738|2283
+0.2293|443|String Compression|E|654|2013
+0.2272|596|Classes More Than 5 Students|E|196|567
+0.2271|400|Nth Digit|M|321|963
+0.2256|866|Prime Palindrome|M|169|487
+0.2248|722|Remove Comments|M|250|747
+0.2236|326|Power of Three|E|439|1369
+0.2217|937|Reorder Data in Log Files|E|465|1471
+0.2202|1015|Smallest Integer Divisible by K|M|85|235
+0.2180|165|Compare Version Numbers|M|413|1327
+0.2170|749|Contain Virus|H|75|208
+0.2146|709|To Lower Case|E|427|1402
+0.2129|1170|Compare Strings by Frequency of the Smallest Character|E|165|512
+0.2127|788|Rotated Digits|E|301|979
+0.2116|537|Complex Number Multiplication|M|212|677
+0.2107|794|Valid Tic-Tac-Toe State|M|170|536
+0.2093|194|Transpose File|M|60|169
+0.2070|551|Student Attendance Record I|E|233|771
+0.2039|883|Projection Area of 3D Shapes|E|218|732
+0.2034|1090|Largest Values From Labels|M|81|247
+0.2034|385|Mini Parser|M|224|756
+0.2016|564|Find the Closest Palindrome|H|222|757
+0.2006|1313|Decompress Run-Length Encoded List|E|117|379
+0.2006|1016|Binary String With Substrings Representing 1 To N|M|88|276
+0.1974|423|Reconstruct Original Digits from English|M|155|527
+0.1938|808|Soup Servings|M|134|460
+0.1907|434|Number of Segments in a String|E|189|683
+0.1891|748|Shortest Completing Word|E|158|568
+0.1876|58|Length of Last Word|E|560|2211
+0.1871|810|Chalkboard XOR Game|H|54|173
+0.1858|522|Longest Uncommon Subsequence II|M|149|545
+0.1846|372|Super Pow|M|185|695
+0.1830|972|Equal Rational Numbers|H|41|129
+0.1825|806|Number of Lines To Write String|E|209|804
+0.1822|420|Strong Password Checker|H|133|493
+0.1720|558|Logical OR of Two Binary Grids Represented as Quad-Trees|M|87|331
+0.1699|893|Groups of Special-Equivalent Strings|E|229|969
+0.1692|457|Circular Array Loop|M|275|1184
+0.1660|237|Delete Node in a Linked List|E|1235|5836
+0.1649|1237|Find Positive Integer Solution for a Given Equation|E|86|344
+0.1643|29|Divide Two Integers|M|1002|4761
+0.1638|661|Image Smoother|E|224|989
+0.1607|374|Guess Number Higher or Lower|E|337|1565
+0.1537|393|UTF-8 Validation|M|197|930
+0.1489|831|Masking Personal Information|M|64|279
+0.1459|591|Tag Validator|H|80|368
+0.1421|908|Smallest Range I|E|185|954
+0.1414|874|Walking Robot Simulation|E|134|676
+0.1384|468|Validate IP Address|M|200|1071
+0.1353|8|String to Integer (atoi)|M|1387|8372
+0.1348|1111|Maximum Nesting Depth of Two Valid Parentheses Strings|M|87|444
+0.1347|1217|Play with Chips|E|116|611
+0.1345|933|Number of Recent Calls|E|237|1328
+0.1340|1374|Generate a String With Characters That Have Odd Counts|E|40|184
+0.1290|812|Largest Triangle Area|E|159|907
+0.1208|1093|Statistics from a Large Sample|M|42|220
+0.1191|65|Valid Number|H|650|4427
+0.1175|481|Magical String|M|105|642
+0.1167|1051|Height Checker|E|175|1130
+0.1119|553|Optimal Division|M|160|1076
+0.1096|38|Count and Say|E|1144|8742
+0.1086|822|Card Flipping Game|M|66|418
+0.1073|672|Bulb Switcher II|M|119|817
+0.1038|1033|Moving Stones Until Consecutive|E|58|380
+0.0986|1360|Number of Days Between Two Dates|E|34|217
+0.0874|840|Magic Squares In Grid|E|119|1028
+0.0816|770|Basic Calculator IV|H|61|527
+0.0737|1169|Invalid Transactions|M|50|470
+0.0675|1348|Tweet Counts Per Frequency|M|40|400
+0.0658|1185|Day of the Week|E|72|804
+0.0645|944|Delete Columns to Make Sorted|E|116|1393
+0.0551|521|Longest Uncommon Subsequence I|E|263|3979
+0.0498|479|Largest Palindrome Product|H|84|1287
