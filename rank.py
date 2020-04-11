@@ -19,11 +19,12 @@ def get_problem(driver):
             d for d in driver.find_elements_by_tag_name('div') 
             if d.get_attribute('data-cy') == 'question-title'][0]
         info = title.find_element_by_xpath('..').find_elements_by_tag_name('div')[1]
-        title_text = title.text
+        num = title.text.split('.')[0].strip()
+        title_text = title.text.split('.')[1].strip()
         difficulty = info.find_elements_by_tag_name('div')[0].text
         up = int(info.find_elements_by_tag_name('button')[0].find_element_by_tag_name('span').text)
         down = int(info.find_elements_by_tag_name('button')[1].find_element_by_tag_name('span').text)
-        problem = [get_score(up, up+down), title_text, difficulty, up, down]
+        problem = [get_score(up, up+down), num, title_text, difficulty, up, down]
     except Exception as e:
         print('Error during fetching problem: %s' % e)
     return problem
@@ -44,7 +45,7 @@ urls = [
     for r in rows if not r.find_elements_by_tag_name('span')]
 
 problems = []
-with open('problem.csv', 'w') as f:
+with open('problem.txt', 'w') as f:
     for url in urls:
         try:
             driver.get(url)
@@ -65,5 +66,5 @@ with open('problem.csv', 'w') as f:
 driver.quit()
 
 problems = sorted(problems, reverse=True)
-with open('rank.csv', 'w') as f:
+with open('rank.txt', 'w') as f:
     f.write('\n'.join(['|'.join(['%.4f' % p[0], str(p[1]), p[2], p[3][0], str(p[4]), str(p[5])]) for p in problems]))
