@@ -1,4 +1,4 @@
-Rank of Leetcode problems by [Lower bound of Wilson score confidence interval for a Bernoulli parameter](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
+Rank of Leetcode problems by [Lower bound of Wilson score confidence interval for a Bernoulli parameter](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html), as of 2020/04/11.
 
 score|no.|title|difficaulty|up vote|down vote
 ---|---|---|---|---|---
