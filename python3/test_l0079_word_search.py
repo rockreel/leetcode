@@ -10,9 +10,22 @@ class Test(unittest.TestCase):
             ['S', 'F', 'C', 'S'],
             ['A', 'D', 'E', 'E']
         ]
-        # self.assertEqual(True, Solution().exist(board, 'ABCCED'))
-        # self.assertEqual(True, Solution().exist(board, 'SEE'))
-        # self.assertEqual(False, Solution().exist(board, 'ABCB'))
-
-        board = [["a","a","a","a"],["a","a","a","a"],["a","a","a","a"]]
+        self.assertEqual(True, Solution().exist(board, 'ABCCED'))
+        board = [
+            ['A', 'B', 'C', 'E'],
+            ['S', 'F', 'C', 'S'],
+            ['A', 'D', 'E', 'E']
+        ]
+        self.assertEqual(True, Solution().exist(board, 'SEE'))
+        board = [
+            ['A', 'B', 'C', 'E'],
+            ['S', 'F', 'C', 'S'],
+            ['A', 'D', 'E', 'E']
+        ]
+        self.assertEqual(False, Solution().exist(board, 'ABCB'))
+        board = [
+            ['a', 'a', 'a', 'a'],
+            ['a', 'a', 'a', 'a'],
+            ['a', 'a', 'a', 'a']
+        ]
         self.assertEqual(False, Solution().exist(board, 'aaaaaaaaaaaaa'))
