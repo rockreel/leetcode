@@ -39,9 +39,13 @@ def create_binary_tree(values):
     while queue:
         node = queue.pop(0)
         if values:
-            node.left = TreeNode(values.pop(0))
+            v = values.pop(0)
+            if v is not None:
+                node.left = TreeNode(v)
         if values:
-            node.right = TreeNode(values.pop(0))
+            v = values.pop(0)
+            if v is not None:
+                node.right = TreeNode(v)
         if node.left:
             queue.append(node.left)
         if node.right:
