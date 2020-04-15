@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
                 common.create_binary_tree([1, 2, 2, 3, 3, None, None, 4, 4])
             ))
         self.assertEqual(
-            False,
+            True,
             Solution().isBalanced(
                 common.create_binary_tree([1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, None, None, 5, 5])
             ))
