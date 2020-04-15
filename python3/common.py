@@ -12,6 +12,14 @@ class TreeNode(object):
         self.right = None
 
 
+class Node:
+    def __init__(self, val=0, left=None, right=None, next=None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+
+
 def create_linked_list(values):
     head = ListNode(None)
     p = head
