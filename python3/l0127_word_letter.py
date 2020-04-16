@@ -4,15 +4,6 @@ from collections import defaultdict
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
 
-        def word_adjacent(s1: str, s2: str) -> bool:
-            diff = 0
-            for c1, c2 in zip(s1, s2):
-                if c1 != c2:
-                    diff += 1
-                if diff > 1:
-                    return False
-            return True
-
         # Initialize word graph.
         wordList.append(beginWord)
         word_graph = defaultdict(list)
