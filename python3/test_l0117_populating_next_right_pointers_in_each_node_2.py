@@ -1,6 +1,6 @@
 import unittest
 
-from common import Node
+from l0116_populating_next_right_pointers_in_each_node import Node
 from l0116_populating_next_right_pointers_in_each_node import Solution
 
 class Test(unittest.TestCase):
