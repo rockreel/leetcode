@@ -30,6 +30,14 @@ def convert_linked_list_to_list(llist):
     return l
 
 
+def get_node(head, n):
+    i, p = 0, head
+    while i < n:
+        p = p.next
+        i += 1
+    return p
+
+
 def create_binary_tree(values):
     if not values:
         return None
