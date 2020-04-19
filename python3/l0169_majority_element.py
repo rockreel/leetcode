@@ -8,6 +8,5 @@ class Solution:
             if count == 0:
                 candidate = n
             count += (1 if n == candidate else -1)
-0        
         return candidate
 
