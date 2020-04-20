@@ -1,8 +1,9 @@
 import unittest
 
-from l0167_two_sum_2_input_array_is_sorted import Solution
+from l0172_factorial_trailing_zeros import Solution
 
 class Test(unittest.TestCase):
     
     def test_solution(self):
-        self.assertEqual([1, 2], Solution().twoSum([2, 7, 11, 15], 9))
+        self.assertEqual(0, Solution().trailingZeroes(3))
+        self.assertEqual(1, Solution().trailingZeroes(5))

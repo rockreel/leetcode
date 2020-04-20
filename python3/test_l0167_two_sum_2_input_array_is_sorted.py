@@ -1,9 +1,8 @@
 import unittest
 
-from l0169_majority_element import Solution
+from l0167_two_sum_2_input_array_is_sorted import Solution
 
 class Test(unittest.TestCase):
     
     def test_solution(self):
-        self.assertEqual(3, Solution().majorityElement([3, 2, 3]))
-        self.assertEqual(2, Solution().majorityElement([2, 2, 1, 1, 1, 2, 2]))
+        self.assertEqual([1, 2], Solution().twoSum([2, 7, 11, 15], 9))

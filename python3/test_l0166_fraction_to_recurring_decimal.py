@@ -8,4 +8,3 @@ class Test(unittest.TestCase):
         self.assertEqual('0.5', Solution().fractionToDecimal(1, 2))
         self.assertEqual('2', Solution().fractionToDecimal(2, 1))
         self.assertEqual('0.(6)', Solution().fractionToDecimal(2, 3))
-
