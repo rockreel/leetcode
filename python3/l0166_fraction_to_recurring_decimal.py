@@ -1,4 +1,6 @@
-n = abs(numerator)
+class Solution:
+    def fractionToDecimal(self, numerator: int, denominator: int) -> str:
+        n = abs(numerator)
         d = abs(denominator)
         r = n % d
         r_map = { r: 3 }
