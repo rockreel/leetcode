@@ -1,4 +1,6 @@
-ass Solution:
+from typing import List
+
+class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
         dp = [[0 for _ in range(len(dungeon[0]))] for _ in range(len(dungeon))]
         
