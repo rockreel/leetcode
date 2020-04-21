@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # dp[i]: max money can rob from nums[:i].
