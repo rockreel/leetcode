@@ -14,15 +14,15 @@ class Solution:
         dp = [[0 for _ in range(len(prices)+1)] for _ in range(k+1)]
 
         for i in range(1, min(k + 1, len(prices) // 2 + 2)):
-            max_money_left_buy_stock_after_profit_prev = float('-inf')
+            max_protential_profit_prev = float('-inf')
             for j in range(2, len(prices)+1):
-                max_money_left_buy_stock_after_profit = max(
+                max_protential_profit = max(
                     dp[i-1][j-2] - prices[j-2],  # After profit before prices[j-2], buy at prices[j-2]
-                    max_money_left_buy_stock_after_profit_prev
+                    max_protential_profit_prev
                 )
-                max_money_left_buy_stock_after_profit_prev = max_money_left_buy_stock_after_profit
+                max_protential_profit_prev = max_protential_profit
                 dp[i][j] = max(
-                    max_money_left_buy_stock_after_profit + prices[j-1],  # Sell at prices[j-1]
+                    max_protential_profit + prices[j-1],  # Sell at prices[j-1]
                     dp[i][j-1]  # No trade on prices[j-1]
                 )
                 # For reference only.
