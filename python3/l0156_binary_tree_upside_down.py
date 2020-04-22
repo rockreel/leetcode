@@ -17,7 +17,6 @@ class Solution:
             current = current.left
             temp.right = None
             temp.left = None
-        print([n.val if n else None for n in stack])
         p = dummy = TreeNode(0)
         while stack:
             p.right = stack.pop()
