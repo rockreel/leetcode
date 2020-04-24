@@ -15,7 +15,7 @@ class Solution:
         
         # Rob the second house.
         money1 = [0] * len(nums)
-        money1[1] = nums[1]
+        money1[1:3] = [nums[1], nums[1]]
         for i in range(2, len(nums)):
             money1[i] = max(nums[i] + money1[i-2], money1[i-1])
 
