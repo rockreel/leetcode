@@ -4,14 +4,14 @@ class Trie:
         """
         Initialize your data structure here.
         """
-        self._trie = { '': {} }
+        self._trie = { 'root': {} }
         
 
     def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
         """
-        node = self._trie['']
+        node = self._trie['root']
         for c in word:
             if c not in node:
                 node[c] = {}
@@ -22,7 +22,7 @@ class Trie:
         """
         Returns if the word is in the trie.
         """
-        node = self._trie['']
+        node = self._trie['root']
         for c in word:
             if c not in node:
                 return False
@@ -33,7 +33,7 @@ class Trie:
         """
         Returns if there is any word in the trie that starts with the given prefix.
         """
-        node = self._trie['']
+        node = self._trie['root']
         for c in prefix:
             if c not in node:
                 return False
