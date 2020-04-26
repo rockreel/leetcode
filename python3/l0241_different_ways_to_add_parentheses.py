@@ -1,4 +1,4 @@
-from common import List
+from typing import List
 
 class Solution:
     def diffWaysToCompute(self, input: str) -> List[int]:
