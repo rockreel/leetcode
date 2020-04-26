@@ -14,3 +14,7 @@ class Test(unittest.TestCase):
         p = common.get_tree_node(tree, 1)
         q = common.get_tree_node(tree, 10)
         self.assertEqual(p, Solution().lowestCommonAncestor(tree, p, q))
+
+        p = common.get_tree_node(tree, 9)
+        q = common.get_tree_node(tree, 6)
+        self.assertEqual(tree, Solution().lowestCommonAncestor(tree, p, q))

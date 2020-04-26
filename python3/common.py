@@ -4,12 +4,18 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+    def __repr__(self):
+        return 'ListNode(%s)' % self.val
+
 
 class TreeNode(object):
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+    
+    def __repr__(self):
+        return 'TreeNode(%s)' % self.val
 
 
 def create_linked_list(values):
