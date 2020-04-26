@@ -30,7 +30,7 @@ def convert_linked_list_to_list(llist):
     return l
 
 
-def get_node(head, n):
+def get_linked_list_node(head, n):
     i, p = 0, head
     while i < n:
         p = p.next
@@ -79,3 +79,17 @@ def convert_binary_tree_to_list(tree):
     while not l[-1]:
         l.pop()
     return l
+
+
+def get_tree_node(tree, n):
+    queue = [tree]
+    i = 0
+    while queue:
+        node = queue.pop(0)
+        if i == n:
+            return node
+        i += 1
+        if node:
+            queue.append(node.left)
+            queue.append(node.right)
+    return None
