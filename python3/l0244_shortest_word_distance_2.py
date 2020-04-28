@@ -27,11 +27,4 @@ class WordDistance:
                 i += 1
             else:
                 j += 1
-        while i < len(l1) :
-            dist = min(dist, abs(l1[i] - l2[j]))
-            i += 1
-        while j < len(l2):
-            dist = min(dist, abs(l1[i] - l2[j]))
-            j += 1
-
         return dist
