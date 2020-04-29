@@ -3,6 +3,10 @@
 # @return a bool
 # def isBadVersion(version):
 
+versions = []
+def isBadVersion(i):
+    return versions[i]
+
 class Solution:
     def firstBadVersion(self, n):
         """
