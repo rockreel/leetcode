@@ -1,7 +1,6 @@
+from typing import List
+
 class Solution:
-
-
-
 
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -28,10 +27,10 @@ class Solution:
                     live += 1
                 if board[i][j] == 1:
                     if live < 2 or live > 3:
-                        board[i][j] = 2
+                        board[i][j] = 2  # 2 means live -> dead.
                 else:
                     if live == 3:
-                        board[i][j] = -1
+                        board[i][j] = -1 # -1 means dead -> live.
                         
         for i in range(len(board)):
             for j in range(len(board[0])):
