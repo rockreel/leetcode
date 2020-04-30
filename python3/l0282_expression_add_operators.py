@@ -16,7 +16,7 @@ class Solution:
                     new_stack[4] = new_stack[4] * 10 + int(num[i])
                     new_expressions.append((e + num[i], new_stack))
 
-                # Adding new operator and calculate stack numbers.
+                # Calculate stack numbers to make room for new number and operator.
                 if s[3] == '*':
                     # Last operation is *.
                     s[2] = s[2] * int(s[4])
@@ -28,6 +28,7 @@ class Solution:
                         s[0] = s[0] - s[2]
                     s[1] = s[3]
                     s[2] = int(s[4])
+                
                 # Add operators.
                 new_stack = s[:]
                 new_stack[3] = '+'
