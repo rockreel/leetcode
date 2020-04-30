@@ -5,15 +5,15 @@ class Solution:
         if not num:
             return []
         # Stack holds last 3 numbers for calculation.
-        stack = [0, '+', 0, '+', num[0]]
+        stack = [0, '+', 0, '+', int(num[0])]
         expressions = [(num[0], stack)]  
         for i in range(1, len(num)):
             new_expressions = []
             for e, s in expressions:
                 # Append number to last in stack (not adding operator) if last one is not 0.
-                if s[4] != '0':
+                if s[4] != 0:
                     new_stack = s[:]
-                    new_stack[4] = new_stack[4] + num[i]
+                    new_stack[4] = new_stack[4] * 10 + int(num[i])
                     new_expressions.append((e + num[i], new_stack))
 
                 # Adding new operator and calculate stack numbers.
@@ -31,17 +31,17 @@ class Solution:
                 # Add operators.
                 new_stack = s[:]
                 new_stack[3] = '+'
-                new_stack[4] = num[i]
+                new_stack[4] = int(num[i])
                 new_expressions.append((e + '+' + num[i], new_stack))
 
                 new_stack = s[:]
                 new_stack[3] = '-'
-                new_stack[4] = num[i]
+                new_stack[4] = int(num[i])
                 new_expressions.append((e + '-' + num[i], new_stack))
 
                 new_stack = s[:]
                 new_stack[3] = '*'
-                new_stack[4] = num[i]
+                new_stack[4] = int(num[i])
                 new_expressions.append((e + '*' + num[i], new_stack))
 
             expressions = new_expressions
@@ -51,19 +51,19 @@ class Solution:
             r = 0
             if stack[3] == '*':
                 if stack[1] == '+':
-                    r = stack[0] + stack[2] * int(stack[4])
+                    r = stack[0] + stack[2] * stack[4]
                 else:
-                    r = stack[0] - stack[2] * int(stack[4])
+                    r = stack[0] - stack[2] * stack[4]
             elif stack[3] == '+':
                 if stack[1] == '+':
-                    r = stack[0] + stack[2] + int(stack[4])
+                    r = stack[0] + stack[2] + stack[4]
                 else:
-                    r = stack[0] - stack[2] + int(stack[4])
+                    r = stack[0] - stack[2] + stack[4]
             else:
                 if stack[1] == '+':
-                    r = stack[0] + stack[2] - int(stack[4])
+                    r = stack[0] + stack[2] - stack[4]
                 else:
-                    r = stack[0] - stack[2] - int(stack[4])
+                    r = stack[0] - stack[2] - stack[4]
             if r == target:
                 results.append(exp)
         return results
