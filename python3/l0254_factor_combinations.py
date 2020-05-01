@@ -1,3 +1,5 @@
+import bisect
+
 class Solution:
     """
     @param n: a integer
@@ -5,54 +7,33 @@ class Solution:
     """
     def getFactors(self, n):
         # write your code here
-        # Find all factors.
-        factors = []
         combinations = [[]]
         f = 2
         while n > 1:
             while n % f == 0:
-                # factors.append(f)
                 n //= f
                 # Generate combinations here.
                 new_combinations = []
                 for c in combinations:
-                    new_combinations.append(sorted(c + [f]))
+                    new_c = sorted(c + [f])
+                    # Maintain a sorted order of combinarions and only insert if it is not there.
+                    j = bisect.bisect_left(new_combinations, new_c)
+                    if j >= len(new_combinations) or new_combinations[j] != new_c:
+                        new_combinations.insert(j, new_c)
                     prev_n = None
-                    for i in range(len(c)-1, -1, -1):
+                    for i in range(len(c)):
                         if c[i] != prev_n:
+                            prev_n = c[i]
                             new_c = c[:]
                             new_c[i] *= f
-                            new_combinations.append(sorted(new_c))
-                            prev_n = c[i]
+                            new_c = sorted(new_c)
+                            # Maintain a sorted order of combinarions and only insert if it is not there.
+                            j = bisect.bisect_left(new_combinations, new_c)
+                            if j >= len(new_combinations) or new_combinations[j] != new_c:
+                                new_combinations.insert(j, new_c)
+    
                 combinations = new_combinations
             f += 1
 
-        # # Generate all combinations.
-        # combinations = [[]]
-        # for f in factors:
-        #     new_combinations = []
-        #     for c in combinations:
-        #         new_combinations.append(sorted(c + [f]))
-        #         prev_n = None
-        #         for i in range(len(c)):
-        #             if c[i] != prev_n:
-        #                 new_c = c[:]
-        #                 new_c[i] *= f
-        #                 new_combinations.append(sorted(new_c))
-        #                 prev_n = c[i]
-        #     combinations = new_combinations
-        # # print(combinations)
-
-        # Dedup combinations.
-        unique_combinations = []
-        prev_c = None
-        for c in sorted(combinations):
-            if len(c) == 1:
-                continue
-            if c == prev_c:
-                continue
-            else:
-                unique_combinations.append(c)
-                prev_c = c
-
-        return unique_combinations
+        combinations.pop()  # Remove the one which is the number itself.
+        return combinations
