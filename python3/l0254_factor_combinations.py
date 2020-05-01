@@ -1,7 +1,7 @@
 from typing import List
 
 class Solution:
-    def factorCombinations(self, n):
+    def getFactors(self, n):
       
         def factors(n, start):
             i = start
