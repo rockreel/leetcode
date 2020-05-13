@@ -32,42 +32,33 @@ class NestedInteger:
         """
         return self._value
 
+
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        self._stack = [[nestedList, 0]]
-        self._next = None
-        while True:
-            l, i = self._stack[-1]
-            if i >= len(l):
-                break
-            if l[i].isInteger():
-                self._next = l[i].getInteger()
-                break
-            self._stack.append([l[i].getList(), 0])
-        print('init', self._stack, self._next)
-
+        self._stack = [[nestedList, -1]]
+        self._next = self._find_next()
+    
     def next(self) -> int:
         next_ = self._next
-        self._next = None
+        self._next = self._find_next()
+        return next_
+    
+    def hasNext(self) -> bool:
+         return self._next is not None
+        
+    def _find_next(self):
         while self._stack:
             l, i = self._stack[-1]
             i += 1
-            self._stack[-1][1] = i
             if i >= len(l):
                 self._stack.pop()
                 continue
+            self._stack[-1][1] = i
             if l[i].isInteger():
-                self._next = l[i].getInteger()          
-                break
-            print(i)
-            self._stack.append([l[i].getList(), 0])
-        print(next_, self._stack, self._next)
-        return next_
-
-    
-    def hasNext(self) -> bool:
-        return self._next is not None
-         
+                return l[i].getInteger()
+            else:
+                self._stack.append([l[i].getList(), -1])
+        return None
 
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
