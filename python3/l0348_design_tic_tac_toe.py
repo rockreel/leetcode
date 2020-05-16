@@ -18,7 +18,7 @@ class TicTacToe:
         self._col[player-1][col] += 1
         if row == col:
             self._diag[player-1] += 1
-        if row == self._n - col:
+        if row + col == self._n - 1:
             self._rdiag[player-1] += 1
         if (self._row[player-1][row] == self._n or
             self._col[player-1][col] == self._n or
