@@ -1,6 +1,7 @@
+from typing import List
+
 class Solution:
     def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:
-
         nums = [1]
         indices = [0] * len(primes)
         while len(nums) < n:
