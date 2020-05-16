@@ -1,37 +1,6 @@
 from typing import List
 
-# """
-# This is the interface that allows for creating nested lists.
-# You should not implement it, or speculate about its implementation
-# """
-class NestedInteger:
-
-    def __init__(self, value):
-        self._value = value
-
-    def __repr__(self):
-        return str(self._value)
-
-    def isInteger(self) -> bool:
-        """
-        @return True if this NestedInteger holds a single integer, rather than a nested list.
-        """
-        return isinstance(self._value, int)
-
-    def getInteger(self) -> int:
-        """
-        @return the single integer that this NestedInteger holds, if it holds a single integer
-        Return None if this NestedInteger holds a nested list
-        """
-        return self._value
-
-    def getList(self):
-        """
-        @return the nested list that this NestedInteger holds, if it holds a nested list
-        Return None if this NestedInteger holds a single integer
-        """
-        return self._value
-
+from l0339_nested_list_weight_sum import NestedInteger
 
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):

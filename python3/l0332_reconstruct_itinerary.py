@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         def find_itinerary(start, tickets) -> List[str]:
