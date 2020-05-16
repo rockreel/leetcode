@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
     
     def test_solution(self):
         self.assertEqual(
-            4,
+            3,
             Solution().largestBSTSubtree(
                 common.create_binary_tree([10, 5, 15, 1, 8, None, 7])
             ))
