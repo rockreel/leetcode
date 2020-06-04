@@ -13,15 +13,74 @@ class Solution:
                 if i < 0 or i > m - 1 or j < 0 or j > n - 1:
                     continue
                 if i == m - 1:
-                    dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1] if grid[i][j] == 0 else dp[i][j+1][1] - 1)
-                elif j == n - 1:
-                    dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1] if grid[i][j] == 0 else dp[i+1][j][1] - 1)
-                else:
-                    if dp[i+1][j][0] < dp[i][j+1][0]:
-                        dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1] if grid[i][j] == 0 else dp[i+1][j][1] - 1)
+                    if dp[i][j+1][0] == -1:
+                        dp[i][j] = dp[i][j+1]
                     else:
-                        dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1] if grid[i][j] == 0 else dp[i][j+1][1] - 1)
-        return dp[0][0][0] if dp[0][0][1] >= 0 else -1
+                        if grid[i][j] == 0:
+                            dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1])
+                        else:
+                            if dp[i][j+1][1] - 1 >= 0:
+                                dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1] - 1)
+                            else:
+                                dp[i][j] = (-1, dp[i][j+1][1] - 1)
+                elif j == n - 1:
+                    if dp[i+1][j][0] == -1:
+                        dp[i][j] = dp[i+1][j]
+                    else:
+                        if grid[i][j] == 0:
+                            dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1])
+                        else:
+                            if dp[i+1][j][1] - 1 >= 0:
+                                dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1] - 1)
+                            else:
+                                dp[i][j] = (-1, dp[i+1][j][1] - 1)
+                else:
+                    if dp[i+1][j][0] == -1 and dp[i][j+1][0] == -1:
+                        dp[i][j] = dp[i+1][j]
+                    elif dp[i+1][j][0] == -1:
+                        if grid[i][j] == 0:
+                            dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1])
+                        else:
+                            if dp[i][j+1][1] - 1 >= 0:
+                                dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1] - 1)
+                            else:
+                                dp[i][j] = (-1, dp[i][j+1][1] - 1)
+                    elif dp[i][j+1][0] == -1:
+                        if grid[i][j] == 0:
+                            dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1])
+                        else:
+                            if dp[i+1][j][1] - 1 >= 0:
+                                dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1] - 1)
+                            else:
+                                dp[i][j] = (-1, dp[i+1][j][1] - 1)
+                    else:
+                        if dp[i+1][j][0] < dp[i][j+1][0]:
+                            if grid[i][j] == 0:
+                                dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1])
+                            else:
+                                if dp[i+1][j][1] - 1 >= 0:
+                                    dp[i][j] = (dp[i+1][j][0] + 1, dp[i+1][j][1] - 1)
+                                else:
+                                    dp[i][j] = (-1, dp[i+1][j][1] - 1)
+                        elif dp[i+1][j][0] > dp[i][j+1][0]:
+                            if grid[i][j] == 0:
+                                dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1])
+                            else:
+                                if dp[i][j+1][1] - 1 >= 0:
+                                    dp[i][j] = (dp[i][j+1][0] + 1, dp[i][j+1][1] - 1)
+                                else:
+                                    dp[i][j] = (-1, dp[i][j+1][1] - 1)
+                        else:
+                            k0 = max(dp[i+1][j][1], dp[i][j+1][1])
+                            if grid[i][j] == 0:
+                                dp[i][j] = (dp[i][j+1][0] + 1, k0)
+                            else:
+                                if k0 - 1 >= 0:
+                                    dp[i][j] = (dp[i][j+1][0] + 1, k0-1)
+                                else:
+                                    dp[i][j] = (-1, k0 - 1)
+
+        return dp[0][0][0] # if dp[0][0][1] >= 0 else -1
 
     def shortestPath(self, grid: List[List[int]], k: int) -> int:
         m, n = len(grid), len(grid[0])
