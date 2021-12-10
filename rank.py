@@ -1,70 +1,77 @@
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
+from collections import namedtuple
+import csv
 import math
 import time
 
+from selenium import webdriver
+from selenium.webdriver.support.ui import Select
 
-def get_score(pos, n):
-    if n == 0:
+Problem = namedtuple('Problem', ['num', 'title', 'difficulty', 'up_vote', 'down_vote','score'])
+
+def calculate_score(up, total):
+    if total == 0:
         return 0
     z = 1.96
-    phat = pos / n
-    return (phat + z*z/(2*n) - z * math.sqrt((phat*(1-phat)+z*z/(4*n))/n))/(1+z*z/n)
+    phat = up / total
+    return (phat + z*z/(2*total) - z * math.sqrt((phat*(1-phat)+z*z/(4*total))/total))/(1+z*z/total)
 
 
-def get_problem(driver):
+def get_problem(driver, url):
+    driver.get(url)
+    time.sleep(3)
     problem = None
     try:
-        title = [
-            d for d in driver.find_elements_by_tag_name('div') 
-            if d.get_attribute('data-cy') == 'question-title'][0]
-        info = title.find_element_by_xpath('..').find_elements_by_tag_name('div')[1]
-        num = title.text.split('.')[0].strip()
+        title = driver.find_element_by_css_selector('div[data-cy="question-title"]')
         title_text = title.text.split('.')[1].strip()
+        num = int(title.text.split('.')[0].strip())
+        info = title.find_element_by_xpath('..').find_elements_by_tag_name('div')[1]
         difficulty = info.find_elements_by_tag_name('div')[0].text
         up = int(info.find_elements_by_tag_name('button')[0].find_element_by_tag_name('span').text)
         down = int(info.find_elements_by_tag_name('button')[1].find_element_by_tag_name('span').text)
-        problem = [get_score(up, up+down), num, title_text, difficulty, up, down]
+        problem = Problem(num, title_text, difficulty, up, down, calculate_score(up, up + down))
     except Exception as e:
         print('Error during fetching problem: %s' % e)
     return problem
 
-    
+
+def get_problem_urls(driver, page, collect_premium):
+    driver.get('https://leetcode.com/problemset/all/?page=%s' % page)
+    time.sleep(3)
+    rows = driver.find_elements_by_css_selector('div[role="row"]')[1:]
+    urls = []
+    for r in rows:
+        url = r.find_elements_by_css_selector('div[role="cell"]')[1].find_element_by_tag_name('a').get_property('href')
+        icon = r.find_elements_by_css_selector('div[role="cell"]')[0].find_element_by_tag_name('svg')
+        is_premium = 'text-brand-orange' in icon.get_property('className').get('animVal', '')
+        if collect_premium or not is_premium:
+            urls.append(url)
+    return urls
+
+
 driver = webdriver.Chrome()
-driver.get('https://leetcode.com/problemset/all/')
-time.sleep(1)
-
-page = driver.find_elements_by_tag_name('tbody')[1].find_element_by_tag_name('select')
-Select(page).select_by_visible_text('all')
-time.sleep(5)
-
-table = driver.find_elements_by_tag_name('tbody')[0]
-rows = [r.find_elements_by_tag_name('td')[2].find_element_by_tag_name('div') for r in table.find_elements_by_tag_name('tr')]
-urls = [
-    r.find_element_by_tag_name('a').get_property('href')
-    for r in rows if not r.find_elements_by_tag_name('span')]
-
+total_page = 42
+collect_premium = False
 problems = []
-with open('problem.txt', 'w') as f:
+
+for i in range(1, total_page + 1):
+    urls = get_problem_urls(driver, i, collect_premium)
     for url in urls:
-        try:
-            driver.get(url)
-            problem = None
-            count = 0
-            while problem is None and count < 5:
-                time.sleep(2)
-                problem = get_problem(driver)
-                count += 1
-            if problem is None:
-                raise Exception('Error fetching problem.')
-            problems.append(problem)
-            print(problem)
-            f.write('%s\n' % '|'.join(['%.4f' % problem[0], str(problem[1]), problem[2], problem[3][0], str(problem[4]), str(problem[5])]))
-        except Exception as e:
-            print('Error during fetching %s: %s' % (url, e))
+        problem = get_problem(driver, url)
+        if not problem:
+            continue
+        problems.append(problem)
+        print(problem)
+
+problems = sorted(problems, key=lambda p: p.num)
+with open('problem.csv', 'w') as f:
+    w = csv.writer(f)
+    w.writerow(('num', 'title', 'difficulty', 'up_vote', 'down_vote','score'))
+    w.writerows([(p.num, p.title, p.difficulty, p.up_vote, p.down_vote, p.score) for p in problems])
+
+problems = sorted(problems, key=lambda p: p.score, reverse=True)
+with open('rank.csv', 'w') as f:
+    w = csv.writer(f)
+    w.writerow(('num', 'title', 'difficulty', 'up_vote', 'down_vote','score'))
+    w.writerows([(p.num, p.title, p.difficulty, p.up_vote, p.down_vote, p.score) for p in problems])
 
 driver.quit()
-
-problems = sorted(problems, reverse=True)
-with open('rank.txt', 'w') as f:
-    f.write('\n'.join(['|'.join(['%.4f' % p[0], str(p[1]), p[2], p[3][0], str(p[4]), str(p[5])]) for p in problems]))
