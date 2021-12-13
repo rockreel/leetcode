@@ -1,3 +1,5 @@
+from typing import Optional
+
 class Node:
     def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
         self.val = int(x)
@@ -6,7 +8,33 @@ class Node:
 
 
 class Solution:
-    def copyRandomList(self, head: 'Node') -> 'Node':
+    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        # Create a interweaving list with old and new node alternating.
+        p = head
+        while p:
+            node = Node(p.val)
+            next = p.next
+            p.next = node
+            node.next = next
+            p = next
+        # Link random point in new nodes.
+        p = head
+        while p:
+            if p.random:
+                p.next.random = p.random.next
+            p = p.next.next
+        # Separate new and old nodes to get copy of the list.
+        dummy = Node(0)
+        p, q = head, dummy
+        while p:
+            next = p.next.next
+            q.next = p.next
+            p.next = next
+            p = next
+            q = q.next
+        return dummy.next
+
+    def copyRandomList2(self, head: 'Node') -> 'Node':
         dummy = p0 = Node(0)
         dummy.next = head
         p1 = head
