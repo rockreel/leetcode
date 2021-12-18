@@ -15,3 +15,14 @@ class Solution:
             n2 = nums[n2]
         
         return n1
+
+    def findDuplicateBinarySearch(self, nums: List[int]) -> int:
+        nums_sorted = sorted(nums)
+        start, end = 0, len(nums_sorted) - 1
+        while start + 1 < end:
+            middle = start + (end - start) // 2
+            if nums_sorted[middle] >= middle + 1:
+                start = middle
+            else:
+                end = middle
+        return nums_sorted[start]
