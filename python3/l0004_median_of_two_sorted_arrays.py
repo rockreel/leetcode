@@ -3,26 +3,29 @@ from typing import List
 # Recursion.
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        def findKthElement(nums1: List[int], nums2: List[int], k) -> float:
+        def findKthElement(nums1, nums2, k):
             if not nums1:
-                return nums2[k-1]
-            elif not nums2:
-                return nums1[k-1]
-            elif k == 1:
+                return nums2[k]
+            if not nums2:
+                return nums1[k]
+            if k == 0:
                 return min(nums1[0], nums2[0])
-
-            m1 = nums1[k//2-1] if k//2 - 1 < len(nums1) else float("inf")
-            m2 = nums2[k//2-1] if k//2 - 1 < len(nums2) else float("inf")
+            
+            m = (k - 1) // 2
+            m1 = nums1[m] if m < len(nums1) else float('inf')
+            m2 = nums2[m] if m < len(nums2) else float('inf')
+            
             if m1 < m2:
-                return findKthElement(nums1[k//2:], nums2, k - k//2)
+                return findKthElement(nums1[m+1:], nums2, k - m - 1)
             else:
-                return findKthElement(nums1, nums2[k//2:], k - k//2)
-
-        n = len(nums1) + len(nums2)
-        if n % 2 == 0:
-            return (findKthElement(nums1, nums2, n//2) + findKthElement(nums1, nums2, n//2+1)) / 2.0
+                return findKthElement(nums1, nums2[m+1:], k - m - 1)
+            
+        n1 = len(nums1)
+        n2 = len(nums2)
+        if (n1 + n2) % 2 == 0:
+            return (findKthElement(nums1, nums2, (n1 + n2) // 2 - 1) + findKthElement(nums1, nums2, (n1 + n2) // 2)) / 2
         else:
-            return findKthElement(nums1, nums2, n//2 + 1)
+            return findKthElement(nums1, nums2, (n1 + n2) // 2)
         
 
 # Simple merge algorithm.
