@@ -25,3 +25,20 @@ class Solution:
                     new_node.neighbors.append(visited_map[neighbor])
 
         return cloned
+
+    def cloneGraphDFS(self, node: 'Node') -> 'Node':
+        def clonegraph(node, node_map):
+            if node in node_map:
+                return None
+            n = Node(node.val, [])
+            node_map[node] = n
+            for neighbor in node.neighbors:
+                if neighbor in node_map:
+                    n.neighbors.append(node_map[neighbor])
+                else:
+                    nc = clonegraph(neighbor, node_map)
+                    n.neighbors.append(nc)
+            return n
+        if not node:
+            return None
+        return clonegraph(node, {})
