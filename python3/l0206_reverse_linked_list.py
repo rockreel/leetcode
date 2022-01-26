@@ -1,14 +1,14 @@
 from common import ListNode
+from typing import Optional
 
 class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-        if not head:
-            return None
-        
-        p0, p1, p2 = None, head, head.next
-        while p1:
-            p1.next = p0
-            p0 = p1
-            p1 = p2
-            p2 = p2.next if p2 else None
-        return p0
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        f = head
+        b = None
+        while f:
+            next_f = f.next
+            next_b = f
+            f.next = b
+            f = next_f
+            b = next_b
+        return b
