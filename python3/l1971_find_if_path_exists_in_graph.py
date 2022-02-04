@@ -30,7 +30,8 @@ class Solution:
                     res = hasValidPath(n, d, graph, visited)
                     if res:
                         return True
-            visited.remove(s)
+            # Do not need to pop visited since only need to find if path exits.
+            # visited.remove(s)
             return False
         
         graph = defaultdict(list)
