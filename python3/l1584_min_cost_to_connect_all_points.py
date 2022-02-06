@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
-        heap = []
+        # Kruskal algorithm.
         edges = []
         for i in range(len(points)):
             for j in range(i+1, len(points)):
@@ -18,6 +18,26 @@ class Solution:
                 distance += d
                 union_find.union(i, j)
                 count += 1
+        return distance
+    
+    def minCostConnectPointsPrim(self, points: List[List[int]]) -> int:
+        edges = []
+        for j in range(1, len(points)):
+            edges.append((abs(points[0][0]-points[j][0]) + abs(points[0][1]-points[j][1]), 0, j))
+        heapq.heapify(edges)
+        visited = set([0])
+        unvisited = set(range(1, len(points)))
+        distance = 0
+        while unvisited:
+            d, i, j = heapq.heappop(edges)
+            if j in unvisited:
+                distance += d
+                visited.add(j)
+                unvisited.remove(j)
+                for k in range(len(points)):
+                    if k in unvisited:
+                        heapq.heappush(edges, (abs(points[k][0]-points[j][0]) + abs(points[k][1]-points[j][1]), j, k))
+
         return distance
 
 
