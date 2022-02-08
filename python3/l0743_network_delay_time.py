@@ -3,6 +3,7 @@ from collections import defaultdict
 
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        # Dijkstra algorithm.
         shortest_paths = [float('inf')] * n
         shortest_paths[k-1] = 0
         queue = [k]
