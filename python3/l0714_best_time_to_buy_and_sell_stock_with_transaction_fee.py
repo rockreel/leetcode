@@ -3,7 +3,7 @@ from functools import lru_cache
 
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
-        @lru_cache
+        @lru_cache(None)
         def max_profit(fee, i, hold):
             if i >= len(prices):
                 return 0
