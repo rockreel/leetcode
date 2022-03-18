@@ -1,13 +1,12 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        char_dict = {}
-        for i, c in enumerate(s):
-            if c not in char_dict:
-                char_dict[c] = (1, i)
+        char_count = {}
+        for c in s:
+            if c not in char_count:
+                char_count[c] = 1
             else:
-                char_dict[c] = (char_dict[c][0] + 1, i)
-        index = len(s)
-        for c, v in char_dict.items():
-            if v[0] == 1:
-                index = min(index, v[1])
-        return index if index < len(s) else -1
+                char_count[c] += 1
+        for i, c in enumerate(s):
+            if char_count[c] == 1:
+                return i
+        return -1
