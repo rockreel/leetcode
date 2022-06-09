@@ -17,3 +17,18 @@ class Solution:
             return result
         
         return generateParen(n, n)
+
+    def generateParenthesisIterative(self, n: int) -> List[str]:
+        queue = [('', 0, 0)]
+        result = []
+        while queue:
+            s, n_open, n_close = queue.pop(0)
+            if n_open == n and n_close == n:
+                result.append(s)
+                continue
+            if n_open > n_close:
+                queue.append((s + ')', n_open, n_close + 1))
+            if n_open < n:
+                queue.append((s + '(', n_open + 1, n_close))
+        
+        return result
