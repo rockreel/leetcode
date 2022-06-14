@@ -29,3 +29,28 @@ class Solution:
             for i in range(up_bound, down_bound+1):
                 result.append(matrix[i][right_bound])   
         return result
+
+    def spiralOrder2(self, matrix: List[List[int]]) -> List[int]:
+        offset = 0
+        m = len(matrix)
+        n = len(matrix[0])
+        result = []
+        while offset < m // 2 and offset < n // 2:
+            for j in range(offset, n-offset-1):
+                result.append(matrix[offset][j])
+            for i in range(offset, m-offset-1):
+                result.append(matrix[i][n-offset-1])
+            for j in range(n-offset-1, offset, -1):
+                result.append(matrix[m-offset-1][j])
+            for i in range(m-offset-1, offset, -1):
+                result.append(matrix[i][offset])
+            offset += 1
+        if n >= m:
+            if m % 2 == 1:
+                for j in range(offset, n - offset):
+                    result.append(matrix[offset][j])
+        else:
+            if n % 2 == 1:
+                for i in range(offset, m - offset):
+                    result.append(matrix[i][offset])
+        return result
