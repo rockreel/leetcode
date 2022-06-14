@@ -34,3 +34,28 @@ class Solution:
                     direction = 'R'
                     j += 1
         return matrix
+
+    def generateMatrix4Loops(self, n: int) -> List[List[int]]:
+        num = 1
+        matrix = [[0] * n for _ in range(n)]
+        offset = 0
+        i_start, j_start = 0, 0
+        while offset < n // 2:
+            for j in range(j_start, n - offset - 1):
+                matrix[i_start][j] = num
+                num += 1
+            for i in range(i_start, n - offset - 1):
+                matrix[i][n - offset - 1] = num
+                num += 1
+            for j in range(n - offset - 1, offset, -1):
+                matrix[n - offset - 1][j] = num
+                num += 1
+            for i in range(n - offset - 1, offset, -1):
+                matrix[i][offset] = num
+                num += 1
+            i_start += 1
+            j_start += 1
+            offset += 1
+        if n % 2 == 1:
+            matrix[n//2][n//2] = num
+        return matrix
