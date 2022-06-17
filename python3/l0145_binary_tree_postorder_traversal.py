@@ -1,5 +1,5 @@
 from common import TreeNode
-from typing import List
+from typing import List, Optional
 
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
@@ -19,3 +19,23 @@ class Solution:
                 else:
                     current = stack[-1].right
         return nodes
+    
+    def postorderTraversalUniversalIterative(self, root: Optional[TreeNode]) -> List[int]:
+        stack = []
+        result = []
+        if root:
+            stack.append(root)
+        while stack:
+            if stack[-1]:
+                n = stack.pop()
+                stack.append(n)
+                stack.append(None)
+                if n.right:
+                    stack.append(n.right)
+                if n.left:
+                    stack.append(n.left)
+            else:
+                stack.pop()
+                n = stack.pop()
+                result.append(n.val)
+        return result
