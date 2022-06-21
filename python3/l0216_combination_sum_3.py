@@ -20,3 +20,17 @@ class Solution:
 
         nums = [i for i in range(1, 10)]
         return combination_sum(nums, k, n)
+
+    def combinationSum3SharedResult(self, k: int, n: int) -> List[List[int]]:
+        def get_combination_sum(start, k, n, combination, result):
+            if k == 0 and n ==0:
+                result.append(combination)
+
+            for i in range(start, 10):
+                if n - i < 0:
+                    continue
+                get_combination_sum(i+1, k-1, n-i, combination+[i], result)
+                
+        result = []    
+        get_combination_sum(1, k, n, [], result)
+        return result
