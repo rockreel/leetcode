@@ -2,7 +2,6 @@ from typing import List
 
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-
         def generate_combination(nums: List[int], k: int) -> List[List[int]]:
             if k == 1:
                 return [[n] for n in nums]
@@ -14,3 +13,14 @@ class Solution:
 
         nums = list(range(1, n+1))
         return generate_combination(nums, k)
+
+    def combineIndex(self, n: int, k: int) -> List[List[int]]:
+        def get_combination(start, n, k):
+            if k == 0:
+                return [[]]
+            result = []
+            for i in range(start, n):
+                for c in get_combination(i+1, n, k-1):
+                    result.append([i] + c)
+            return result
+        return get_combination(1, n+1, k)
