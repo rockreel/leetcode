@@ -41,3 +41,40 @@ class Solution:
                 if board[i][j] == '.':
                     fill_positions.append((i, j))
         return solve(board, fill_positions)
+
+    def solveSudokuBoardIteration(self, board: List[List[str]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
+        def is_valid(row, col, c, board):
+            for i in range(9):
+                if board[i][col] == c:
+                    return False
+            for j in range(9):
+                if board[row][j] == c:
+                    return False
+            row_start = (row // 3) * 3
+            col_start = (col // 3) * 3
+            for i in range(row_start, row_start + 3):
+                for j in range(col_start, col_start + 3):
+                    if board[i][j] == c:
+                        return False
+            return True
+        
+        def solve(board):
+            for i in range(9):
+                for j in range(9):
+                    if board[i][j] != '.':
+                        continue
+                    for c in '123456789':
+                        if not is_valid(i, j, c, board):
+                            continue
+                        board[i][j] = c
+                        if solve(board):
+                            return True
+                        board[i][j] = '.'
+                    return False
+            return True
+        
+        solve(board)
+        return
