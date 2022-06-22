@@ -22,3 +22,17 @@ class Solution:
 
         nums = sorted(nums)
         return subsets(nums)
+
+    def subsetsWithDupSimpleForLoop(self, nums: List[int]) -> List[List[int]]:
+        def subset(nums, s, result):
+            result.append(s)
+            if not nums:
+                return
+            for i in range(len(nums)):
+                if i > 0 and nums[i] == nums[i-1]:
+                    continue
+                subset(nums[i+1:], s + [nums[i]], result)
+                
+        result = []
+        subset(sorted(nums), [], result)
+        return result  
