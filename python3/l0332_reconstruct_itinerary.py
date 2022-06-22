@@ -16,3 +16,23 @@ class Solution:
         tickets = sorted(tickets)
         return find_itinerary('JFK', tickets)[0]
 
+    def findItineraryGlobalResult(self, tickets: List[List[str]]) -> List[str]:
+        
+        def itinerary(tickets, itr, used, result):
+            if len(itr) == len(tickets) + 1:
+                result.append(itr)
+                return True
+            for i in range(len(tickets)):
+                if i in used:
+                    continue
+                if tickets[i][0] == itr[-1]:    
+                    used.add(i)
+                    if itinerary(tickets, itr + [tickets[i][1]], used, result):
+                        return True
+                    used.remove(i)
+            return False
+        
+        result = []
+        itinerary(sorted(tickets), ['JFK'], set([]), result)
+        return result[0]
+
