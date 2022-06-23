@@ -7,4 +7,4 @@ class Solution:
         queue = deque()
         for p in people:
             queue.insert(p[1], p)
-        return queue
+        return list(queue)
