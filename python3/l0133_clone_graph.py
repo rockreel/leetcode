@@ -34,7 +34,6 @@ class Solution:
         visited_map = { node: cloned }
         while stack:
             old_node, new_node = stack.pop()
-            # visited_map[old_node] = new_node
             for neighbor in old_node.neighbors:
                 if neighbor not in visited_map:
                     new_neighbor = Node(neighbor.val, [])
