@@ -10,16 +10,17 @@ class Solution:
             return None
 
         cloned = Node(node.val, [])
-        queue = [(node, cloned)]
+        queue = [node]
         visited_map = { node: cloned }
         while queue:
-            old_node, new_node = queue.pop(0)
+            old_node = queue.pop(0)
+            new_node = visited_map[old_node]
             for neighbor in old_node.neighbors:
                 if neighbor not in visited_map:
                     new_neighbor = Node(neighbor.val, [])
                     new_node.neighbors.append(new_neighbor)
                     visited_map[neighbor] = new_neighbor
-                    queue.append((neighbor, new_neighbor))
+                    queue.append(neighbor)
                 else:
                     new_node.neighbors.append(visited_map[neighbor])
 
@@ -30,16 +31,17 @@ class Solution:
             return None
 
         cloned = Node(node.val, [])
-        stack = [(node, cloned)]
+        stack = [node]
         visited_map = { node: cloned }
         while stack:
-            old_node, new_node = stack.pop()
+            old_node = stack.pop()
+            new_node = visited_map[old_node]
             for neighbor in old_node.neighbors:
                 if neighbor not in visited_map:
                     new_neighbor = Node(neighbor.val, [])
                     new_node.neighbors.append(new_neighbor)
                     visited_map[neighbor] = new_neighbor
-                    stack.append((neighbor, new_neighbor))
+                    stack.append(neighbor)
                 else:
                     new_node.neighbors.append(visited_map[neighbor])
 
