@@ -11,16 +11,36 @@ class Solution:
 
         cloned = Node(node.val, [])
         queue = [(node, cloned)]
-        visited_map = dict()
+        visited_map = { node: cloned }
         while queue:
             old_node, new_node = queue.pop(0)
-            visited_map[old_node] = new_node
             for neighbor in old_node.neighbors:
                 if neighbor not in visited_map:
                     new_neighbor = Node(neighbor.val, [])
                     new_node.neighbors.append(new_neighbor)
                     visited_map[neighbor] = new_neighbor
                     queue.append((neighbor, new_neighbor))
+                else:
+                    new_node.neighbors.append(visited_map[neighbor])
+
+        return cloned
+
+    def cloneGraphDFSIterative(self, node: 'Node') -> 'Node':
+        if not node:
+            return None
+
+        cloned = Node(node.val, [])
+        stack = [(node, cloned)]
+        visited_map = { node: cloned }
+        while stack:
+            old_node, new_node = stack.pop()
+            # visited_map[old_node] = new_node
+            for neighbor in old_node.neighbors:
+                if neighbor not in visited_map:
+                    new_neighbor = Node(neighbor.val, [])
+                    new_node.neighbors.append(new_neighbor)
+                    visited_map[neighbor] = new_neighbor
+                    stack.append((neighbor, new_neighbor))
                 else:
                     new_node.neighbors.append(visited_map[neighbor])
 
