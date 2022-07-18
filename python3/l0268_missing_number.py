@@ -21,3 +21,16 @@ class Solution:
         for n in nums:
             found_nums[n] = 1
         return found_nums.index(0)
+
+    def missingNumberIteselfAsMap(self, nums: List[int]) -> int:
+        for i in range(len(nums)):
+            nums[i] = nums[i] + 1
+            
+        for n in nums:
+            if abs(n)-1 <= len(nums) - 1:
+                nums[abs(n)-1] = - nums[abs(n)-1]
+        
+        for i, n in enumerate(nums):
+            if n > 0:
+                return i
+        return len(nums)
