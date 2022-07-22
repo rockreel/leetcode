@@ -6,7 +6,6 @@ class Solution:
             return 0
 
         num_set = set(nums)
-        range_map = dict()
         max_n = max(nums)
         min_n = min(nums)
         ranges = []
