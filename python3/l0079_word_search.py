@@ -28,7 +28,7 @@ class Solution:
                     return True
         return False
     
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def existChangeMatrix(self, board: List[List[str]], word: str) -> bool:
 
         def exist_at(board: List[List[str]], word: str, row: int, col: int) -> bool:
             if not word:
