@@ -33,7 +33,6 @@ class Codec:
             return None
         root = TreeNode(int(value))
         queue = [root]
-        i = 1
         while nodes:
             tree_node = queue.pop(0)
             value = nodes.pop(0)
