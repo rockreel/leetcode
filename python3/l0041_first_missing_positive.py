@@ -1,7 +1,28 @@
 from typing import List
 
 class Solution:
+
     def firstMissingPositive(self, nums: List[int]) -> int:
+        n = len(nums)
+        # Set all number irrelevant to n+1
+        for i in range(len(nums)):
+            if nums[i] <= 0 or nums[i] > n:
+                nums[i] = n + 1
+
+        # Each num, set corresponding index to negative.
+        for i in range(len(nums)):
+            if abs(nums[i]) != n + 1:
+                nums[abs(nums[i])-1] = -abs(nums[abs(nums[i])-1])
+
+        # Find the first non-negative index which is the missing number.    
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                return i + 1
+
+        # If every num is negative, n + 1 is the missing number.    
+        return n+1
+        
+    def firstMissingPositiveWhile(self, nums: List[int]) -> int:
         i = 0
         while i < len(nums):
             # Move all positive n to location n-1.
