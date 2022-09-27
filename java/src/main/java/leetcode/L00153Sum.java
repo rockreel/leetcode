@@ -8,7 +8,7 @@ class L00153Sum {
 
   public List<List<Integer>> threeSum(int[] nums) {
     Arrays.sort(nums);
-    List<List<Integer>> result = new ArrayList();
+    List<List<Integer>> result = new ArrayList<List<Integer>>();
     int i = 0;
     while (i + 1 < nums.length) {
       findResult(-nums[i], nums, i + 1, result);

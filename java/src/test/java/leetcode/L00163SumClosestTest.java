@@ -1,6 +1,5 @@
 package leetcode;
 
-import com.google.common.collect.Lists;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

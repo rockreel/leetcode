@@ -23,5 +23,5 @@ class Solution:
                     # s[i:j] is palindrome <=> s[i+1:j-1](dp[i+1][j-1]) is palindrome and s[i] == s[j-1]
                     dp[i][j] = True
                 if dp[i][j] and offset > len(max_sub):
-                        max_sub = s[i:j]
-        return max_sub 
+                    max_sub = s[i:j]
+        return max_sub
