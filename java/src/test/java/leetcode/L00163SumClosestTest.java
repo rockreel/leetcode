@@ -2,7 +2,7 @@ package leetcode;
 
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.*;
 
 public class L00163SumClosestTest {
 

@@ -2,8 +2,7 @@ package leetcode;
 
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertFalse;
-import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.*;
 
 public class L0009PalindromeNumberTest {
 
