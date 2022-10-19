@@ -11,12 +11,10 @@ public class L0207CouseScheduleTest {
   @Test
   public void test() {
     assertTrue(
-        solution.canFinish(2, new int[][] {{1, 0}})
-    );
+        solution.canFinish(2, new int[][] { { 1, 0 } }));
 
     assertFalse(
-        solution.canFinish(2, new int[][] {{1, 0}, {0, 1}})
-    );
+        solution.canFinish(2, new int[][] { { 1, 0 }, { 0, 1 } }));
 
   }
 
